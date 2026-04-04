@@ -1,34 +1,16 @@
 import Link from "next/link";
 
 import { getCourseLinks } from "../course-links";
-
-const lessons = [
-  { number: 1, title: "What are you really seeking?", href: "/course/1" },
-  { number: 2, title: "Why nothing fully satisfies", href: "/course/2" },
-  { number: 3, title: "The sense of incompleteness", href: "/course/3" },
-  { number: 4, title: "The mistake we don’t see", href: "/course/4" },
-  { number: 5, title: "Are you the body or the knower?", href: "/course/5" },
-  {
-    number: 6,
-    title: "Thoughts are known — so what are you?",
-    href: "/course/6",
-  },
-  { number: 7, title: "The observer and the observed", href: "/course/7" },
-  { number: 8, title: "Awareness is not an object", href: "/course/8" },
-  {
-    number: 9,
-    title: "What is Vedanta really saying?",
-    href: "/course/9",
-  },
-  { number: 10, title: "You are not the changing", href: "/course/10" },
-];
+import { lessons } from "./lessons";
 
 export const metadata = {
-  title: "Course | Inner Freedom",
+  title: "Living with Clarity | Inner Freedom",
 };
 
 export default function Page() {
-  const morePaths = getCourseLinks().filter((course) => course.href !== "/course");
+  const morePaths = getCourseLinks().filter(
+    (course) => course.href !== "/living-course"
+  );
 
   return (
     <main className="min-h-screen bg-stone-100 px-6 py-12 text-stone-800 sm:px-8 sm:py-16">
@@ -45,12 +27,13 @@ export default function Page() {
             Inner Freedom
           </p>
           <h1 className="mt-5 text-4xl font-semibold leading-tight text-stone-900 sm:text-5xl">
-            Foundations of Self-Knowledge
+            Living with Clarity
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            This is a simple, step-by-step journey into understanding
-            yourself. Each lesson builds on the previous one. Move slowly and
-            reflect as you go.
+            A practical course on meeting daily life with steadier action,
+            clearer relationships, healthier responsibility, and greater
+            emotional balance. Each lesson is short, grounded, and designed to
+            be read slowly.
           </p>
         </section>
 
@@ -59,7 +42,7 @@ export default function Page() {
             {lessons.map((lesson) => (
               <Link
                 key={lesson.number}
-                href={lesson.href}
+                href={`/living-course/${lesson.slug}`}
                 className="flex items-start justify-between gap-4 rounded-[1.25rem] bg-stone-50 px-5 py-4 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
               >
                 <div>
