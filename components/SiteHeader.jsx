@@ -7,8 +7,9 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/assessment", label: "Assessment" },
-  { href: "/daily-insight", label: "Daily Insight" }
+  { href: "/about", label: "About" },
+  { href: "/understanding", label: "Begin" },
+  { href: "/contact", label: "Contact" }
 ];
 
 export default function SiteHeader({ user }) {
