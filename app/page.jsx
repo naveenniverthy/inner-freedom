@@ -27,6 +27,12 @@ const cards = [
     description:
       "What it means to meet work, relationships, and daily life with less confusion and more ease.",
   },
+  {
+    title: "Trust & surrender",
+    href: "/trust-surrender",
+    description:
+      "A practical reflection on acting sincerely, releasing outcomes, and living with greater ease.",
+  },
 ];
 
 export default function Page() {
