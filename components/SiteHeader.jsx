@@ -7,9 +7,13 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { href: "/", label: "Home" },
+  { href: "/five-keys", label: "Five Keys" },
+  { href: "/clarity", label: "Clarity" },
+  { href: "/responsibility", label: "Responsibility" },
+  { href: "/discipline", label: "Discipline" },
+  { href: "/acceptance", label: "Acceptance" },
+  { href: "/ishvara-arpana-buddhi", label: "Offering" },
   { href: "/about", label: "About" },
-  { href: "/understanding", label: "Begin" },
-  { href: "/trust-surrender", label: "Trust" },
   { href: "/contact", label: "Contact" }
 ];
 
@@ -28,10 +32,10 @@ export default function SiteHeader({ user }) {
     <header className="surface mb-6 flex flex-col gap-4 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <Link href="/" className="font-serif text-2xl tracking-[-0.04em]">
-          Inner Freedom
+          Five Keys to Inner Freedom
         </Link>
         <p className="mt-1 text-sm text-ink-900/55">
-          Calm guidance for self-knowledge and living wisdom.
+          Calm guidance for living with clarity, steadiness, and trust.
         </p>
       </div>
 

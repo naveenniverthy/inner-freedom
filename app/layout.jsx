@@ -15,9 +15,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata = {
-  title: "Inner Freedom",
+  title: "Five Keys to Inner Freedom",
   description:
-    "A calm, modern space to understand Advaita Vedanta, discover your next step, and live with greater clarity."
+    "A calm, modern space for exploring the five keys to inner freedom through clarity, responsibility, discipline, acceptance, and offering."
 };
 
 export default async function RootLayout({ children }) {

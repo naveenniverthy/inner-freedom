@@ -46,7 +46,7 @@ export function getCourseLinks() {
         href: `/${route}`,
         title: config?.title ?? toTitleCase(route),
         description:
-          config?.description ?? "A guided course inside Inner Freedom.",
+          config?.description ?? "A guided course inside Five Keys to Inner Freedom.",
       };
     })
     .sort((a, b) => {

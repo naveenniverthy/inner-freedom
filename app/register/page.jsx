@@ -1,7 +1,7 @@
 import AuthForm from "@/components/AuthForm";
 
 export const metadata = {
-  title: "Register | Inner Freedom"
+  title: "Register | Five Keys to Inner Freedom"
 };
 
 export default function RegisterPage() {

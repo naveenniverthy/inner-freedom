@@ -24,7 +24,7 @@ const lessons = [
 ];
 
 export const metadata = {
-  title: "Course | Inner Freedom",
+  title: "Course | Five Keys to Inner Freedom",
 };
 
 export default function Page() {
@@ -42,7 +42,7 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">
           <p className="text-sm font-medium uppercase tracking-[0.24em] text-stone-500">
-            Inner Freedom
+            Five Keys to Inner Freedom
           </p>
           <h1 className="mt-5 text-4xl font-semibold leading-tight text-stone-900 sm:text-5xl">
             Foundations of Self-Knowledge

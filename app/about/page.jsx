@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Inner Freedom",
+  title: "About | Five Keys to Inner Freedom",
 };
 
 export default function Page() {
@@ -17,14 +17,14 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">
           <p className="text-sm font-medium uppercase tracking-[0.24em] text-stone-500">
-            Inner Freedom
+            Five Keys to Inner Freedom
           </p>
           <h1 className="mt-5 text-4xl font-semibold leading-tight text-stone-900 sm:text-5xl">
-            About Inner Freedom
+            About this framework
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            Inner Freedom was created as a simple doorway into
-            self-understanding.
+            This site was created as a simple doorway into self-understanding
+            and steady living.
           </p>
         </section>
 
@@ -47,9 +47,9 @@ export default function Page() {
               friction.
             </p>
             <p>
-              Inner Freedom is for sincere inquiry. For people who want to look
-              carefully at experience, understand themselves more deeply, and
-              live with greater clarity.
+              The five keys are a simple way of organizing that vision into
+              everyday language: clarity, responsibility, discipline,
+              acceptance, and offering.
             </p>
           </div>
         </section>

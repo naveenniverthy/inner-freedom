@@ -1,7 +1,7 @@
 import AuthForm from "@/components/AuthForm";
 
 export const metadata = {
-  title: "Login | Inner Freedom"
+  title: "Login | Five Keys to Inner Freedom"
 };
 
 export default function LoginPage() {
