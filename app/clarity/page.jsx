@@ -37,6 +37,88 @@ export default function Page() {
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Start Here
+          </p>
+          <div className="mt-4 space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 1 - What is a Prakriya
+              </p>
+              <p className="mt-1">
+                A simple introduction to the teaching methods used to remove
+                confusion.
+              </p>
+              <Link
+                href="/clarity/prakriya"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read What is a Prakriya →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 2 - Seer-Seen
+              </p>
+              <p className="mt-1">
+                See the difference between what you experience and what you
+                truly are.
+              </p>
+              <Link
+                href="/clarity/seer-seen"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Seer-Seen →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 3 - Snake-Rope
+              </p>
+              <p className="mt-1">
+                See how confusion gets projected onto what is actually there.
+              </p>
+              <Link
+                href="/clarity/snake-rope"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Snake-Rope →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 4 - Three States
+              </p>
+              <p className="mt-1">
+                Notice what changes across waking, dream, and deep sleep, and
+                what remains.
+              </p>
+              <Link
+                href="/clarity/three-states"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Three States →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 5 - Five Sheaths
+              </p>
+              <p className="mt-1">
+                See the layers of experience clearly, without taking them to be
+                the self.
+              </p>
+              <Link
+                href="/clarity/five-sheaths"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Five Sheaths →
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <div className="space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
               The central confusion is simple. We mistake ourselves for what we
@@ -104,9 +186,8 @@ export default function Page() {
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              Clarity deepens through three simple movements: listening
-              (Shravanam), reflection (Mananam), and assimilation
-              (Nididhyasanam).
+              Clarity deepens through three simple movements: listening,
+              reflection, and assimilation.
             </p>
             <p>
               First you hear the teaching clearly. Then you reflect until doubt
