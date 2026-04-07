@@ -8,35 +8,35 @@ const cards = [
     subtitle: "Jnana",
     href: "/clarity",
     description:
-      "See yourself and your life more clearly.",
+      "See clearly.",
   },
   {
     title: "Responsibility",
     subtitle: "Dharma",
     href: "/responsibility",
     description:
-      "Own your choices and what is yours to do.",
+      "Do what is yours to do.",
   },
   {
     title: "Discipline",
     subtitle: "Sadhana",
     href: "/discipline",
     description:
-      "Build steadiness through simple inner practice.",
+      "Build steadiness.",
   },
   {
     title: "Acceptance",
     subtitle: "Prasada Buddhi",
     href: "/acceptance",
     description:
-      "Receive what has come with less resistance.",
+      "Receive results with maturity.",
   },
   {
     title: "Offering",
     subtitle: "Ishvara Arpana Buddhi",
     href: "/ishvara-arpana-buddhi",
     description:
-      "Act sincerely, and let go of the results.",
+      "Act in a spirit of contribution.",
   },
 ];
 
@@ -51,15 +51,15 @@ export default function Page() {
             Five Keys to Inner Freedom
           </p>
           <h1 className="mt-6 text-4xl font-semibold leading-tight text-stone-900 sm:text-5xl">
-            Inner Freedom is not something you create. It is what remains when
-            confusion falls away.
+            Moksha
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-stone-600 sm:text-lg">
-            A simple framework, rooted in Advaita Vedanta, for living with
-            clarity, steadiness, and freedom.
+            Freedom is not something you achieve. It is something you
+            recognize.
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-base leading-8 text-stone-600 sm:text-lg">
-            These five do not create freedom. They remove what hides it.
+            A simple framework, rooted in Advaita Vedanta, for living with
+            clarity, steadiness, and inner freedom.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Link
@@ -76,8 +76,8 @@ export default function Page() {
             Start Here
           </p>
           <p className="mt-4 text-base leading-8 text-stone-600">
-            If you are new, begin with Clarity. Read slowly, try the practice,
-            and continue one key at a time.
+            Start with Clarity. Read slowly. Try the practice. Continue one key
+            at a time.
           </p>
           <div className="mt-6">
             <Link
@@ -118,11 +118,10 @@ export default function Page() {
           </h2>
           <div className="mt-5 space-y-3">
             <p className="text-base leading-8 text-stone-600">
-              Five simple keys for bringing this understanding into daily life.
+              These five keys do not create freedom.
             </p>
             <p className="text-base leading-8 text-stone-600">
-              Inner freedom is not separate from life. It is discovered in the
-              middle of work, relationship, uncertainty, and change.
+              They help remove what hides it.
             </p>
             {cards.map((card) => (
               <Link
@@ -172,7 +171,7 @@ export default function Page() {
         </section>
 
         <footer className="flex flex-col items-center gap-3 pb-2 text-center text-sm text-stone-500">
-          <p>Rooted in Vedanta. Expressed as five simple keys for modern life.</p>
+          <p>Moksha. Five Keys to Inner Freedom.</p>
           <Link
             href="/five-keys"
             className="font-medium text-stone-600 transition hover:text-stone-800"
