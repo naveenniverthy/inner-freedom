@@ -12,6 +12,11 @@ const COURSE_CONFIG = {
     description:
       "A practical course on action, relationships, responsibility, and emotional balance.",
   },
+  "guided-path": {
+    title: "Guided Path",
+    description:
+      "A deeper layer of guided study, including 40 steps from Sadhana Panchakam.",
+  },
 };
 
 function toTitleCase(value) {
@@ -32,7 +37,7 @@ export function getCourseLinks() {
       }
 
       const route = entry.name;
-      return route === "course" || route.endsWith("-course");
+      return route === "course" || route === "guided-path" || route.endsWith("-course");
     })
     .filter((entry) => {
       const pagePath = path.join(appDir, entry.name, "page.jsx");
