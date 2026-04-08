@@ -41,6 +41,10 @@ export default function Page() {
               being sought.
             </p>
             <p>
+              This confusion is not just lack of information. It is a deeper
+              ignorance about who we are.
+            </p>
+            <p>
               We can know a great deal and still be confused in the most
               important way.
             </p>
@@ -86,15 +90,23 @@ export default function Page() {
               Clarity is seeing what is true and what is not.
             </p>
             <p>
+              Clarity here is not just better thinking. It is knowledge -
+              seeing clearly what is true and what is not.
+            </p>
+            <p>
               It is seeing the changing as changing.
+            </p>
+            <p>
+              Clarity begins with a simple discrimination - seeing the
+              difference between what changes and what does not.
             </p>
             <p>
               It is seeing that the body changes, the mind changes, emotions
               change, roles change, and experience changes.
             </p>
             <p>
-              It is also seeing that what knows these changes is different from
-              what is changing.
+              It is also recognizing that the one who knows experience is not
+              itself an experience.
             </p>
             <p>
               Clarity sees roles as roles, not the whole self. It sees
