@@ -230,6 +230,29 @@ export default function Page() {
           </p>
         </section>
 
+        <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            What This Opens Toward
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>
+              When the seer and the seen begin to separate clearly, freedom can
+              be understood more deeply.
+            </p>
+            <p>
+              Freedom is not getting better conditions for the observed self.
+              It is no longer taking the changing to be the whole of who you
+              are.
+            </p>
+          </div>
+          <Link
+            href="/clarity/what-is-freedom"
+            className="mt-5 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+          >
+            Read What is Freedom? →
+          </Link>
+        </section>
+
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
             Continue

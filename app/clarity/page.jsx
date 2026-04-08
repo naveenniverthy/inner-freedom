@@ -45,7 +45,22 @@ export default function Page() {
           <div className="mt-4 space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
             <div>
               <p className="font-medium text-stone-900">
-                Step 1 - What is a Prakriya
+                Step 1 - What is Clarity?
+              </p>
+              <p className="mt-1">
+                A simple introduction to what clarity means on this path, and
+                why confusion runs deeper than missing information.
+              </p>
+              <Link
+                href="/clarity/what-is-clarity"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read What is Clarity? →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 2 - What is a Prakriya
               </p>
               <p className="mt-1">
                 A simple introduction to the teaching methods used to remove
@@ -60,7 +75,7 @@ export default function Page() {
             </div>
             <div>
               <p className="font-medium text-stone-900">
-                Step 2 - Seer-Seen
+                Step 3 - Seer-Seen
               </p>
               <p className="mt-1">
                 See the difference between what you experience and what you
@@ -75,7 +90,7 @@ export default function Page() {
             </div>
             <div>
               <p className="font-medium text-stone-900">
-                Step 3 - Snake-Rope
+                Step 4 - Snake-Rope
               </p>
               <p className="mt-1">
                 See how confusion gets projected onto what is actually there.
@@ -89,7 +104,7 @@ export default function Page() {
             </div>
             <div>
               <p className="font-medium text-stone-900">
-                Step 4 - Three States
+                Step 5 - Three States
               </p>
               <p className="mt-1">
                 Notice what changes across waking, dream, and deep sleep, and
@@ -104,7 +119,7 @@ export default function Page() {
             </div>
             <div>
               <p className="font-medium text-stone-900">
-                Step 5 - Five Sheaths
+                Step 6 - Five Sheaths
               </p>
               <p className="mt-1">
                 See the layers of experience clearly, without taking them to be
@@ -118,6 +133,35 @@ export default function Page() {
               </Link>
             </div>
           </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Where Inquiry Begins
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>
+              Clarity begins when confusion is noticed.
+            </p>
+            <p>
+              Inquiry begins when we stop taking every thought, feeling, role,
+              and experience to be the whole of who we are.
+            </p>
+            <p>
+              One of the simplest ways to begin is to look carefully at the
+              difference between what is seen and the one who sees.
+            </p>
+            <p>
+              This is not abstract philosophy. It is a way of seeing more
+              truthfully.
+            </p>
+          </div>
+          <Link
+            href="/clarity/seer-seen"
+            className="mt-5 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+          >
+            Begin with Seer-Seen →
+          </Link>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">

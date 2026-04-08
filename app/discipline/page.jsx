@@ -309,6 +309,12 @@ export default function Page() {
               It is not about belief. It is about staying.
             </p>
           </div>
+          <Link
+            href="/discipline/meditation"
+            className="mt-5 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+          >
+            Read What is Meditation? →
+          </Link>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
@@ -325,6 +331,35 @@ export default function Page() {
               understanding. It prepares the mind for it.
             </p>
           </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            A Steady Mind
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>
+              Discipline prepares the mind.
+            </p>
+            <p>
+              When life becomes a little more orderly, the senses less
+              scattered, and the mind less reactive, attention begins to stay,
+              listen, and see more clearly.
+            </p>
+            <p>
+              Meditation is not something separate from this. It belongs within
+              sadhana.
+            </p>
+            <p>
+              Meditation prepares the mind. Knowledge frees.
+            </p>
+          </div>
+          <Link
+            href="/discipline/meditation"
+            className="mt-5 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+          >
+            Read: What is Meditation? →
+          </Link>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
