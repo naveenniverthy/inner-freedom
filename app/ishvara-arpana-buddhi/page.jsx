@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Offering",
   description:
-    "Learn the spirit of offering action fully while letting the results belong to the larger order of life."
+    "Learn Ishvara Arpana Buddhi, the attitude of offering action into the total order of life."
 };
 
 export default function Page() {
@@ -28,52 +28,98 @@ export default function Page() {
             Ishvara Arpana Buddhi
           </p>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            In Vedanta, Ishvara Arpana Buddhi is the attitude of offering your
-            action into Ishvara, the larger order of life. Act sincerely,
-            offer the action, and let the results belong to that order.
+            Offering is an attitude. Before action, you pause and recognize:
+            this is not just my action, I offer it. Nothing changes outside,
+            but something shifts inside.
           </p>
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
-            <span className="font-medium text-stone-900">In one line:</span> Act
-            fully, let go of results.
+            <span className="font-medium text-stone-900">In one line:</span>
+            {" "}Act fully, offer the action, and release the burden of
+            controlling the result.
           </p>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-12">
           <div className="space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              In Vedanta, this attitude is called Ishvara Arpana Buddhi. It is
-              a simple but powerful shift in attitude. You do what is to be
-              done, as carefully and sincerely as you can, and you inwardly
-              offer that action to Ishvara, the total order in which all
-              results arise.
+              The action becomes lighter. The pressure reduces. The sense of
+              doership softens.
             </p>
             <p>
-              This softens the ego's burden. You are no longer acting only for
-              self-image, fear, or control. Your effort becomes cleaner and
+              In Vedanta, this attitude is called Ishvara Arpana Buddhi. It is
+              one half of Karma Yoga: acting sincerely while understanding that
+              results arise through a total order much larger than your
+              individual effort.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            What Is Ishvara?
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>Ishvara is not just a deity.</p>
+            <p>
+              In Vedanta, Ishvara is the total order of life: the intelligence,
+              the laws, and the cause and effect that governs everything.
+            </p>
+            <p>
+              It is the same order that makes the sun rise, the body function,
+              and actions produce results. Nothing stands outside this order.
+            </p>
+            <p>
+              When you act, the result does not come from you alone. It comes
+              through this total order. Offering is not giving something away.
+              It is recognizing that you are already part of it.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            What Is Offering?
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              Offering means you do what is to be done, but you drop the burden
+              of "I am the doer who must control the result."
+            </p>
+            <p>
+              You prepare well. You act fully. But mentally, you release
+              ownership. This action is offered.
+            </p>
+            <p>
+              This is not passivity. You still care, prepare, and respond. But
+              the inner grip loosens, and the action becomes cleaner and
               lighter.
             </p>
             <p>
-              It also helps you release your tight grip on outcomes. Results
-              come through many factors, not through your effort alone. When
-              you remember that, life becomes less heavy.
-            </p>
-            <p>
-              This is not passivity. It is wholehearted action joined with
-              humility and trust. You still care. You still prepare. You still
-              show up fully. But you stop carrying the whole universe on your
-              shoulders.
+              This way of acting is called Karma Yoga.
             </p>
           </div>
         </section>
 
         <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Reflection
+            Why Offering Is Difficult
           </p>
-          <p className="mt-4 text-base leading-8 text-stone-700 sm:text-lg">
-            What changes when you give your best to an action, but stop asking
-            the result to prove your worth?
-          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>
+              We are driven by likes and dislikes. We want certain outcomes and
+              resist others. This creates pressure, anxiety, and constant inner
+              tension.
+            </p>
+            <p>
+              "I must succeed." "This should not fail." These demands tighten
+              the mind and make action heavy.
+            </p>
+            <p>
+              Offering breaks this pressure. When the action is offered, the
+              mind becomes quieter. You still act with care, but you are no
+              longer tight inside.
+            </p>
+          </div>
         </section>
 
         <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
@@ -83,20 +129,19 @@ export default function Page() {
           <div className="mt-4 space-y-5 text-base leading-8 text-stone-700 sm:text-lg">
             <div>
               <p className="text-sm font-medium uppercase tracking-[0.14em] text-stone-500">
-                Try this
+                Before action
               </p>
               <p className="mt-2">
-                Before one action today, pause inwardly and offer it. After the
-                action, notice the urge to cling to the result and let it ease.
+                Pause for a moment. Say inwardly, "I offer this."
               </p>
             </div>
             <div>
               <p className="text-sm font-medium uppercase tracking-[0.14em] text-stone-500">
-                Reflect
+                After action
               </p>
               <p className="mt-2">
-                What changes when the action is wholehearted, but the result is
-                allowed to belong to life?
+                Let the result come as it does. Stay with the action. Release
+                the rest.
               </p>
             </div>
           </div>
@@ -104,24 +149,24 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            How These Work Together
+            Completing The Cycle
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              Responsibility shows what is to be done. Discipline gives you the
-              steadiness to do it well. Offering brings the right attitude to
-              action.
+              Offering is only one half. What comes as a result is to be
+              received as prasada.
             </p>
             <p>
-              Together, they help daily life become part of the path.
+              Success, failure, and delay are all part of the same order. This
+              is explained in Acceptance.
             </p>
           </div>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/discipline"
+              href="/acceptance"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Back to Discipline
+              Continue to Acceptance
             </Link>
             <Link
               href="/five-keys"
@@ -138,16 +183,16 @@ export default function Page() {
           </p>
           <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/five-keys"
+              href="/acceptance"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Return to the Five Keys
+              Continue to Acceptance
             </Link>
             <Link
-              href="/course"
+              href="/five-keys"
               className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
-              Explore Foundations of Self-Knowledge
+              Return to the Five Keys
             </Link>
           </div>
         </section>

@@ -259,6 +259,76 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Inner Practices (Upasana)
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              Discipline is not only about outer habits. It also includes inner
+              practices that prepare the mind.
+            </p>
+            <p>
+              Upasana means staying with something steadily. It is a mental
+              practice where attention is held on a chosen focus, such as a
+              mantra, the breath, or a simple idea.
+            </p>
+            <p>
+              Its purpose is not to get something. Its purpose is to make the
+              mind quiet, steady, and available.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Why It Matters
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              A restless mind cannot stay with clarity. Even if you understand
+              something deeply, it does not remain when the mind is constantly
+              agitated.
+            </p>
+            <p>
+              Upasana helps reduce distraction and restlessness. It brings
+              focus and prepares the mind for clear seeing.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Simple Forms
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>
+              Upasana can be simple: repeating a mantra quietly, sitting in
+              silence and watching the breath, or reflecting on a single idea
+              without distraction.
+            </p>
+            <p>
+              It is not about belief. It is about staying.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            How It Fits
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              Clarity shows what is true. But for that clarity to stay, the
+              mind must be steady.
+            </p>
+            <p>
+              Upasana supports this steadiness. It does not replace
+              understanding. It prepares the mind for it.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
             Action as Practice
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">

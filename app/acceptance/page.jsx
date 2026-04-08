@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Acceptance",
   description:
-    "Receive what has already come with greater composure, honesty, and inner steadiness."
+    "Learn Ishvara Prasada Buddhi, the attitude of receiving results as coming through the total order of life."
 };
 
 export default function Page() {
@@ -25,118 +25,144 @@ export default function Page() {
             Acceptance
           </h1>
           <p className="mt-3 text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Prasada Buddhi
+            Ishvara Prasada Buddhi
           </p>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            In Vedanta, prasada buddhi is the attitude of receiving what comes
-            as coming through a larger order, with greater composure and
-            humility. Acceptance is the strength to stop fighting what has
-            already happened.
+            Acceptance is how you receive results. After action, something
+            comes back: success or failure, gain or loss, expected or
+            unexpected. Acceptance means you receive what comes without
+            resistance.
           </p>
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
             <span className="font-medium text-stone-900">In one line:</span>
-            {" "}Receive what has come.
+            {" "}Receive results without fighting reality.
           </p>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <div className="space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              Acceptance does not mean liking everything. It does not mean
-              passivity, weakness, or pretending pain is pleasant.
+              Not because you like what happened, but because you understand
+              it.
             </p>
             <p>
-              It means letting reality be reality. This happened. This is what
-              I feel. This is the situation in front of me now.
-            </p>
-            <p>
-              Acceptance is not agreeing with everything. It is allowing
-              reality to be what it is, before you respond.
-            </p>
-            <p>
-              When acceptance is missing, the mind stays in argument. It keeps
-              replaying, resisting, and demanding a different past. That inner
-              fight creates exhaustion.
-            </p>
-            <p>
-              Much of our resistance comes from strong likes and dislikes.
-            </p>
-            <p>
-              We naturally move toward what we like and resist what we do not
-              like.
-            </p>
-            <p>
-              In traditional teaching, these are called raga (likes) and
-              dvesha (dislikes).
-            </p>
-            <p>
-              Acceptance does not mean removing these completely. It means not
-              being pushed around by them all the time.
-            </p>
-            <p>
-              Acceptance brings energy back into the present. From there, you
-              can grieve, respond, repair, or move forward with much more
-              steadiness.
+              In Vedanta, this attitude is called Ishvara Prasada Buddhi:
+              receiving results as coming through the total order of life.
             </p>
           </div>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Receiving Results
+            What Is Prasada?
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>Prasada means "that which is given."</p>
             <p>
-              You can choose your actions. But you cannot control every
-              result.
+              In Vedanta, every result is prasada: a result coming from the
+              total order of life. Not random. Not personal. Not fully in your
+              control.
             </p>
             <p>
-              Acceptance is learning to receive outcomes as they come, without
-              inner resistance.
+              You act. But the result comes from many factors, not just you.
             </p>
             <p>
-              In traditional teaching, this is called prasada buddhi,
-              receiving results as something given, rather than something to
-              fight.
+              When you see this clearly, the result is received differently.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            What You Control And What You Don't
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>You control action.</p>
+            <p>You do not control results.</p>
+            <p>
+              You can prepare, you can act carefully, and you can give your
+              best. But the final outcome depends on the total order.
             </p>
             <p>
-              It does not make you passive. It helps you remain steady,
-              whatever the outcome.
+              Acceptance begins when this is understood.
             </p>
           </div>
         </section>
 
         <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Reflection
+            Why Acceptance Is Difficult
           </p>
-          <p className="mt-4 text-base leading-8 text-stone-700 sm:text-lg">
-            What part of your inner struggle comes not from the event itself,
-            but from continuing to argue with what is already here?
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>
+              We are driven by likes and dislikes. We want certain outcomes and
+              resist others. We believe our happiness depends on results.
+            </p>
+            <p>
+              So when results do not match expectations, the mind reacts: "This
+              should not have happened." "This is unfair."
+            </p>
+            <p>
+              This reaction creates suffering.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            What Acceptance Is Not
           </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              Acceptance is not passivity. It is not giving up. It is not
+              saying everything is fine.
+            </p>
+            <p>
+              You can feel disappointment. You can learn and improve.
+            </p>
+            <p>
+              But you do not fight reality. You allow the result to be what it
+              is.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            What Acceptance Does
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>Acceptance brings steadiness.</p>
+            <p>
+              The mind becomes quieter. Reactions reduce. Clarity improves.
+            </p>
+            <p>
+              You are able to respond, instead of react. Life becomes easier to
+              live.
+            </p>
+          </div>
         </section>
 
         <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Daily Practice
+            A Simple Practice
           </p>
           <div className="mt-4 space-y-5 text-base leading-8 text-stone-700 sm:text-lg">
             <div>
               <p className="text-sm font-medium uppercase tracking-[0.14em] text-stone-500">
-                Try this
+                When a result comes
               </p>
               <p className="mt-2">
-                Bring to mind one thing that has already happened today and
-                gently stop retelling it in resistance for a moment.
+                Pause. Notice your reaction. Then remind yourself: "This is
+                prasada."
               </p>
             </div>
             <div>
               <p className="text-sm font-medium uppercase tracking-[0.14em] text-stone-500">
-                Reflect
+                Then
               </p>
               <p className="mt-2">
-                What softens when you let this moment be what it is, before
-                deciding what to do next?
+                Let the result be. Learn if needed. Act again.
               </p>
             </div>
           </div>
@@ -144,36 +170,30 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Transition
+            The Flow
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>Offering prepares the action.</p>
+            <p>Acceptance completes it.</p>
             <p>
-              Acceptance softens the struggle that comes from resisting what is
-              already here.
-            </p>
-            <p>
-              From that softness, the next key is offering: acting sincerely
-              while letting the results rest in a larger order.
+              Together, they free the mind from pressure and resistance.
             </p>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
               href="/ishvara-arpana-buddhi"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Continue to Offering →
+              Back to Offering
+            </Link>
+            <Link
+              href="/five-keys"
+              className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
+            >
+              Return to Five Keys
             </Link>
           </div>
         </section>
-
-        <div className="pt-2">
-          <Link
-            href="/ishvara-arpana-buddhi"
-            className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
-          >
-            Next Key: Offering
-          </Link>
-        </div>
       </div>
     </main>
   );
