@@ -189,6 +189,33 @@ export const lessons = [
       "What small practice would help you continue living with more clarity this week?",
     ],
   },
+  {
+    slug: "living-freedom",
+    number: 11,
+    title: "Living Freedom",
+    intro:
+      "What life looks like when clarity is firm and confusion has dropped.",
+    paragraphs: [
+      "This is not a new step. This is what remains when the earlier steps are understood.",
+      "Nothing new is gained. But something unnecessary drops.",
+      "A person who understands clearly does not become special. They simply stop being confused about who they are.",
+      "This is what is called Jeevan Mukta, free while living, and Sthitaprajna, steady understanding. In the Bhagavad Gita, Arjuna asks a very practical question: how does such a person live, speak, act, and move? It is the same question we all have.",
+      "Nothing mystical. Life continues. You still go to work, make decisions, take care of family, and face situations. From the outside, nothing may look different.",
+      "What has changed is inward. Earlier, you depended on life to feel complete, were affected by every rise and fall, and were constantly becoming something. Now, you are already at ease with yourself. Situations come and go, but you remain steady. Life is lived, but not carried as a burden.",
+      "This is not becoming. It is understanding. These are not qualities to develop or behaviors to imitate. They are natural when confusion drops.",
+      "Thoughts continue. Emotions continue. But they do not define you.",
+      "Work continues. Responsibilities continue. But the pressure to become complete is gone.",
+      "Relationships become simpler. Less demand. Less control. More ease.",
+      "Life does not become perfect. The body ages. Situations change. Outcomes vary. Freedom is not control over life. It is freedom in the middle of life.",
+      "A quiet shift takes place. Life is no longer a problem to solve. It is something that is lived.",
+      "A Jeevan Mukta is not a different kind of person. It is simply one who knows: I am already whole.",
+    ],
+    reflection: [
+      "Where do you still expect life to complete you?",
+      "What situations most quickly make you forget your own wholeness?",
+      "What would it mean to live today without carrying life as a burden?",
+    ],
+  },
 ];
 
 export function getLessonBySlug(slug) {
