@@ -54,6 +54,12 @@ export default function Page() {
               Traditional Vedanta describes this preparation through four
               foundations: Viveka, Vairagya, Shat Sampatti, and Mumukshutva.
             </p>
+            <p>
+              Sadhana prepares you to become a ready student, someone who can
+              see clearly. In traditional teaching, this readiness is called
+              being prepared (adhikari). It simply means the mind is steady,
+              available, and capable of understanding.
+            </p>
           </div>
         </section>
 
@@ -248,6 +254,32 @@ export default function Page() {
                 steadier, or more available?
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Action as Practice
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              Sadhana is not only what you do in quiet moments. It also
+              includes how you act in daily life.
+            </p>
+            <p>
+              Doing what is to be done, with the right attitude, without
+              agitation, steadies the mind.
+            </p>
+            <p>
+              In traditional teaching, this is called karma yoga.
+            </p>
+            <p>
+              It is not about what you do. It is about how you do it.
+            </p>
+            <p>
+              When action is done with care, without constant resistance or
+              expectation, it becomes part of your discipline.
+            </p>
           </div>
         </section>
 
