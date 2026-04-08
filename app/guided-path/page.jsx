@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Guided Path | Five Keys to Inner Freedom"
+  title: "Guided Path",
+  description:
+    "Go deeper through slower, more traditional study paths that support the Five Keys."
 };
 
 export default function GuidedPathPage() {

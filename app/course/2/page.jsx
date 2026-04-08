@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Why nothing fully satisfies | Inner Freedom",
+  title: "Why Nothing Fully Satisfies - Foundations of Self-Knowledge",
+  description:
+    "Reflect on why fulfillment through outer gain fades and the search begins again.",
 };
 
 export default function Page() {
@@ -12,7 +14,7 @@ export default function Page() {
           href="/course"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course
+          Back to Foundations of Self-Knowledge
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

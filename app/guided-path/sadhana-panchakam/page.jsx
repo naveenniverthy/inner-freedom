@@ -3,7 +3,9 @@ import Link from "next/link";
 import { stages } from "./content";
 
 export const metadata = {
-  title: "Sadhana Panchakam – A Guided Path | Five Keys to Inner Freedom"
+  title: "Sadhana Panchakam",
+  description:
+    "Follow a calm forty-step guided path through preparation, inquiry, assimilation, and freedom."
 };
 
 export default function SadhanaPanchakamPage() {

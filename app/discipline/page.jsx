@@ -2,7 +2,9 @@ import Link from "next/link";
 import StateOfMindCheck from "@/components/StateOfMindCheck";
 
 export const metadata = {
-  title: "Discipline (Sadhana) | Five Keys to Inner Freedom"
+  title: "Discipline",
+  description:
+    "Understand discipline as preparation of the mind for steadiness, clarity, and deeper understanding."
 };
 
 export default function Page() {
@@ -62,8 +64,8 @@ export default function Page() {
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
               Viveka is discernment. It is the ability to notice what is
-              lasting and what is passing, what truly helps and what only
-              distracts for a moment.
+              lasting and what is changing, and to see what truly helps versus
+              what only distracts for a moment.
             </p>
             <p>
               Without viveka, life easily becomes driven by impulse and habit.
@@ -83,8 +85,8 @@ export default function Page() {
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
               Vairagya is dispassion. It does not mean indifference. It means
-              not leaning on changing things as though they can give permanent
-              completion.
+              not leaning on changing things as though they can give lasting
+              completeness.
             </p>
             <p>
               This brings maturity. You still care, love, work, and enjoy life,

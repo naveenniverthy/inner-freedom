@@ -2,6 +2,22 @@ import Link from "next/link";
 
 import { getCourseLinks } from "./course-links";
 
+export const metadata = {
+  title: "Moksha | Five Keys to Inner Freedom",
+  description:
+    "A calm guide to understanding yourself, meeting life with more clarity, and going deeper when you are ready.",
+  openGraph: {
+    title: "Moksha | Five Keys to Inner Freedom",
+    description:
+      "A calm guide to understanding yourself, meeting life with more clarity, and going deeper when you are ready."
+  },
+  twitter: {
+    title: "Moksha | Five Keys to Inner Freedom",
+    description:
+      "A calm guide to understanding yourself, meeting life with more clarity, and going deeper when you are ready."
+  }
+};
+
 const cards = [
   {
     title: "Clarity",
@@ -54,37 +70,36 @@ export default function Page() {
             Moksha
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-stone-600 sm:text-lg">
-            Freedom is not something you achieve. It is something you
-            recognize.
+            A calm guide to understanding yourself and meeting life with more
+            clarity.
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-base leading-8 text-stone-600 sm:text-lg">
-            A simple framework, rooted in Advaita Vedanta, for living with
-            clarity, steadiness, and inner freedom.
+            Rooted in Advaita Vedanta, this is for anyone who wants a simpler,
+            steadier way to live and a deeper understanding of what freedom
+            means.
           </p>
-          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <Link
-              href="#five-keys"
-              className="rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
-            >
-              Explore the Five Keys
-            </Link>
-          </div>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
             Start Here
           </p>
-          <p className="mt-4 text-base leading-8 text-stone-600">
-            Start with Clarity. Read slowly. Try the practice. Continue one key
-            at a time.
+          <p className="mt-4 max-w-2xl text-base leading-8 text-stone-600">
+            Begin with Clarity, move through the Five Keys, and when you want
+            to stay longer with the teaching, continue into guided study.
           </p>
-          <div className="mt-6">
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
               href="/clarity"
-              className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
+              className="inline-flex items-center justify-center rounded-full bg-stone-900 px-6 py-3 text-center text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
               Start with Clarity
+            </Link>
+            <Link
+              href="/five-keys"
+              className="inline-flex items-center justify-center rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-center text-sm font-medium text-stone-700 transition hover:bg-stone-100"
+            >
+              Explore the Five Keys
             </Link>
           </div>
         </section>
@@ -94,22 +109,9 @@ export default function Page() {
             Today&apos;s Practice
           </p>
           <p className="mt-4 text-base leading-8 text-stone-600">
-            Pick one key. Try the practice. Notice what changes.
+            Pick one key, try one reflection or practice, and notice what
+            becomes clearer in the middle of your day.
           </p>
-          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-            <Link
-              href="/clarity"
-              className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
-            >
-              Start with Clarity
-            </Link>
-            <Link
-              href="/five-keys"
-              className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
-            >
-              View All Keys
-            </Link>
-          </div>
         </section>
 
         <section id="five-keys" className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
@@ -117,11 +119,12 @@ export default function Page() {
             Five Keys
           </h2>
           <div className="mt-5 space-y-3">
-            <p className="text-base leading-8 text-stone-600">
+            <p className="max-w-2xl text-base leading-8 text-stone-600">
               These five keys do not create freedom.
             </p>
-            <p className="text-base leading-8 text-stone-600">
-              They help remove what hides it.
+            <p className="max-w-2xl text-base leading-8 text-stone-600">
+              They help you understand yourself and meet life with more
+              clarity, steadiness, and honesty.
             </p>
             {cards.map((card) => (
               <Link
@@ -147,6 +150,10 @@ export default function Page() {
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
             Go Deeper
           </p>
+          <p className="mt-4 max-w-2xl text-base leading-8 text-stone-600">
+            When you want a slower and more structured way to study, continue
+            with Foundations of Self-Knowledge or the Guided Path.
+          </p>
           <div className="mt-4 space-y-3">
             {courseLinks.map((course) => (
               <Link
@@ -169,16 +176,6 @@ export default function Page() {
             ))}
           </div>
         </section>
-
-        <footer className="flex flex-col items-center gap-3 pb-2 text-center text-sm text-stone-500">
-          <p>Moksha. Five Keys to Inner Freedom.</p>
-          <Link
-            href="/five-keys"
-            className="font-medium text-stone-600 transition hover:text-stone-800"
-          >
-            Five Keys
-          </Link>
-        </footer>
       </div>
     </main>
   );

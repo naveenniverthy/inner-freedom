@@ -6,7 +6,9 @@ const stage = stages.find((item) => item.slug === "freedom");
 const steps = getStepsForStage("freedom");
 
 export const metadata = {
-  title: "Freedom | Sadhana Panchakam | Five Keys to Inner Freedom"
+  title: "Freedom in Sadhana Panchakam",
+  description:
+    "Move through the closing stage of Sadhana Panchakam and its final steps toward freedom."
 };
 
 export default function FreedomPage() {
@@ -17,7 +19,7 @@ export default function FreedomPage() {
           href="/guided-path/sadhana-panchakam"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course Home
+          Back to Sadhana Panchakam
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

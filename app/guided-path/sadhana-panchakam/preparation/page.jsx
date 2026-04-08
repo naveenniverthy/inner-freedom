@@ -6,7 +6,9 @@ const stage = stages.find((item) => item.slug === "preparation");
 const steps = getStepsForStage("preparation");
 
 export const metadata = {
-  title: "Preparation | Sadhana Panchakam | Five Keys to Inner Freedom"
+  title: "Preparation in Sadhana Panchakam",
+  description:
+    "Begin the preparation stage of Sadhana Panchakam and move through its opening steps."
 };
 
 export default function PreparationPage() {
@@ -17,7 +19,7 @@ export default function PreparationPage() {
           href="/guided-path/sadhana-panchakam"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course Home
+          Back to Sadhana Panchakam
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

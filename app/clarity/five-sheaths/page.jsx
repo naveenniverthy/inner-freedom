@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Five Sheaths (Pancha Kosha) | Clarity | Inner Freedom",
+  title: "Five Sheaths",
+  description:
+    "Examine the five sheaths to see the layers of experience that are not your deepest nature.",
 };
 
 export default function Page() {

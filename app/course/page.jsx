@@ -24,7 +24,9 @@ const lessons = [
 ];
 
 export const metadata = {
-  title: "Course | Five Keys to Inner Freedom",
+  title: "Foundations of Self-Knowledge",
+  description:
+    "Move through a step-by-step introduction to self-knowledge and the vision of Vedanta.",
 };
 
 export default function Page() {

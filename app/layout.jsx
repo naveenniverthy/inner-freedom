@@ -15,9 +15,36 @@ const fraunces = Fraunces({
 });
 
 export const metadata = {
-  title: "Five Keys to Inner Freedom",
+  metadataBase: new URL("https://mokshakeys.com"),
+  title: {
+    default: "Moksha | Five Keys to Inner Freedom",
+    template: "%s | Moksha"
+  },
   description:
-    "A calm, modern space for exploring the five keys to inner freedom through clarity, responsibility, discipline, acceptance, and offering."
+    "A calm space for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
+  openGraph: {
+    title: "Moksha | Five Keys to Inner Freedom",
+    description:
+      "A calm space for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
+    url: "https://mokshakeys.com",
+    siteName: "Moksha",
+    type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Moksha - Five Keys to Inner Freedom"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Moksha | Five Keys to Inner Freedom",
+    description:
+      "A calm space for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
+    images: ["/twitter-image"]
+  }
 };
 
 export default async function RootLayout({ children }) {

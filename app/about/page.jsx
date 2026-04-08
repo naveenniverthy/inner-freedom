@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About | Five Keys to Inner Freedom",
+  title: "About",
+  description:
+    "Learn the intention behind Moksha and the Five Keys to Inner Freedom."
 };
 
 export default function Page() {

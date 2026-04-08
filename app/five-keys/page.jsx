@@ -39,7 +39,9 @@ const keys = [
 ];
 
 export const metadata = {
-  title: "Five Keys | Five Keys to Inner Freedom"
+  title: "Five Keys",
+  description:
+    "Explore the five key themes that shape the path of inner freedom: clarity, responsibility, discipline, acceptance, and offering."
 };
 
 export default function Page() {

@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Contact | Five Keys to Inner Freedom",
+  title: "Contact",
+  description:
+    "Reach out with a thoughtful note, question, or collaboration inquiry."
 };
 
 export default function Page() {

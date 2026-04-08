@@ -4,7 +4,9 @@ import { getCourseLinks } from "../course-links";
 import { lessons } from "./lessons";
 
 export const metadata = {
-  title: "Living with Clarity | Five Keys to Inner Freedom",
+  title: "Living with Clarity",
+  description:
+    "Follow a practical study path for steadier action, healthier relationships, and emotional balance.",
 };
 
 export default function Page() {
@@ -30,7 +32,7 @@ export default function Page() {
             Living with Clarity
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            A practical course on meeting daily life with steadier action,
+            A practical study path for meeting daily life with steadier action,
             clearer relationships, healthier responsibility, and greater
             emotional balance. Each lesson is short, grounded, and designed to
             be read slowly.

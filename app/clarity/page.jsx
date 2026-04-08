@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Clarity | Five Keys to Inner Freedom"
+  title: "Clarity",
+  description:
+    "Begin with clarity and inquire into the difference between awareness and what is known."
 };
 
 export default function Page() {
@@ -170,9 +172,9 @@ export default function Page() {
               In Advaita Vedanta, this freedom is called moksha.
             </p>
             <p>
-              It is not something you achieve in time. It is something you
-              come to recognize when the basic confusion about yourself begins
-              to clear.
+              It is not something action produces in time. It is freedom from
+              taking yourself to be limited, a freedom that becomes clear when
+              the basic confusion about yourself begins to clear.
             </p>
             <p>
               Nothing new is created. What changes is understanding.

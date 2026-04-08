@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Acting without pressure | Inner Freedom",
+  title: "Acting Without Pressure - Living with Clarity",
+  description:
+    "Learn how action becomes steadier when inner pressure and proving begin to soften.",
 };
 
 export default function Page() {
@@ -12,7 +14,7 @@ export default function Page() {
           href="/living-course"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course
+          Back to Living with Clarity
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

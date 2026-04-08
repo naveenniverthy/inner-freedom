@@ -18,12 +18,15 @@ export function generateMetadata({ params }) {
 
   if (!step) {
     return {
-      title: "Guided Path | Five Keys to Inner Freedom"
+      title: "Guided Path",
+      description:
+        "Go deeper through slower, more traditional study paths that support the Five Keys."
     };
   }
 
   return {
-    title: `Step ${step.number}: ${step.title} | Sadhana Panchakam`
+    title: `Step ${step.number}: ${step.title} - Sadhana Panchakam`,
+    description: step.explanation[0]
   };
 }
 
@@ -99,7 +102,7 @@ export default function StepPage({ params }) {
               href="/guided-path/sadhana-panchakam"
               className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
-              Course Home
+              Sadhana Panchakam
             </Link>
             <Link
               href={`/guided-path/sadhana-panchakam/${stage.slug}`}

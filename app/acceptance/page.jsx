@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Acceptance | Five Keys to Inner Freedom"
+  title: "Acceptance",
+  description:
+    "Receive what has already come with greater composure, honesty, and inner steadiness."
 };
 
 export default function Page() {
@@ -27,8 +29,9 @@ export default function Page() {
           </p>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
             In Vedanta, prasada buddhi is the attitude of receiving what comes
-            with greater composure and humility. Acceptance is the strength to
-            stop fighting what has already happened.
+            as coming through a larger order, with greater composure and
+            humility. Acceptance is the strength to stop fighting what has
+            already happened.
           </p>
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
             <span className="font-medium text-stone-900">In one line:</span>

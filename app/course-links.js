@@ -10,7 +10,7 @@ const COURSE_CONFIG = {
   "living-course": {
     title: "Living with Clarity",
     description:
-      "A practical course on action, relationships, responsibility, and emotional balance.",
+      "A practical study path for action, relationships, responsibility, and emotional balance.",
   },
   "guided-path": {
     title: "Guided Path",
@@ -51,7 +51,7 @@ export function getCourseLinks() {
         href: `/${route}`,
         title: config?.title ?? toTitleCase(route),
         description:
-          config?.description ?? "A guided course inside Five Keys to Inner Freedom.",
+          config?.description ?? "A guided study path inside Five Keys to Inner Freedom.",
       };
     })
     .sort((a, b) => {

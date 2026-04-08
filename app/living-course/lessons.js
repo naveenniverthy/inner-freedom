@@ -10,7 +10,7 @@ export const lessons = [
       "Clarity begins when we stop waiting for a perfect moment and start meeting the present one more honestly. A parent making breakfast before work, someone answering a difficult email, or a student feeling pressure before an exam can all begin here. The moment is already enough for learning.",
       "What usually makes life feel heavy is not only the number of things we have to do. It is also the confusion we bring into them. We act while scattered, react while tired, and then wonder why even simple tasks leave a residue of strain.",
       "A calmer life is not created only by doing less. Sometimes it begins by seeing more clearly what matters now, what does not need our energy, and what can be done without inner drama. That kind of simplicity is not passive. It is intelligent.",
-      "This course is about that practical clarity. Not escaping life, not becoming cold, and not pretending emotions disappear. It is about learning how to stand in the middle of action with a little more steadiness and a little less confusion.",
+      "This study path is about that practical clarity. Not escaping life, not becoming cold, and not pretending emotions disappear. It is about learning how to stand in the middle of action with a little more steadiness and a little less confusion.",
     ],
     reflection: [
       "Where in your day do you most often tell yourself that clarity will come later?",

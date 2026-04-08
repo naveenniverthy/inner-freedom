@@ -2,7 +2,9 @@ import { createServerSupabaseClient } from "@/lib/supabase/server";
 import { formatDate } from "@/lib/utils";
 
 export const metadata = {
-  title: "Daily Insight | Five Keys to Inner Freedom"
+  title: "Daily Insight",
+  description:
+    "Read a gentle daily reflection drawn from the spirit of the Five Keys."
 };
 
 export default async function DailyInsightPage() {

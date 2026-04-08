@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Why self-knowledge matters | Inner Freedom",
+  title: "Why Self-Knowledge Matters",
+  description:
+    "See why the search for lasting peace points toward self-knowledge rather than outer change.",
 };
 
 export default function Page() {

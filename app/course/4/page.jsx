@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "The mistake we don’t see | Inner Freedom",
+  title: "The Mistake We Don't See - Foundations of Self-Knowledge",
+  description:
+    "Explore the unnoticed confusion that keeps self-knowledge out of view.",
 };
 
 export default function Page() {
@@ -12,7 +14,7 @@ export default function Page() {
           href="/course"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course
+          Back to Foundations of Self-Knowledge
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

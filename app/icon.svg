@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Moksha icon</title>
+  <desc id="desc">A calm circular emblem for Moksha.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7f1e7" />
+      <stop offset="100%" stop-color="#e5dccd" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="64" fill="url(#bg)" />
+  <circle cx="128" cy="128" r="72" fill="none" stroke="#556b5d" stroke-width="10" opacity="0.9" />
+  <circle cx="128" cy="128" r="34" fill="none" stroke="#8c745a" stroke-width="8" opacity="0.95" />
+  <path d="M128 68v120" stroke="#556b5d" stroke-width="8" stroke-linecap="round" />
+  <path d="M82 128h92" stroke="#8c745a" stroke-width="8" stroke-linecap="round" opacity="0.9" />
+</svg>

@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Offering | Five Keys to Inner Freedom"
+  title: "Offering",
+  description:
+    "Learn the spirit of offering action fully while letting the results belong to the larger order of life."
 };
 
 export default function Page() {
@@ -27,8 +29,8 @@ export default function Page() {
           </p>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
             In Vedanta, Ishvara Arpana Buddhi is the attitude of offering your
-            action into the larger order of life. Act sincerely, offer the
-            action, and let the results belong to that larger order.
+            action into Ishvara, the larger order of life. Act sincerely,
+            offer the action, and let the results belong to that order.
           </p>
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
             <span className="font-medium text-stone-900">In one line:</span> Act
@@ -42,7 +44,8 @@ export default function Page() {
               In Vedanta, this attitude is called Ishvara Arpana Buddhi. It is
               a simple but powerful shift in attitude. You do what is to be
               done, as carefully and sincerely as you can, and you inwardly
-              offer that action to Ishvara, to the total, to the larger order.
+              offer that action to Ishvara, the total order in which all
+              results arise.
             </p>
             <p>
               This softens the ego's burden. You are no longer acting only for
@@ -144,7 +147,7 @@ export default function Page() {
               href="/course"
               className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
-              Explore the Course
+              Explore Foundations of Self-Knowledge
             </Link>
           </div>
         </section>

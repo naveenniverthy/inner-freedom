@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Preparation and practice | Inner Freedom",
+  title: "Preparation and Practice",
+  description:
+    "Understand the role of preparation and practice in making the mind quiet, available, and clear.",
 };
 
 export default function Page() {

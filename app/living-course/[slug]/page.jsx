@@ -13,12 +13,15 @@ export function generateMetadata({ params }) {
 
   if (!lesson) {
     return {
-      title: "Living with Clarity | Inner Freedom",
+      title: "Living with Clarity",
+      description:
+        "Follow a practical study path for steadier action, healthier relationships, and emotional balance.",
     };
   }
 
   return {
-    title: `${lesson.title} | Inner Freedom`,
+    title: `${lesson.title} - Living with Clarity`,
+    description: lesson.intro,
   };
 }
 
@@ -39,7 +42,7 @@ export default function Page({ params }) {
           href="/living-course"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course
+          Back to Living with Clarity
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

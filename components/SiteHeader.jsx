@@ -8,12 +8,8 @@ import { cn } from "@/lib/utils";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/five-keys", label: "Five Keys" },
+  { href: "/course", label: "Foundations of Self-Knowledge" },
   { href: "/guided-path", label: "Guided Path" },
-  { href: "/clarity", label: "Clarity" },
-  { href: "/responsibility", label: "Responsibility" },
-  { href: "/discipline", label: "Discipline" },
-  { href: "/acceptance", label: "Acceptance" },
-  { href: "/ishvara-arpana-buddhi", label: "Offering" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" }
 ];
@@ -30,24 +26,29 @@ export default function SiteHeader({ user }) {
   }
 
   return (
-    <header className="surface mb-6 flex flex-col gap-4 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
-      <div>
-        <Link href="/" className="font-serif text-2xl tracking-[-0.04em]">
-          Five Keys to Inner Freedom
+    <header className="surface mb-6 flex flex-col gap-4 px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
+      <div className="min-w-0">
+        <Link href="/" className="inline-flex flex-col gap-1">
+          <span className="font-serif text-[2rem] leading-none tracking-[-0.05em] text-ink-900">
+            Moksha
+          </span>
+          <span className="text-xs font-medium uppercase tracking-[0.22em] text-ink-900/50 sm:text-[0.72rem]">
+            Five Keys to Inner Freedom
+          </span>
         </Link>
-        <p className="mt-1 text-sm text-ink-900/55">
+        <p className="mt-2 max-w-[28rem] text-sm leading-6 text-ink-900/55">
           Calm guidance for living with clarity, steadiness, and trust.
         </p>
       </div>
 
       <div className="flex flex-col gap-3 sm:items-end">
-        <nav className="flex flex-wrap gap-2 text-sm">
+        <nav className="flex flex-wrap justify-center gap-2 text-sm sm:justify-end">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={cn(
-                "rounded-full px-3 py-2 transition",
+                "rounded-full px-3 py-2 text-center leading-tight transition",
                 pathname === item.href
                   ? "bg-sage-700 text-sand-50"
                   : "bg-white/55 text-ink-900 hover:bg-white/80"
@@ -70,26 +71,14 @@ export default function SiteHeader({ user }) {
             </Link>
           ) : null}
         </nav>
-
-        <div className="flex items-center gap-2 text-sm">
-          {user ? (
-            <>
-              <span className="text-ink-900/55">{user.email}</span>
-              <button type="button" className="btn-secondary px-4 py-2" onClick={handleLogout}>
-                Logout
-              </button>
-            </>
-          ) : (
-            <>
-              <Link href="/login" className="btn-secondary px-4 py-2">
-                Login
-              </Link>
-              <Link href="/register" className="btn-primary px-4 py-2">
-                Register
-              </Link>
-            </>
-          )}
-        </div>
+        {user ? (
+          <div className="flex items-center gap-2 text-sm">
+            <span className="text-ink-900/55">{user.email}</span>
+            <button type="button" className="btn-secondary px-4 py-2" onClick={handleLogout}>
+              Logout
+            </button>
+          </div>
+        ) : null}
       </div>
     </header>
   );

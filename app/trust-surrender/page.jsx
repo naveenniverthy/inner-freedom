@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Trust & Surrender | Inner Freedom",
+  title: "Trust and Surrender",
+  description:
+    "Reflect on trust, surrender, and the easing of control in the life of understanding.",
 };
 
 export default function Page() {
@@ -54,10 +56,10 @@ export default function Page() {
               fully, but do not carry the world on your shoulders.
             </p>
             <p>
-              There is an order to life. You can call it Ishvara, nature,
-              reality, or simply how things are. The sun rises, seasons change,
-              bodies grow and age, actions bring results. There is a structure,
-              an intelligence, and a consistency behind all this.
+              In Vedanta, this order is called Ishvara. You can think of it as
+              the total order in which the sun rises, seasons change, bodies
+              grow and age, and actions bring results. There is a structure, an
+              intelligence, and a consistency behind all this.
             </p>
             <p>
               You are a part of this order, not separate from it. Trust begins

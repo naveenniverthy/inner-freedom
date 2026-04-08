@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "The observer and the observed | Inner Freedom",
+  title: "The Observer and the Observed - Foundations of Self-Knowledge",
+  description:
+    "Look at the relationship between the observer and the observed with more precision.",
 };
 
 export default function Page() {
@@ -12,7 +14,7 @@ export default function Page() {
           href="/course"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course
+          Back to Foundations of Self-Knowledge
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

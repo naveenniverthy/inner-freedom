@@ -3,7 +3,9 @@ import Link from "next/link";
 import { fullText } from "../content";
 
 export const metadata = {
-  title: "Full Text of Sadhana Panchakam | Five Keys to Inner Freedom"
+  title: "Full Text of Sadhana Panchakam",
+  description:
+    "Read the full text of Sadhana Panchakam in one quiet reference page."
 };
 
 export default function FullTextPage() {
@@ -14,7 +16,7 @@ export default function FullTextPage() {
           href="/guided-path/sadhana-panchakam"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course Home
+          Back to Sadhana Panchakam
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">
@@ -26,7 +28,7 @@ export default function FullTextPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
             This page is for reference and deeper study. It supports the guided
-            course, but it is quieter than the main learning flow.
+            path, but it is quieter than the main learning flow.
           </p>
         </section>
 

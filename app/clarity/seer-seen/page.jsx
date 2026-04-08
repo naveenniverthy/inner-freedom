@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Seer–Seen (Drg–Drshya) | Clarity | Inner Freedom",
+  title: "Seer-Seen",
+  description:
+    "Use the seer-seen teaching to distinguish awareness from what is experienced.",
 };
 
 export default function Page() {
@@ -78,6 +80,11 @@ export default function Page() {
             <p>
               Body and mind matter in life, but they are not your essential
               nature.
+            </p>
+            <p>
+              Here, "seer" does not mean the ego or a thinker standing apart.
+              It means the awareness because of which body, mind, and world are
+              known.
             </p>
           </div>
         </section>

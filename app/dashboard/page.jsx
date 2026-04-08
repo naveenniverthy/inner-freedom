@@ -4,7 +4,9 @@ import { getDashboardStage } from "@/lib/dashboard";
 import { createServerSupabaseClient } from "@/lib/supabase/server";
 
 export const metadata = {
-  title: "Dashboard | Five Keys to Inner Freedom"
+  title: "Dashboard",
+  description:
+    "View your saved path, latest insight, and current place in the Five Keys."
 };
 
 export default async function DashboardPage({ searchParams }) {

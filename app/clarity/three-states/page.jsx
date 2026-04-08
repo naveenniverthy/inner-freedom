@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Three States (Avastha Traya) | Clarity | Inner Freedom",
+  title: "Three States",
+  description:
+    "Explore waking, dream, and deep sleep to see what changes and what remains constant.",
 };
 
 export default function Page() {

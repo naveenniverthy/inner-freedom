@@ -6,7 +6,9 @@ const stage = stages.find((item) => item.slug === "assimilation");
 const steps = getStepsForStage("assimilation");
 
 export const metadata = {
-  title: "Assimilation | Sadhana Panchakam | Five Keys to Inner Freedom"
+  title: "Assimilation in Sadhana Panchakam",
+  description:
+    "Continue through the assimilation stage of Sadhana Panchakam and let the vision settle."
 };
 
 export default function AssimilationPage() {
@@ -17,7 +19,7 @@ export default function AssimilationPage() {
           href="/guided-path/sadhana-panchakam"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course Home
+          Back to Sadhana Panchakam
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

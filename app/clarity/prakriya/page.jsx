@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "What is a Prakriya | Clarity | Inner Freedom",
+  title: "What Is a Prakriya",
+  description:
+    "Learn how a prakriya works as a teaching method that helps remove confusion.",
 };
 
 export default function Page() {

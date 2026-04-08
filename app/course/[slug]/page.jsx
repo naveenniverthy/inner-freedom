@@ -12,12 +12,15 @@ export function generateMetadata({ params }) {
 
   if (!lesson) {
     return {
-      title: "Course | Inner Freedom",
+      title: "Foundations of Self-Knowledge",
+      description:
+        "Move through a step-by-step introduction to self-knowledge and the vision of Vedanta.",
     };
   }
 
   return {
-    title: `${lesson.title} | Inner Freedom`,
+    title: `${lesson.title} - Foundations of Self-Knowledge`,
+    description: lesson.intro,
   };
 }
 
@@ -38,7 +41,7 @@ export default function Page({ params }) {
           href="/course"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course
+          Back to Foundations of Self-Knowledge
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Responsibility | Five Keys to Inner Freedom"
+  title: "Responsibility",
+  description:
+    "Explore responsibility as clear action, honest effort, and release of what is not in your hands."
 };
 
 export default function Page() {
@@ -70,6 +72,10 @@ export default function Page() {
               Responsibility, in this sense, means doing what is yours to do
               without trying to control the whole of life.
             </p>
+            <p>
+              Dharma here does not mean religion. It means what is right,
+              appropriate, or truly yours to do in a given situation.
+            </p>
           </div>
         </section>
 
@@ -83,7 +89,7 @@ export default function Page() {
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
               One part of Karma Yoga is offering. Before acting, you inwardly
-              place the action into a larger order.
+              place the action into Ishvara, the larger order of life.
             </p>
             <p>
               You do your part sincerely, not just for ego, fear, or approval.

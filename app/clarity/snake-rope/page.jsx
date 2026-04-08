@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Snake–Rope (Rajju–Sarpa) | Clarity | Inner Freedom",
+  title: "Snake-Rope",
+  description:
+    "See how projection and misperception arise, and how clear seeing resolves them.",
 };
 
 export default function Page() {
@@ -120,8 +122,9 @@ export default function Page() {
                 Did snake exist?
               </p>
               <p className="mt-2">
-                The snake did not exist as a real snake in that place. It
-                appeared because the rope was not clearly known.
+                The snake was experienced, but it did not exist there as an
+                independent snake. It appeared because the rope was not clearly
+                known.
               </p>
             </div>
           </div>
@@ -148,8 +151,8 @@ export default function Page() {
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              This prakriya is not trying to deny the world. It is showing how
-              misperception works.
+              This prakriya is not trying to deny the world or reduce it to
+              nothing. It is showing how misperception works.
             </p>
             <p>
               The point is simple: the mind can superimpose something onto what

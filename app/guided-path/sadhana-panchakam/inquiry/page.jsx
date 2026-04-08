@@ -6,7 +6,9 @@ const stage = stages.find((item) => item.slug === "inquiry");
 const steps = getStepsForStage("inquiry");
 
 export const metadata = {
-  title: "Inquiry | Sadhana Panchakam | Five Keys to Inner Freedom"
+  title: "Inquiry in Sadhana Panchakam",
+  description:
+    "Enter the inquiry stage of Sadhana Panchakam and reflect more deeply on the teaching."
 };
 
 export default function InquiryPage() {
@@ -17,7 +19,7 @@ export default function InquiryPage() {
           href="/guided-path/sadhana-panchakam"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Course Home
+          Back to Sadhana Panchakam
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">

@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Living with clarity | Inner Freedom",
+  title: "Living with Clarity in Daily Life",
+  description:
+    "Explore what it means to meet ordinary life with more clarity, steadiness, and less inner strain.",
 };
 
 export default function Page() {

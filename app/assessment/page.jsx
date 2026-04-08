@@ -2,7 +2,9 @@ import AssessmentExperience from "@/components/AssessmentExperience";
 import { createServerSupabaseClient } from "@/lib/supabase/server";
 
 export const metadata = {
-  title: "Find Your Next Step | Five Keys to Inner Freedom"
+  title: "Find Your Next Step",
+  description:
+    "Answer a few reflective questions to find a useful next step in the Five Keys."
 };
 
 export default async function AssessmentPage() {

@@ -1,7 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Understanding your true nature | Inner Freedom",
+  title: "Understanding Your True Nature",
+  description:
+    "Reflect on the difference between changing experience and the awareness that knows it.",
 };
 
 export default function Page() {
@@ -46,8 +48,8 @@ export default function Page() {
             </p>
             <p>
               Vedanta points to a simple discovery. You are not the changing
-              contents of experience. You are the aware presence because of
-              which every experience is known.
+              contents of experience. You are the awareness because of which
+              every experience is known.
             </p>
           </div>
         </section>
