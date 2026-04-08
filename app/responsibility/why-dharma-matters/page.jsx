@@ -99,11 +99,15 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Closing
+            Next Step
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>A prepared mind is not perfect.</p>
             <p>It is available.</p>
+            <p>
+              From here, the next key is discipline: the steadiness that helps
+              the mind stay available.
+            </p>
           </div>
           <div className="mt-5">
             <Link

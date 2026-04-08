@@ -39,6 +39,89 @@ export default function Page() {
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Start Here
+          </p>
+          <div className="mt-4 space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 1 - What is Dharma?
+              </p>
+              <p className="mt-1">
+                Begin with a simple introduction to Dharma as right living and
+                clear responsibility.
+              </p>
+              <Link
+                href="/responsibility/what-is-dharma"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read What is Dharma? →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 2 - Two Layers of Dharma
+              </p>
+              <p className="mt-1">
+                See the difference between universal values and what is
+                personally yours to do.
+              </p>
+              <Link
+                href="/responsibility/two-layers-of-dharma"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Two Layers of Dharma →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 3 - Dharma in Daily Life
+              </p>
+              <p className="mt-1">
+                Bring Dharma into ordinary action, speech, thought, and daily
+                reflection.
+              </p>
+              <Link
+                href="/responsibility/dharma-in-daily-life"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Dharma in Daily Life →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 4 - Dharma vs Preference
+              </p>
+              <p className="mt-1">
+                Notice the difference between what feels easy and what is right
+                to do.
+              </p>
+              <Link
+                href="/responsibility/dharma-vs-preference"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Dharma vs Preference →
+              </Link>
+            </div>
+            <div>
+              <p className="font-medium text-stone-900">
+                Step 5 - Why Dharma Matters
+              </p>
+              <p className="mt-1">
+                Understand how Dharma prepares the mind for steadiness,
+                clarity, and freedom.
+              </p>
+              <Link
+                href="/responsibility/why-dharma-matters"
+                className="mt-3 inline-flex text-sm font-medium text-stone-700 transition hover:text-stone-900"
+              >
+                Read Why Dharma Matters →
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <div className="space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
               The difficulty begins when we do not see this clearly.

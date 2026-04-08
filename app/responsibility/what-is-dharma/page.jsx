@@ -132,18 +132,19 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Closing
+            Next Step
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>Clarity helps you see.</p>
             <p>Dharma helps you live.</p>
+            <p>The next step is to see the two layers of Dharma more clearly.</p>
           </div>
           <div className="mt-5">
             <Link
-              href="/discipline"
+              href="/responsibility/two-layers-of-dharma"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Continue to Discipline
+              Continue to Two Layers of Dharma
             </Link>
           </div>
         </section>
