@@ -50,14 +50,58 @@ export default function Page() {
               I feel. This is the situation in front of me now.
             </p>
             <p>
+              Acceptance is not agreeing with everything. It is allowing
+              reality to be what it is, before you respond.
+            </p>
+            <p>
               When acceptance is missing, the mind stays in argument. It keeps
               replaying, resisting, and demanding a different past. That inner
               fight creates exhaustion.
             </p>
             <p>
+              Much of our resistance comes from strong likes and dislikes.
+            </p>
+            <p>
+              We naturally move toward what we like and resist what we do not
+              like.
+            </p>
+            <p>
+              In traditional teaching, these are called raga (likes) and
+              dvesha (dislikes).
+            </p>
+            <p>
+              Acceptance does not mean removing these completely. It means not
+              being pushed around by them all the time.
+            </p>
+            <p>
               Acceptance brings energy back into the present. From there, you
               can grieve, respond, repair, or move forward with much more
               steadiness.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Receiving Results
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              You can choose your actions. But you cannot control every
+              result.
+            </p>
+            <p>
+              Acceptance is learning to receive outcomes as they come, without
+              inner resistance.
+            </p>
+            <p>
+              In traditional teaching, this is called prasada buddhi,
+              receiving results as something given, rather than something to
+              fight.
+            </p>
+            <p>
+              It does not make you passive. It helps you remain steady,
+              whatever the outcome.
             </p>
           </div>
         </section>
