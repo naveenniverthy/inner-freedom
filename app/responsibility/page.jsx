@@ -259,16 +259,18 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Transition
+            What Comes Next
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              Responsibility helps action become cleaner, lighter, and more
-              honest.
+              Responsibility helps you see what is yours to do.
             </p>
             <p>
-              To live this way more steadily, the next key is discipline: the
-              quiet preparation that helps the mind stay clear in action.
+              But seeing it is not always enough. To live it well, you also
+              need steadiness.
+            </p>
+            <p>
+              That is where discipline matters.
             </p>
           </div>
           <div className="mt-5">

@@ -285,34 +285,43 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Transition
+            What Comes Next
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              Discipline prepares the mind gently, so understanding can stay
-              present in ordinary life.
+              Discipline helps prepare the mind and bring steadiness to daily
+              life.
             </p>
             <p>
-              As that steadiness grows, the next key is acceptance: learning to
-              meet what has come without so much inner argument.
+              But discipline becomes deeper when action is done with the right
+              attitude.
+            </p>
+            <p>
+              That is where offering begins.
             </p>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/acceptance"
+              href="/ishvara-arpana-buddhi"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Continue to Acceptance →
+              Continue to Offering
+            </Link>
+            <Link
+              href="/responsibility"
+              className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
+            >
+              Back to Responsibility
             </Link>
           </div>
         </section>
 
         <div className="pt-2">
           <Link
-            href="/acceptance"
+            href="/ishvara-arpana-buddhi"
             className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
           >
-            Next Key: Acceptance
+            Next Key: Offering
           </Link>
         </div>
       </div>

@@ -104,30 +104,30 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Transition
+            How These Work Together
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
             <p>
-              Offering brings trust into action and loosens the burden of
-              trying to control every outcome.
+              Responsibility shows what is to be done. Discipline gives you the
+              steadiness to do it well. Offering brings the right attitude to
+              action.
             </p>
             <p>
-              From here, you can begin again with fresh clarity, or return to
-              the Five Keys and see the whole path together.
+              Together, they help daily life become part of the path.
             </p>
           </div>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/clarity"
+              href="/discipline"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Return to Clarity →
+              Back to Discipline
             </Link>
             <Link
               href="/five-keys"
               className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
-              View the Five Keys
+              Return to Five Keys
             </Link>
           </div>
         </section>
