@@ -28,155 +28,165 @@ export default function Page() {
             Ishvara Prasada Buddhi
           </p>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            Acceptance is how you receive results. After action, something
-            comes back: success or failure, gain or loss, expected or
-            unexpected. Acceptance means you receive what comes without
-            resistance.
+            Acceptance is not something you practice to feel better. It is
+            something you understand.
           </p>
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
-            <span className="font-medium text-stone-900">In one line:</span>
-            {" "}Receive results without fighting reality.
+            <span className="font-medium text-stone-900">In one line:</span>{" "}
+            Stop arguing with what has already happened.
           </p>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
-          <div className="space-y-5 text-base leading-8 text-stone-600 sm:text-lg">
-            <p>
-              Not because you like what happened, but because you understand
-              it.
-            </p>
-            <p>
-              In Vedanta, this attitude is called Ishvara Prasada Buddhi:
-              receiving results as coming through the total order of life.
-            </p>
-          </div>
-        </section>
-
-        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            What Is Prasada?
+            What Is Acceptance?
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
-            <p>Prasada means "that which is given."</p>
-            <p>
-              In Vedanta, every result is prasada: a result coming from the
-              total order of life. Not random. Not personal. Not fully in your
-              control.
+            <p className="font-medium text-stone-900">
+              Seeing clearly what is already given.
             </p>
             <p>
-              You act. But the result comes from many factors, not just you.
+              Something has happened. A result has come. A situation is here.
             </p>
-            <p>
-              When you see this clearly, the result is received differently.
+            <p className="font-medium text-stone-900">
+              Acceptance is not arguing with what has already happened.
             </p>
           </div>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
-          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            What You Control And What You Don't
-          </p>
-          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
-            <p>You control action.</p>
-            <p>You do not control results.</p>
-            <p>
-              You can prepare, you can act carefully, and you can give your
-              best. But the final outcome depends on the total order.
-            </p>
-            <p>
-              Acceptance begins when this is understood.
-            </p>
-          </div>
-        </section>
-
-        <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
-          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Why Acceptance Is Difficult
-          </p>
-          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
-            <p>
-              We are driven by likes and dislikes. We want certain outcomes and
-              resist others. We believe our happiness depends on results.
-            </p>
-            <p>
-              So when results do not match expectations, the mind reacts: "This
-              should not have happened." "This is unfair."
-            </p>
-            <p>
-              This reaction creates suffering.
-            </p>
-          </div>
-        </section>
-
-        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
             What Acceptance Is Not
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
-            <p>
-              Acceptance is not passivity. It is not giving up. It is not
-              saying everything is fine.
-            </p>
-            <p>
-              You can feel disappointment. You can learn and improve.
-            </p>
-            <p>
-              But you do not fight reality. You allow the result to be what it
-              is.
-            </p>
+            <ul className="list-disc space-y-2 pl-6 text-stone-700 marker:text-stone-400">
+              <li>Giving up</li>
+              <li>Becoming passive</li>
+              <li>Avoiding action</li>
+            </ul>
+            <p>You still act. You still think. You still respond.</p>
+            <p>But you stop fighting reality.</p>
           </div>
         </section>
 
-        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            What Acceptance Does
+            The Simple Truth
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
-            <p>Acceptance brings steadiness.</p>
-            <p>
-              The mind becomes quieter. Reactions reduce. Clarity improves.
+            <p className="font-medium text-stone-900">
+              You have control over action.
+            </p>
+            <p className="font-medium text-stone-900">
+              You do not have control over results.
             </p>
             <p>
-              You are able to respond, instead of react. Life becomes easier to
-              live.
+              You can prepare, choose, and act with care. But results depend
+              on many factors.
+            </p>
+            <p className="font-medium text-stone-900">
+              Once the result comes, it is already decided.
             </p>
           </div>
         </section>
 
         <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            A Simple Practice
+            The Right Way To Live
           </p>
-          <div className="mt-4 space-y-5 text-base leading-8 text-stone-700 sm:text-lg">
-            <div>
-              <p className="text-sm font-medium uppercase tracking-[0.14em] text-stone-500">
-                When a result comes
-              </p>
-              <p className="mt-2">
-                Pause. Notice your reaction. Then remind yourself: "This is
-                prasada."
-              </p>
-            </div>
-            <div>
-              <p className="text-sm font-medium uppercase tracking-[0.14em] text-stone-500">
-                Then
-              </p>
-              <p className="mt-2">
-                Let the result be. Learn if needed. Act again.
-              </p>
-            </div>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <ul className="list-disc space-y-2 pl-6 text-stone-700 marker:text-stone-400">
+              <li>Before action - choose carefully</li>
+              <li>During action - act fully</li>
+              <li>After action - accept completely</li>
+            </ul>
           </div>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            The Flow
+            Why We Struggle To Accept
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
-            <p>Offering prepares the action.</p>
-            <p>Acceptance completes it.</p>
+            <p>We carry strong likes and dislikes.</p>
+            <p>We want life to match our preferences.</p>
+            <p>When it does not, we resist and react.</p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            The Real Source Of Disturbance
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p className="font-medium text-stone-900">
+              The disturbance is not in what happens.
+            </p>
+            <p className="font-medium text-stone-900">
+              It is in the resistance to what has happened.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            What Acceptance Brings
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>The mind becomes quieter.</p>
+            <p>Reactions reduce.</p>
+            <p>Clarity improves.</p>
+            <p className="font-medium text-stone-900">
+              Acceptance makes you stable.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Acceptance And Offering
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>Offering and Acceptance work together.</p>
+            <p>Do what you can. Receive what comes.</p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            A Simple Shift
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>Instead of "Why me?", try:</p>
+            <p className="font-medium text-stone-900">
+              "This is what has come. Let me respond to it."
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Living Acceptance
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
+            <p>You may not like everything.</p>
+            <p>But you are not disturbed by everything.</p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Final Understanding
+          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>Acceptance is not adjustment.</p>
+            <p>It is clarity.</p>
+            <p className="font-medium text-stone-900">
+              Life is moving in a larger order.
+            </p>
             <p>
-              Together, they free the mind from pressure and resistance.
+              In Vedanta, this attitude is called Ishvara Prasada Buddhi:
+              receiving results as coming through the total order of life.
             </p>
           </div>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
