@@ -6,6 +6,7 @@ import {
   courseOrientation,
   courseTitle,
   modules,
+  optionalLessons,
 } from "./content";
 
 export const metadata = {
@@ -37,9 +38,13 @@ export default function AparokshanubhutiCoursePage() {
             Guided Path
           </p>
           <h1 className="mt-5 text-4xl font-semibold leading-tight text-stone-900 sm:text-5xl">
-            Aparokshanubhuti — Direct Knowledge of the Self
+            {courseTitle}
           </h1>
           <div className="mt-6 max-w-2xl space-y-4 text-base leading-8 text-stone-600 sm:text-lg">
+            <p>
+              This is a 19-lesson journey through the teaching of
+              Aparokshanubhuti.
+            </p>
             {courseIntro.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
@@ -62,8 +67,8 @@ export default function AparokshanubhutiCoursePage() {
             Course Overview
           </p>
           <p className="mt-4 max-w-2xl text-base leading-8 text-stone-600">
-            These six modules move from readiness and inquiry to clear
-            knowledge, assimilation, and living freedom.
+            These four modules move from foundation and inquiry to
+            understanding and living knowledge.
           </p>
           <div className="mt-6 space-y-3">
             {modules.map((module, index) => (
@@ -123,6 +128,37 @@ export default function AparokshanubhutiCoursePage() {
             ))}
           </div>
         </section>
+
+        {optionalLessons.length > 0 ? (
+          <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+            <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+              Optional Reference
+            </p>
+            <div className="mt-4 space-y-3">
+              {optionalLessons.map((lesson) => (
+                <Link
+                  key={lesson.slug}
+                  href={`/courses/aparokshanubhuti/${lesson.slug}`}
+                  className="flex items-start justify-between gap-4 rounded-[1.25rem] bg-stone-50 px-5 py-4 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
+                >
+                  <div>
+                    <h3 className="text-lg font-semibold text-stone-900">
+                      {lesson.title}
+                    </h3>
+                    {lesson.note ? (
+                      <p className="mt-2 text-sm leading-7 text-stone-600">
+                        {lesson.note}
+                      </p>
+                    ) : null}
+                  </div>
+                  <span className="pt-1 text-sm font-medium text-stone-600">
+                    Open
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">

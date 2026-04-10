@@ -55,14 +55,15 @@ export default function GuidedPathPage() {
             className="block rounded-[1.75rem] bg-stone-50 px-6 py-6 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
           >
             <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-              45-Day Study from Aparokshanubhuti
+              19-Lesson Journey from Aparokshanubhuti
             </p>
             <h2 className="mt-3 text-2xl font-semibold text-stone-900">
               Aparokshanubhuti
             </h2>
             <p className="mt-3 text-base leading-8 text-stone-600">
-              A calm 45-day course in self-knowledge, moving from preparation
-              and inquiry to clear seeing, assimilation, and living freedom.
+              A calm 19-lesson journey in self-knowledge, moving from
+              preparation and inquiry to clear seeing, assimilation, and
+              living freedom.
             </p>
           </Link>
         </section>
