@@ -1,20 +1,35 @@
 import Link from "next/link";
+import FiveKeysShareButton from "@/components/FiveKeysShareButton";
 
 import { getCourseLinks } from "./course-links";
 
 export const metadata = {
-  title: "Moksha | Five Keys to Inner Freedom",
+  title: "Moksha Keys | Five Keys to Inner Freedom",
   description:
-    "A calm guide to understanding yourself, meeting life with more clarity, and going deeper when you are ready.",
+    "A calm, practical introduction to inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+  alternates: {
+    canonical: "https://mokshakeys.com/"
+  },
   openGraph: {
-    title: "Moksha | Five Keys to Inner Freedom",
+    title: "Moksha Keys | Five Keys to Inner Freedom",
     description:
-      "A calm guide to understanding yourself, meeting life with more clarity, and going deeper when you are ready."
+      "A calm, practical introduction to inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+    url: "https://mokshakeys.com/",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Moksha - Five Keys to Inner Freedom"
+      }
+    ]
   },
   twitter: {
-    title: "Moksha | Five Keys to Inner Freedom",
+    card: "summary_large_image",
+    title: "Moksha Keys | Five Keys to Inner Freedom",
     description:
-      "A calm guide to understanding yourself, meeting life with more clarity, and going deeper when you are ready."
+      "A calm, practical introduction to inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+    images: ["/twitter-image"]
   }
 };
 
@@ -114,10 +129,14 @@ export default function Page() {
           </p>
         </section>
 
-        <section id="five-keys" className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
-          <h2 className="text-2xl font-semibold text-stone-900">
-            Five Keys
-          </h2>
+        <section
+          id="five-keys"
+          className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10"
+        >
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <h2 className="text-2xl font-semibold text-stone-900">Five Keys</h2>
+            <FiveKeysShareButton />
+          </div>
           <div className="mt-5 space-y-3">
             <p className="max-w-2xl text-base leading-8 text-stone-600">
               These five keys do not create freedom.

@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Manrope, Fraunces } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import { createServerSupabaseClient } from "@/lib/supabase/server";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -65,6 +66,7 @@ export default async function RootLayout({ children }) {
             <SiteFooter />
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
