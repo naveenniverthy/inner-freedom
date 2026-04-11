@@ -56,6 +56,16 @@ export default function Page() {
             steadier way to live and a deeper understanding of what freedom
             means.
           </p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-stone-500 sm:text-base">
+            If life feels fine, but something still feels missing,{" "}
+            <Link
+              href="/why"
+              className="font-medium text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+            >
+              start here
+            </Link>
+            .
+          </p>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
