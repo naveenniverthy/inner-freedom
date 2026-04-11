@@ -2,7 +2,6 @@ import Link from "next/link";
 
 const footerLinks = [
   { href: "/five-keys", label: "Five Keys" },
-  { href: "/course", label: "Foundations of Self-Knowledge" },
   { href: "/guided-path", label: "Guided Path" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" }

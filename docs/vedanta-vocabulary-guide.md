@@ -153,7 +153,6 @@ Traditional note
 
 Used on pages
 - [course](/Users/naveensmacbook/Desktop/inner-freedom-site/app/course/page.jsx)
-- [course 9](/Users/naveensmacbook/Desktop/inner-freedom-site/app/course/9/page.jsx)
 - [why](/Users/naveensmacbook/Desktop/inner-freedom-site/app/why/page.jsx)
 
 ## Sadhana
@@ -342,7 +341,7 @@ Traditional note
 - Avidya is overcome by knowledge, not by action alone.
 
 Used on pages
-- Implied on [clarity](/Users/naveensmacbook/Desktop/inner-freedom-site/app/clarity/page.jsx), [snake-rope](/Users/naveensmacbook/Desktop/inner-freedom-site/app/clarity/snake-rope/page.jsx), [course 4](/Users/naveensmacbook/Desktop/inner-freedom-site/app/course/4/page.jsx)
+- Implied on [clarity](/Users/naveensmacbook/Desktop/inner-freedom-site/app/clarity/page.jsx), [snake-rope](/Users/naveensmacbook/Desktop/inner-freedom-site/app/clarity/snake-rope/page.jsx)
 
 ## Seer / Seen
 Preferred public wording
@@ -362,7 +361,6 @@ Traditional note
 Used on pages
 - [clarity](/Users/naveensmacbook/Desktop/inner-freedom-site/app/clarity/page.jsx)
 - [seer-seen](/Users/naveensmacbook/Desktop/inner-freedom-site/app/clarity/seer-seen/page.jsx)
-- [course 10](/Users/naveensmacbook/Desktop/inner-freedom-site/app/course/10/page.jsx)
 
 ## Notes for future glossary support
 - Good candidates for future tooltip or glossary help: Ishvara, moksha, viveka, vairagya, prasada buddhi, Ishvara Arpana Buddhi, seer/seen, sadhana.

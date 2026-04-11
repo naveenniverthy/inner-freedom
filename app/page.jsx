@@ -151,8 +151,9 @@ export default function Page() {
             Go Deeper
           </p>
           <p className="mt-4 max-w-2xl text-base leading-8 text-stone-600">
-            When you want a slower and more structured way to study, continue
-            with Foundations of Self-Knowledge or the Guided Path.
+            When you want a more structured way to study, begin with The 20
+            Values of Inner Freedom. From there, you can move into the more
+            direct inquiry of Inquiry into the Self.
           </p>
           <div className="mt-4 space-y-3">
             {courseLinks.map((course) => (

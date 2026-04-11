@@ -1,36 +1,22 @@
 import Link from "next/link";
 
 import { getCourseLinks } from "../course-links";
-
-const lessons = [
-  { number: 1, title: "What are you really seeking?", href: "/course/1" },
-  { number: 2, title: "Why nothing fully satisfies", href: "/course/2" },
-  { number: 3, title: "The sense of incompleteness", href: "/course/3" },
-  { number: 4, title: "The mistake we don’t see", href: "/course/4" },
-  { number: 5, title: "Are you the body or the knower?", href: "/course/5" },
-  {
-    number: 6,
-    title: "Thoughts are known — so what are you?",
-    href: "/course/6",
-  },
-  { number: 7, title: "The observer and the observed", href: "/course/7" },
-  { number: 8, title: "Awareness is not an object", href: "/course/8" },
-  {
-    number: 9,
-    title: "What is Vedanta really saying?",
-    href: "/course/9",
-  },
-  { number: 10, title: "You are not the changing", href: "/course/10" },
-];
+import { courseMeta, lessons } from "./lessons";
 
 export const metadata = {
-  title: "Foundations of Self-Knowledge",
-  description:
-    "Move through a step-by-step introduction to self-knowledge and the vision of Vedanta.",
+  title: courseMeta.title,
+  description: courseMeta.description,
 };
 
 export default function Page() {
   const morePaths = getCourseLinks().filter((course) => course.href !== "/course");
+  const firstLesson = lessons[0];
+  const courseIncludes = [
+    "20 guided lessons",
+    "Sanskrit terms in simple English",
+    "Reflection, practice, and daily inquiry",
+    "Rooted in Vedanta",
+  ];
 
   return (
     <main className="min-h-screen bg-stone-100 px-6 py-12 text-stone-800 sm:px-8 sm:py-16">
@@ -44,24 +30,59 @@ export default function Page() {
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">
           <p className="text-sm font-medium uppercase tracking-[0.24em] text-stone-500">
-            Five Keys to Inner Freedom
+            {courseMeta.subtitle}
           </p>
           <h1 className="mt-5 text-4xl font-semibold leading-tight text-stone-900 sm:text-5xl">
-            Foundations of Self-Knowledge
+            {courseMeta.title}
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            This is a simple, step-by-step journey into understanding
-            yourself. Each lesson builds on the previous one. Move slowly and
-            reflect as you go.
+          <p className="mt-4 text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            {courseMeta.duration}
           </p>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
+            These are the 20 jnana values from the Bhagavad Gita. In Vedanta,
+            they are the qualities that prepare the mind for Self-knowledge and
+            support a life of greater clarity, steadiness, and inner freedom.
+          </p>
+          {firstLesson ? (
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <Link
+                href={`/course/${firstLesson.slug}`}
+                className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
+              >
+                Start Course
+              </Link>
+              <p className="text-sm text-stone-500">
+                Begin with Lesson 1 and move one lesson at a time.
+              </p>
+            </div>
+          ) : null}
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Course Includes
+          </p>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {courseIncludes.map((item) => (
+              <div
+                key={item}
+                className="rounded-[1.25rem] bg-stone-50 px-5 py-4 text-sm leading-7 text-stone-600"
+              >
+                {item}
+              </div>
+            ))}
+          </div>
         </section>
 
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="mb-5 text-sm leading-7 text-stone-500">
+            You can begin at the beginning and move one lesson at a time.
+          </p>
           <div className="space-y-3">
             {lessons.map((lesson) => (
               <Link
-                key={lesson.number}
-                href={lesson.href}
+                key={lesson.slug}
+                href={`/course/${lesson.slug}`}
                 className="flex items-start justify-between gap-4 rounded-[1.25rem] bg-stone-50 px-5 py-4 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
               >
                 <div>
@@ -102,6 +123,36 @@ export default function Page() {
                 </span>
               </Link>
             ))}
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Which course should I take?
+          </p>
+          <div className="mt-4 space-y-4 text-sm leading-7 text-stone-500">
+            <p>
+              Inner Freedom focuses on the twenty values that prepare the mind
+              for clarity and Self-knowledge. Inquiry into the Self takes up
+              the inquiry into the self more directly.
+            </p>
+            <p>
+              If you are new, begin with{" "}
+              <Link
+                href="/course"
+                className="font-medium text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+              >
+                Inner Freedom
+              </Link>
+              . If you want a more direct inquiry-based path, explore{" "}
+              <Link
+                href="/courses/foundations"
+                className="font-medium text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+              >
+                Inquiry into the Self
+              </Link>
+              .
+            </p>
           </div>
         </section>
       </div>

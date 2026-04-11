@@ -3,9 +3,14 @@ import path from "node:path";
 
 const COURSE_CONFIG = {
   course: {
-    title: "Foundations of Self-Knowledge",
+    title: "The 20 Values of Inner Freedom",
     description:
-      "A step-by-step introduction to self-knowledge and the core vision of Vedanta.",
+      "A 20-lesson course on the jnana values that prepare the mind for Self-knowledge.",
+  },
+  "courses/foundations": {
+    title: "Inquiry into the Self",
+    description:
+      "A 10-lesson course that takes up the inquiry into the self more directly.",
   },
   "living-course": {
     title: "Living with Clarity",
@@ -19,6 +24,13 @@ const COURSE_CONFIG = {
   },
 };
 
+const COURSE_ORDER = [
+  "/course",
+  "/courses/foundations",
+  "/guided-path",
+  "/living-course",
+];
+
 function toTitleCase(value) {
   return value
     .split("-")
@@ -29,8 +41,7 @@ function toTitleCase(value) {
 export function getCourseLinks() {
   const appDir = path.join(process.cwd(), "app");
   const entries = fs.readdirSync(appDir, { withFileTypes: true });
-
-  return entries
+  const topLevelRoutes = entries
     .filter((entry) => {
       if (!entry.isDirectory()) {
         return false;
@@ -39,12 +50,15 @@ export function getCourseLinks() {
       const route = entry.name;
       return route === "course" || route === "guided-path" || route.endsWith("-course");
     })
-    .filter((entry) => {
-      const pagePath = path.join(appDir, entry.name, "page.jsx");
+    .map((entry) => entry.name);
+  const nestedRoutes = ["courses/foundations"];
+
+  return [...topLevelRoutes, ...nestedRoutes]
+    .filter((route) => {
+      const pagePath = path.join(appDir, ...route.split("/"), "page.jsx");
       return fs.existsSync(pagePath);
     })
-    .map((entry) => {
-      const route = entry.name;
+    .map((route) => {
       const config = COURSE_CONFIG[route];
 
       return {
@@ -55,11 +69,18 @@ export function getCourseLinks() {
       };
     })
     .sort((a, b) => {
-      if (a.href === "/course") {
+      const aIndex = COURSE_ORDER.indexOf(a.href);
+      const bIndex = COURSE_ORDER.indexOf(b.href);
+
+      if (aIndex >= 0 && bIndex >= 0) {
+        return aIndex - bIndex;
+      }
+
+      if (aIndex >= 0) {
         return -1;
       }
 
-      if (b.href === "/course") {
+      if (bIndex >= 0) {
         return 1;
       }
 

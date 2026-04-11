@@ -1,153 +1,268 @@
+export const courseMeta = {
+  title: "The 20 Values of Inner Freedom",
+  subtitle: "Jnana Values from the Bhagavad Gita",
+  description:
+    "A 20-lesson course based on the values that prepare the mind for Self-knowledge. In Vedanta, these are called jnanam, not knowledge itself, but the qualities that make knowledge possible.",
+  duration: "20 Lessons",
+};
+
 export const lessons = [
   {
-    slug: "what-are-you-really-seeking",
+    slug: "amanitvam",
     number: 1,
-    title: "What are you really seeking?",
-    intro:
-      "Most of us say we want different things, but underneath them there is often one quiet longing.",
-    paragraphs: [
-      "We move toward love, success, recognition, comfort, and security. Each desire looks different on the surface, yet many of them carry the same hope: that something out there will finally make us feel settled.",
-      "Vedanta begins by taking this search seriously. It does not dismiss ordinary desires, but it asks us to look more carefully at what we are really asking life to give us.",
-      "When we pause, we may notice that what we want is not just another experience. We want fullness. We want peace that does not disappear when conditions change.",
-      "This is an important beginning. If we do not understand what we are truly seeking, we may spend years chasing forms while missing the deeper need beneath them.",
+    title: "Amanitvam - Freedom from Self-Importance",
+    content: [
+      "Amanitvam means absence of mana, the need for recognition or importance.",
+      "In Vedanta, humility is not thinking low of yourself. It is freedom from the need to be seen as special.",
+      "When the mind is occupied with how it appears, it cannot learn. It is already full.",
+      "This value prepares the mind to receive knowledge without distortion.",
+      "In daily life, this shows up as wanting validation, appreciation, and recognition.",
+      "Practice: Do something quietly without needing acknowledgment.",
+      "Reflection: Can I be at ease without being important in this moment?",
     ],
-    reflection:
-      "When you want something strongly, what do you hope it will finally give you beyond the thing itself?",
   },
   {
-    slug: "why-nothing-fully-satisfies",
+    slug: "adambhitvam",
     number: 2,
-    title: "Why nothing fully satisfies",
-    intro:
-      "Even the good things in life often soothe us for a while, then leave us searching again.",
-    paragraphs: [
-      "Pleasure, achievement, and belonging all matter. Vedanta does not deny their place. But none of them gives a lasting answer to the deeper sense of lack that keeps returning.",
-      "Part of the reason is simple: every experience comes and goes. What depends on change cannot give unchanging satisfaction.",
-      "We may keep adjusting the object of desire, thinking the next version will be enough. A better job, a better relationship, a more stable future. Yet the basic movement of seeking often remains the same.",
-      "Vedanta invites us to question whether the problem is really in the world, or whether it comes from a misunderstanding about ourselves.",
+    title: "Adambhitvam - Absence of Pretence",
+    content: [
+      "Adambhitvam means absence of dambha, showing what is not there.",
+      "In Vedanta, pretence blocks learning because it replaces honesty with image.",
+      "The mind becomes more concerned with appearing than understanding.",
+      "This value brings simplicity and authenticity.",
+      "In daily life, it shows up as exaggeration or projecting knowledge.",
+      "Practice: Notice where you try to appear better than you are.",
+      "Reflection: Where am I trying to appear instead of being real?",
     ],
-    reflection:
-      "Look back at something you once felt sure would complete you. What remained after the excitement passed?",
   },
   {
-    slug: "the-sense-of-incompleteness",
+    slug: "ahimsa",
     number: 3,
-    title: "The sense of incompleteness",
-    intro:
-      "Much of human effort is shaped by a subtle feeling that we are not quite enough as we are.",
-    paragraphs: [
-      "This feeling does not always appear as obvious suffering. Sometimes it shows up as ambition, comparison, restlessness, or the pressure to become someone better before we can relax.",
-      "We may imagine that once we fix ourselves, improve ourselves, or secure enough from life, the tension will end. Until then, we live as though something essential is missing.",
-      "Vedanta names this honestly. It sees that the sense of incompleteness drives much of our striving, even when the striving looks respectable or successful.",
-      "But it also asks a deeper question: is this incompleteness real, or is it based on a mistaken idea of who we are?",
+    title: "Ahimsa - Non-Harm",
+    content: [
+      "Ahimsa means non-injury in thought, word, and action.",
+      "In Vedanta, it aligns with dharma, living in a way that does not create disturbance.",
+      "Harm often comes from insecurity, fear, or reaction.",
+      "A mind that harms cannot be quiet enough for knowledge.",
+      "In daily life, this shows up as anger, harsh words, or silent resentment.",
+      "Practice: Pause before reacting.",
+      "Reflection: Was my response necessary and considerate?",
     ],
-    reflection:
-      "In quiet moments, where do you most notice the feeling that something about you or your life still needs to be completed?",
   },
   {
-    slug: "the-mistake-we-dont-see",
+    slug: "ksantih",
     number: 4,
-    title: "The mistake we don’t see",
-    intro:
-      "Vedanta says the deepest problem is not weakness, but confusion.",
-    paragraphs: [
-      "We usually take ourselves to be a limited person moving through an uncertain world, trying to secure enough to feel okay. From that starting point, fear and dependence make sense.",
-      "The trouble is that this starting point is rarely questioned. We inherit it, assume it, and build a whole life on top of it.",
-      "Vedanta calls attention to this unnoticed mistake. If I am mistaken about who I am, then everything built on that mistake will carry strain, even when life appears to be going well.",
-      "The teaching does not blame us for this confusion. It simply says that what is mistaken can be corrected through clear knowledge.",
+    title: "Ksantih - Acceptance",
+    content: [
+      "Ksantih means forbearance, the ability to accept what cannot be changed.",
+      "In Vedanta, this aligns with Ishvara Prasada Buddhi, receiving results as given.",
+      "Acceptance is not passivity. It is freedom from resistance.",
+      "Resistance drains energy and blocks clarity.",
+      "In daily life, it shows up as complaint and frustration.",
+      "Practice: Acknowledge, 'This is what is given now.'",
+      "Reflection: Can I respond without inner resistance?",
     ],
-    reflection:
-      "What assumptions about yourself feel so obvious that you almost never stop to examine them?",
   },
   {
-    slug: "are-you-the-body-or-the-knower",
+    slug: "arjavam",
     number: 5,
-    title: "Are you the body or the knower?",
-    intro:
-      "The body is intimate and important, but is it the whole of what you are?",
-    paragraphs: [
-      "In ordinary life, we naturally say, 'I am tall,' 'I am tired,' or 'I am aging.' The body is so close to us that we rarely separate ourselves from it.",
-      "Vedanta does not ask us to deny the body. It asks us to notice something simple: the body is known. Sensations are known. Changes in the body are known.",
-      "That raises an interesting question. If the body is known, then what is the status of the one who knows it?",
-      "This is not a puzzle for clever thinking alone. It is an invitation to shift attention from what is observed to the presence by which it is observed.",
+    title: "Arjavam - Straightforwardness",
+    content: [
+      "Arjavam means alignment between thought, word, and action.",
+      "In Vedanta, crookedness creates inner conflict.",
+      "Clarity requires inner simplicity.",
+      "When there is no hidden agenda, the mind becomes lighter.",
+      "In daily life, this shows up as saying one thing and meaning another.",
+      "Practice: Be honest in small situations.",
+      "Reflection: Am I aligned within?",
     ],
-    reflection:
-      "Right now, can you notice the body as something experienced? If so, what is the one to whom that experience appears?",
   },
   {
-    slug: "thoughts-are-known-so-what-are-you",
+    slug: "acharyopasanam",
     number: 6,
-    title: "Thoughts are known — so what are you?",
-    intro:
-      "The mind feels personal and close, yet thoughts also come and go in awareness.",
-    paragraphs: [
-      "We often define ourselves through our thinking. Our opinions, memories, plans, worries, and self-image can seem to form the core of who we are.",
-      "But thoughts are not constant. They arise, remain for a moment, and pass. Even confusion is known. Even certainty is known.",
-      "If a thought is known, it cannot be the knower. The same is true for moods, reactions, and inner commentary. All of them are available to awareness.",
-      "Vedanta uses this observation to turn us gently back toward the one constant factor in every experience: the presence to which the mind itself appears.",
+    title: "Acharyopasanam - Reverence for the Teacher",
+    content: [
+      "Acharyopasanam means respect and service toward the teacher.",
+      "In Vedanta, knowledge comes through a teaching tradition.",
+      "This value opens the mind to receive knowledge properly.",
+      "Without this attitude, learning becomes intellectual, not transformative.",
+      "In daily life, it shows up as casualness toward guidance.",
+      "Practice: Acknowledge what you have received from teachers.",
+      "Reflection: Do I value the source of knowledge?",
     ],
-    reflection:
-      "Notice one thought as it appears and fades. What remains present before, during, and after it?",
   },
   {
-    slug: "the-observer-and-the-observed",
+    slug: "saucam",
     number: 7,
-    title: "The observer and the observed",
-    intro:
-      "A helpful way to begin is to distinguish what is seen from the one to whom it is seen.",
-    paragraphs: [
-      "Objects are observed. Sounds are observed. Sensations are observed. Thoughts and emotions are also observed. They all belong to the changing field of experience.",
-      "The observer, however, is different in kind. It is not one more object among other objects. It is that because of which objects are known at all.",
-      "This distinction matters. Without it, we stay tangled in experience and keep taking the changing to be the self.",
-      "Vedanta patiently guides this discrimination until it becomes clear that the observer is not affected in the same way as what is observed.",
+    title: "Saucam - Purity",
+    content: [
+      "Saucam means cleanliness, outer and inner.",
+      "Outer purity is order and cleanliness.",
+      "Inner purity is freedom from emotional clutter like resentment and agitation.",
+      "A cluttered mind cannot see clearly.",
+      "Practice: Clean one space and let go of one unnecessary thought.",
+      "Reflection: What is cluttering my mind?",
     ],
-    reflection:
-      "As you move through the day, what keeps changing in experience? And what seems to remain quietly present as all of it changes?",
   },
   {
-    slug: "awareness-is-not-an-object",
+    slug: "sthairyam",
     number: 8,
-    title: "Awareness is not an object",
-    intro:
-      "We can notice objects, but awareness itself is never seen in the same way.",
-    paragraphs: [
-      "You can point to a sound, a sensation, a thought, or an image. Each of these becomes known as an object of experience.",
-      "Awareness is different. It cannot be placed in front of you, because it is what makes every placement possible. It is never something apart from you to be examined from a distance.",
-      "This is why the search for awareness as an object can feel frustrating. We keep trying to find it as one more experience, while it is already present as the light of every experience.",
-      "Vedanta helps us understand that the self is self-evident. It does not need to be produced or discovered as a new object. It needs to be recognized.",
+    title: "Sthairyam - Steadfastness",
+    content: [
+      "Sthairyam means stability and consistency.",
+      "In Vedanta, inquiry requires a steady mind.",
+      "Without steadiness, the mind keeps shifting and never settles.",
+      "Practice: Stay committed to one small discipline.",
+      "Reflection: Can I stay with what I begin?",
     ],
-    reflection:
-      "When you stop trying to grasp awareness as a thing, what becomes obvious about its presence?",
   },
   {
-    slug: "what-is-vedanta-really-saying",
+    slug: "atmavinigrahah",
     number: 9,
-    title: "What is Vedanta really saying?",
-    intro:
-      "At its heart, Vedanta is pointing to a fact about you, not offering a belief to hold onto.",
-    paragraphs: [
-      "It says that your essential nature is not small, broken, or incomplete. The limited person we take ourselves to be does not tell the whole truth.",
-      "What you are in essence is the aware presence because of which body, mind, and world are known. That presence is not wounded by change in the way passing experience is.",
-      "This does not mean everyday life disappears. It means your relationship to life changes when you no longer depend on changing things to define your worth or completeness.",
-      "Vedanta is careful, precise, and compassionate. It unfolds this vision step by step until what once seemed abstract becomes personally clear.",
+    title: "Atmavinigrahah - Self-Mastery",
+    content: [
+      "Atmavinigrahah means mastery over the mind and senses.",
+      "It is not suppression, but intelligent regulation.",
+      "Without mastery, the mind is driven by impulses.",
+      "A driven mind cannot inquire.",
+      "Practice: Delay one impulse today.",
+      "Reflection: Who is in charge, me or my impulses?",
     ],
-    reflection:
-      "If the deepest truth about you is not limitation, how might that begin to reshape the way you meet life?",
   },
   {
-    slug: "you-are-not-the-changing",
+    slug: "vairagyam",
     number: 10,
-    title: "You are not the changing",
-    intro:
-      "Everything we experience changes, yet the fact of being aware does not come and go with each change.",
-    paragraphs: [
-      "The body changes. Moods change. Relationships change. Roles change. Even our most settled ideas about ourselves can shift over time.",
-      "If we tie our identity to what changes, life will always feel unstable. We will rise and fall with every movement in experience.",
-      "Vedanta offers a different vision. You are not the changing contents of experience. You are the aware presence in whose light change is known.",
-      "This recognition is not withdrawal from life. It is the beginning of freedom in the midst of life, because what you are does not depend on the next condition, success, or failure.",
+    title: "Vairagyam - Dispassion",
+    content: [
+      "Vairagyam means freedom from dependence on objects.",
+      "It does not mean rejection, but enjoyment without dependence.",
+      "In Vedanta, this arises from seeing the limitations of everything.",
+      "Objects cannot give lasting fulfillment.",
+      "Practice: Notice where you expect lasting happiness from something.",
+      "Reflection: Am I depending on this for happiness?",
     ],
-    reflection:
-      "What becomes lighter if you no longer ask changing experiences to tell you who you are?",
+  },
+  {
+    slug: "anahankarah",
+    number: 11,
+    title: "Anahankarah - Freedom from Ego",
+    content: [
+      "Anahankarah means absence of strong ego-identification.",
+      "Ego is taking oneself to be roles, achievements, or labels.",
+      "Vedanta points out that these are changing, not the Self.",
+      "Practice: Observe your roles without identifying with them.",
+      "Reflection: Who am I without these roles?",
+    ],
+  },
+  {
+    slug: "duhkha-darsanam",
+    number: 12,
+    title: "Reflection on Life's Limits",
+    content: [
+      "This value is reflection on birth, aging, illness, and death.",
+      "In Vedanta, this removes unrealistic expectations from life.",
+      "Everything in time is subject to change.",
+      "Seeing this clearly brings maturity.",
+      "Practice: Reflect on impermanence.",
+      "Reflection: What am I expecting from life?",
+    ],
+  },
+  {
+    slug: "asaktih",
+    number: 13,
+    title: "Asaktih - Non-Attachment",
+    content: [
+      "Asaktih means absence of ownership.",
+      "In Vedanta, nothing truly belongs to the individual.",
+      "Everything is part of a larger order.",
+      "Practice: Replace 'mine' with 'given'.",
+      "Reflection: What am I holding onto?",
+    ],
+  },
+  {
+    slug: "anabhisvangah",
+    number: 14,
+    title: "Anabhisvangah - Non-Dependence",
+    content: [
+      "Anabhisvangah means absence of emotional dependence.",
+      "Vedanta allows love, but not dependence.",
+      "Dependence creates fear and insecurity.",
+      "Practice: Appreciate without clinging.",
+      "Reflection: Is this love or dependence?",
+    ],
+  },
+  {
+    slug: "samacittatvam",
+    number: 15,
+    title: "Samacittatvam - Equanimity",
+    content: [
+      "Samacittatvam means balance in all situations.",
+      "It is central to Karma Yoga.",
+      "Results are not always in our control.",
+      "A steady mind remains unaffected.",
+      "Practice: Observe reactions to success and failure.",
+      "Reflection: Can I stay balanced?",
+    ],
+  },
+  {
+    slug: "bhakti",
+    number: 16,
+    title: "Bhakti - Devotion",
+    content: [
+      "Bhakti means devotion to Ishvara.",
+      "In Vedanta, it is recognizing the total order.",
+      "It brings surrender and reduces burden.",
+      "Practice: Offer one action consciously.",
+      "Reflection: Can I act as an offering?",
+    ],
+  },
+  {
+    slug: "viviktadesa",
+    number: 17,
+    title: "Vivikta-desa-sevitvam - Love for Solitude",
+    content: [
+      "This means preference for a quiet place.",
+      "Solitude supports reflection and clarity.",
+      "Constant noise keeps the mind outward.",
+      "Practice: Spend time in silence.",
+      "Reflection: Am I comfortable being alone?",
+    ],
+  },
+  {
+    slug: "arati",
+    number: 18,
+    title: "Aratih - Freedom from Social Dependence",
+    content: [
+      "Aratih means reduced need for constant social engagement.",
+      "It is not isolation, but independence.",
+      "The mind becomes less dependent on external validation.",
+      "Practice: Reduce unnecessary interaction.",
+      "Reflection: Am I avoiding myself?",
+    ],
+  },
+  {
+    slug: "tattva-jnana",
+    number: 19,
+    title: "Commitment to Self-Knowledge",
+    content: [
+      "This means commitment to understanding truth.",
+      "In Vedanta, this is the central pursuit.",
+      "Without commitment, the mind remains distracted.",
+      "Practice: Set time for study.",
+      "Reflection: What truly matters to me?",
+    ],
+  },
+  {
+    slug: "adhyatma-jnana",
+    number: 20,
+    title: "Adhyatma-jnana - Seeing Knowledge as the Goal",
+    content: [
+      "This is understanding Self-knowledge as the highest pursuit.",
+      "Vedanta teaches that freedom is recognition, not achievement.",
+      "All pursuits ultimately seek lasting fulfillment.",
+      "Practice: Reflect on what is permanent.",
+      "Reflection: What am I really seeking?",
+    ],
   },
 ];
 
