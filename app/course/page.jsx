@@ -111,9 +111,16 @@ export default function Page() {
                 className="flex items-center justify-between gap-4 rounded-[1.25rem] bg-stone-50 px-5 py-4 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
               >
                 <div>
-                  <h2 className="text-lg font-semibold text-stone-900">
-                    {course.title}
-                  </h2>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h2 className="text-lg font-semibold text-stone-900">
+                      {course.title}
+                    </h2>
+                    {course.startHere ? (
+                      <span className="rounded-full bg-stone-200 px-2.5 py-1 text-[11px] font-medium uppercase tracking-[0.14em] text-stone-700">
+                        Start Here
+                      </span>
+                    ) : null}
+                  </div>
                   <p className="mt-1 text-sm leading-7 text-stone-600">
                     {course.description}
                   </p>
@@ -132,24 +139,24 @@ export default function Page() {
           </p>
           <div className="mt-4 space-y-4 text-sm leading-7 text-stone-500">
             <p>
-              Inner Freedom focuses on the twenty values that prepare the mind
-              for clarity and Self-knowledge. Inquiry into the Self takes up
-              the inquiry into the self more directly.
+              This course focuses on the twenty values that prepare the mind
+              for clarity and Self-knowledge.
             </p>
             <p>
-              If you are new, begin with{" "}
+              If you want a gentle, direct inquiry into your own experience,
+              begin with{" "}
               <Link
-                href="/course"
+                href="/courses/inquiry"
                 className="font-medium text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
               >
-                Inner Freedom
+                Inquiry into the Self
               </Link>
-              . If you want a more direct inquiry-based path, explore{" "}
+              . If you want a deeper, more structured follow-on, continue with{" "}
               <Link
                 href="/courses/foundations"
                 className="font-medium text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
               >
-                Inquiry into the Self
+                Foundations of Self-Knowledge
               </Link>
               .
             </p>

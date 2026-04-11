@@ -24,19 +24,19 @@ export function generateMetadata({ params }) {
 
   return {
     title: `${lesson.title} | ${courseTitle}`,
-    description: lesson.takeaway,
+    description: lesson.intro,
     openGraph: {
       title: `${lesson.title} | ${courseTitle}`,
-      description: lesson.takeaway,
+      description: lesson.intro,
     },
     twitter: {
       title: `${lesson.title} | ${courseTitle}`,
-      description: lesson.takeaway,
+      description: lesson.intro,
     },
   };
 }
 
-export default function FoundationsLessonPage({ params }) {
+export default function InquiryLessonPage({ params }) {
   const lesson = getLessonBySlug(params.slug);
 
   if (!lesson) {
@@ -53,10 +53,10 @@ export default function FoundationsLessonPage({ params }) {
     <main className="min-h-screen bg-stone-100 px-6 py-12 text-stone-800 sm:px-8 sm:py-16">
       <div className="mx-auto flex max-w-[700px] flex-col gap-6">
         <Link
-          href="/courses/foundations"
+          href="/courses/inquiry"
           className="w-fit text-sm font-medium text-stone-500 transition hover:text-stone-700"
         >
-          Back to Foundations of Self-Knowledge
+          Back to Inquiry into the Self
         </Link>
 
         <section className="rounded-[2rem] bg-white px-8 py-12 shadow-sm ring-1 ring-stone-200 sm:px-10 sm:py-14">
@@ -67,7 +67,7 @@ export default function FoundationsLessonPage({ params }) {
             {lesson.title}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            {lesson.takeaway}
+            {lesson.intro}
           </p>
           <p className="mt-5 w-fit rounded-full bg-stone-100 px-4 py-2 text-sm font-medium text-stone-600 ring-1 ring-stone-200">
             Lesson {lessonNumber} of {totalLessons}
@@ -79,23 +79,61 @@ export default function FoundationsLessonPage({ params }) {
             {lesson.paragraphs.map((paragraph, index) => (
               <p key={`${lesson.slug}-${index}`}>{paragraph}</p>
             ))}
+
+            {lesson.highlights?.length ? (
+              <div className="space-y-3 rounded-[1.5rem] bg-stone-50 px-5 py-5 ring-1 ring-stone-200">
+                <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+                  In Simple Terms
+                </p>
+                <ul className="space-y-2 pl-5 text-base leading-8 text-stone-600 sm:text-lg">
+                  {lesson.highlights.map((item) => (
+                    <li key={item} className="list-disc">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
           </div>
         </section>
 
         <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Key Takeaway
+            Reflection
           </p>
           <div className="mt-4 space-y-4 text-base leading-8 text-stone-700 sm:text-lg">
-            <p>{lesson.takeaway}</p>
+            {lesson.reflection.map((prompt) => (
+              <p key={prompt}>{prompt}</p>
+            ))}
           </div>
         </section>
+
+        {!nextLesson ? (
+          <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+            <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+              Go Deeper
+            </p>
+            <p className="mt-4 max-w-2xl text-base leading-8 text-stone-600">
+              If this inquiry has become meaningful to you, the next step is
+              Foundations of Self-Knowledge — a more structured introduction to
+              the vision of Vedanta.
+            </p>
+            <div className="mt-6">
+              <Link
+                href="/courses/foundations"
+                className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
+              >
+                Explore Foundations of Self-Knowledge
+              </Link>
+            </div>
+          </section>
+        ) : null}
 
         <nav className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
           <div className="flex flex-wrap gap-3">
             {previousLesson ? (
               <Link
-                href={`/courses/foundations/${previousLesson.slug}`}
+                href={`/courses/inquiry/${previousLesson.slug}`}
                 className="inline-flex rounded-full bg-white px-6 py-3 text-sm font-medium text-stone-700 shadow-sm ring-1 ring-stone-200 transition hover:bg-stone-50"
               >
                 Previous Lesson
@@ -104,7 +142,7 @@ export default function FoundationsLessonPage({ params }) {
 
             {nextLesson ? (
               <Link
-                href={`/courses/foundations/${nextLesson.slug}`}
+                href={`/courses/inquiry/${nextLesson.slug}`}
                 className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
               >
                 Next Lesson
@@ -113,7 +151,7 @@ export default function FoundationsLessonPage({ params }) {
           </div>
 
           <Link
-            href="/courses/foundations"
+            href="/courses/inquiry"
             className="inline-flex rounded-full bg-white px-6 py-3 text-sm font-medium text-stone-700 shadow-sm ring-1 ring-stone-200 transition hover:bg-stone-50"
           >
             Back to Course
