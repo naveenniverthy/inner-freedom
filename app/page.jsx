@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FiveKeysShareButton from "@/components/FiveKeysShareButton";
+import { fiveKeys, fiveKeyHrefByTitle } from "@/lib/fiveKeys";
 
 import { getCourseLinks } from "./course-links";
 
@@ -32,44 +33,6 @@ export const metadata = {
     images: ["/twitter-image"]
   }
 };
-
-const cards = [
-  {
-    title: "Clarity",
-    subtitle: "Jnana",
-    href: "/clarity",
-    description:
-      "See clearly.",
-  },
-  {
-    title: "Responsibility",
-    subtitle: "Dharma",
-    href: "/responsibility",
-    description:
-      "Do what is yours to do.",
-  },
-  {
-    title: "Discipline",
-    subtitle: "Sadhana",
-    href: "/discipline",
-    description:
-      "Build steadiness.",
-  },
-  {
-    title: "Acceptance",
-    subtitle: "Prasada Buddhi",
-    href: "/acceptance",
-    description:
-      "Receive results with maturity.",
-  },
-  {
-    title: "Offering",
-    subtitle: "Ishvara Arpana Buddhi",
-    href: "/ishvara-arpana-buddhi",
-    description:
-      "Act in a spirit of contribution.",
-  },
-];
 
 export default function Page() {
   const courseLinks = getCourseLinks();
@@ -145,17 +108,17 @@ export default function Page() {
               They help you understand yourself and meet life with more
               clarity, steadiness, and honesty.
             </p>
-            {cards.map((card) => (
+            {fiveKeys.map((card) => (
               <Link
                 key={card.title}
-                href={card.href}
+                href={fiveKeyHrefByTitle[card.title]}
                 className="block rounded-[1.25rem] bg-stone-50 px-5 py-4 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
               >
                 <h3 className="text-lg font-semibold text-stone-900">
                   {card.title}
                 </h3>
                 <p className="mt-1 text-xs font-medium uppercase tracking-[0.16em] text-stone-500">
-                  {card.subtitle}
+                  {card.sanskrit}
                 </p>
                 <p className="mt-2 text-sm leading-7 text-stone-600">
                   {card.description}

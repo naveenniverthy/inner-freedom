@@ -1,42 +1,5 @@
 import Link from "next/link";
-
-const keys = [
-  {
-    title: "Clarity",
-    subtitle: "Jnana",
-    href: "/clarity",
-    body:
-      "See yourself and your life more clearly, so confusion begins to loosen."
-  },
-  {
-    title: "Responsibility",
-    subtitle: "Dharma",
-    href: "/responsibility",
-    body:
-      "Own your choices and effort without carrying what never belonged to you."
-  },
-  {
-    title: "Discipline",
-    subtitle: "Sadhana",
-    href: "/discipline",
-    body:
-      "Build the steadiness that allows understanding to stay present in daily life."
-  },
-  {
-    title: "Acceptance",
-    subtitle: "Prasada Buddhi",
-    href: "/acceptance",
-    body:
-      "Stop fighting what has already happened, and meet reality with honesty."
-  },
-  {
-    title: "Offering",
-    subtitle: "Ishvara Arpana Buddhi",
-    href: "/ishvara-arpana-buddhi",
-    body:
-      "Act wholeheartedly, offer the results, and let trust soften the strain of living."
-  }
-];
+import { fiveKeys, fiveKeyHrefByTitle } from "@/lib/fiveKeys";
 
 export const metadata = {
   title: "Five Keys",
@@ -70,10 +33,10 @@ export default function Page() {
         </section>
 
         <section className="grid gap-4 sm:grid-cols-2">
-          {keys.map((key, index) => (
+          {fiveKeys.map((key, index) => (
             <Link
               key={key.title}
-              href={key.href}
+              href={fiveKeyHrefByTitle[key.title]}
               className="rounded-[1.75rem] bg-white px-6 py-6 shadow-sm ring-1 ring-stone-200 transition hover:-translate-y-0.5 hover:shadow-md"
             >
               <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
@@ -83,10 +46,10 @@ export default function Page() {
                 {key.title}
               </h2>
               <p className="mt-1 text-xs font-medium uppercase tracking-[0.16em] text-stone-500">
-                {key.subtitle}
+                {key.sanskrit}
               </p>
               <p className="mt-3 text-sm leading-7 text-stone-600">
-                {key.body}
+                {key.description}
               </p>
             </Link>
           ))}
