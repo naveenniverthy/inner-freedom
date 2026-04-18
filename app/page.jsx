@@ -174,6 +174,22 @@ export default function Page() {
                 </span>
               </Link>
             ))}
+            <Link
+              href="/glossary"
+              className="flex items-center justify-between gap-4 rounded-[1.25rem] bg-stone-50 px-5 py-4 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm"
+            >
+              <div>
+                <h2 className="text-lg font-semibold text-stone-900">
+                  Glossary
+                </h2>
+                <p className="mt-1 text-sm leading-7 text-stone-600">
+                  Simple meanings of key Sanskrit terms used across the site.
+                </p>
+              </div>
+              <span className="pt-1 text-sm font-medium text-stone-600">
+                Open
+              </span>
+            </Link>
           </div>
         </section>
       </div>
