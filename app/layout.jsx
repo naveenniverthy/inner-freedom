@@ -22,11 +22,11 @@ export const metadata = {
     template: "%s | Moksha"
   },
   description:
-    "A calm space for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
+    "A simple framework for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
   openGraph: {
     title: "Moksha | Five Keys to Inner Freedom",
     description:
-      "A calm space for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
+      "A simple framework for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
     url: "https://mokshakeys.com",
     siteName: "Moksha",
     type: "website",
@@ -43,7 +43,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Moksha | Five Keys to Inner Freedom",
     description:
-      "A calm space for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
+      "A simple framework for exploring the Five Keys to Inner Freedom through clarity, responsibility, discipline, acceptance, and offering.",
     images: ["/twitter-image"]
   }
 };

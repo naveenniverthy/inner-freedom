@@ -71,8 +71,8 @@ export default function OpenGraphImage() {
               fontFamily: "ui-sans-serif, system-ui, sans-serif"
             }}
           >
-            Calm guidance for meeting life with clarity, steadiness, and inner
-            freedom.
+            A simple framework for meeting life with clarity, steadiness, and
+            inner freedom.
           </div>
         </div>
 

@@ -7,14 +7,14 @@ import { getCourseLinks } from "./course-links";
 export const metadata = {
   title: "Moksha Keys | Five Keys to Inner Freedom",
   description:
-    "A calm, practical introduction to inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+    "A simple framework for inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
   alternates: {
     canonical: "https://mokshakeys.com/"
   },
   openGraph: {
     title: "Moksha Keys | Five Keys to Inner Freedom",
     description:
-      "A calm, practical introduction to inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+      "A simple framework for inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
     url: "https://mokshakeys.com/",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Moksha Keys | Five Keys to Inner Freedom",
     description:
-      "A calm, practical introduction to inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+      "A simple framework for inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
     images: ["/twitter-image"]
   }
 };
@@ -48,8 +48,8 @@ export default function Page() {
             Moksha
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-stone-600 sm:text-lg">
-            A calm guide to understanding yourself and meeting life with more
-            clarity.
+            A simple framework for understanding yourself and meeting life with
+            more clarity.
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-base leading-8 text-stone-600 sm:text-lg">
             Rooted in Advaita Vedanta, this is for anyone who wants a simpler,

@@ -36,7 +36,7 @@ export default function SiteHeader({ user }) {
           </span>
         </Link>
         <p className="mt-2 max-w-[28rem] text-sm leading-6 text-ink-900/55">
-          Calm guidance for living with clarity, steadiness, and trust.
+          A simple framework for living with clarity, steadiness, and inner freedom.
         </p>
       </div>
 
