@@ -79,7 +79,14 @@ export const sections = [
     title: "Discipline",
     subtitle: "Sādhana",
     lessons: [
-      { slug: "lesson-1-2-58", title: "Withdrawing the senses", verse: "2.58" }
+      { slug: "lesson-1-2-58", title: "Withdrawing the senses", verse: "2.58" },
+      { slug: "lesson-2-2-60", title: "The force of the senses", verse: "2.60" },
+      { slug: "lesson-3-2-61", title: "Discipline needs a higher orientation", verse: "2.61" },
+      { slug: "lesson-4-2-64-65", title: "Balanced engagement brings clarity", verse: "2.64–65" },
+      { slug: "lesson-5-2-67", title: "Lack of discipline leads to loss of clarity", verse: "2.67" },
+      { slug: "lesson-6-3-6-7", title: "The mind can be your friend or enemy", verse: "3.6–7" },
+      { slug: "lesson-7-4-27-30", title: "Different forms of disciplined living", verse: "4.27–30" },
+      { slug: "lesson-8-5-11", title: "Discipline through selfless action", verse: "5.11" }
     ]
   }
 ];

@@ -6,16 +6,16 @@ export default function Lesson() {
     <div className="min-h-screen bg-stone-50 px-4 py-8 text-stone-800 sm:px-6 lg:px-8">
       <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
         <div className="min-w-0 space-y-6">
-          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-1-2-58" />
+          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-5-2-67" />
           <div className="rounded-2xl bg-white shadow-sm ring-1 ring-stone-200">
             <main className="max-w-3xl mx-auto px-4 py-10 space-y-8">
 
               <h1 className="text-2xl font-semibold">
-                Discipline — Lesson 1
+                Discipline — Lesson 5
               </h1>
 
               <h2 className="text-lg text-gray-600">
-                Withdrawing the senses (Gita 2.58)
+                Lack of discipline leads to loss of clarity (Gita 2.67)
               </h2>
 
               {/* Verse */}
@@ -23,8 +23,8 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Verse</h3>
 
                 <div className="bg-gray-50 p-4 rounded-xl text-lg leading-relaxed">
-                  यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।<br />
-                  इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥ २.५८ ॥
+                  इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते ।<br />
+                  तदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ॥ २.६७ ॥
                 </div>
               </section>
 
@@ -33,8 +33,8 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Transliteration</h3>
 
                 <p className="text-gray-700">
-                  yadā saṁharate cāyaṁ kūrmo&apos;ṅgānīva sarvaśaḥ <br />
-                  indriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā
+                  indriyāṇāṁ hi caratāṁ yan mano&apos;nuvidhīyate <br />
+                  tad asya harati prajñāṁ vāyur nāvam ivāmbhasi
                 </p>
               </section>
 
@@ -43,9 +43,9 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Meaning</h3>
 
                 <p className="text-gray-700">
-                  When a person withdraws the senses from their objects,
-                  just as a tortoise withdraws its limbs,
-                  their understanding becomes steady.
+                  When the mind follows wandering senses,
+                  it takes away one’s clarity,
+                  just like the wind carries away a boat on water.
                 </p>
               </section>
 
@@ -54,12 +54,11 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Key Words</h3>
 
                 <ul className="list-disc pl-6 text-gray-700 space-y-1">
-                  <li>saṁharate — withdraws</li>
-                  <li>indriyāṇi — senses</li>
-                  <li>indriyārthāḥ — sense objects</li>
-                  <li>kūrmaḥ — tortoise</li>
-                  <li>prajñā — understanding</li>
-                  <li>pratiṣṭhitā — steady</li>
+                  <li>indriyāṇām — senses</li>
+                  <li>caratām — wandering</li>
+                  <li>mano&apos;nuvidhīyate — mind following</li>
+                  <li>harati — takes away</li>
+                  <li>prajñā — clarity, understanding</li>
                 </ul>
               </section>
 
@@ -68,25 +67,23 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Teaching</h3>
 
                 <p className="text-gray-700">
-                  Discipline begins with sense management.
+                  Krishna gives a clear consequence.
 
-                  The senses naturally move outward —
-                  toward objects, experiences, and stimulation.
+                  If the senses are not managed,
+                  they pull the mind outward.
 
-                  Left unchecked,
-                  they pull the mind in many directions.
+                  When the mind keeps chasing objects,
+                  it loses stability.
 
-                  Krishna gives a simple image:
+                  And when the mind is unstable,
+                  clarity is lost.
 
-                  Like a tortoise withdrawing its limbs,
-                  one must be able to withdraw the senses when needed.
+                  The image is powerful:
 
-                  This is not suppression.
+                  Like a boat pushed by strong wind,
+                  the mind is carried away without direction.
 
-                  It is mastery.
-
-                  The ability to engage or disengage
-                  based on clarity.
+                  Discipline is what keeps the mind steady.
                 </p>
               </section>
 
@@ -95,16 +92,16 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Connection to Discipline</h3>
 
                 <p className="text-gray-700">
-                  Discipline starts with control over attention.
+                  Discipline protects clarity.
 
-                  If the senses control me,
-                  I am reactive.
+                  Without discipline,
+                  even good understanding cannot remain.
 
-                  If I can manage the senses,
-                  I become steady.
+                  The mind needs stability
+                  to hold on to knowledge.
 
-                  This steadiness is the foundation
-                  for all further growth.
+                  This verse shows the cost
+                  of lack of discipline.
                 </p>
               </section>
 
@@ -113,19 +110,19 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Reflection</h3>
 
                 <p className="text-gray-700">
-                  What pulls my attention most strongly?
+                  When my mind becomes restless,
+                  what usually triggered it?
 
-                  Do I have the ability
-                  to step back when needed?
+                  What would help me regain steadiness in that moment?
                 </p>
               </section>
 
             </main>
           </div>
-          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-1-2-58" />
+          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-5-2-67" />
         </div>
         <aside className="lg:sticky lg:top-6 lg:self-start">
-          <GitaSectionToc sectionKey="discipline" currentLessonSlug="lesson-1-2-58" />
+          <GitaSectionToc sectionKey="discipline" currentLessonSlug="lesson-5-2-67" />
         </aside>
       </div>
     </div>

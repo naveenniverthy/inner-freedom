@@ -6,16 +6,16 @@ export default function Lesson() {
     <div className="min-h-screen bg-stone-50 px-4 py-8 text-stone-800 sm:px-6 lg:px-8">
       <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
         <div className="min-w-0 space-y-6">
-          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-1-2-58" />
+          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-2-2-60" />
           <div className="rounded-2xl bg-white shadow-sm ring-1 ring-stone-200">
             <main className="max-w-3xl mx-auto px-4 py-10 space-y-8">
 
               <h1 className="text-2xl font-semibold">
-                Discipline — Lesson 1
+                Discipline — Lesson 2
               </h1>
 
               <h2 className="text-lg text-gray-600">
-                Withdrawing the senses (Gita 2.58)
+                The force of the senses (Gita 2.60)
               </h2>
 
               {/* Verse */}
@@ -23,8 +23,8 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Verse</h3>
 
                 <div className="bg-gray-50 p-4 rounded-xl text-lg leading-relaxed">
-                  यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।<br />
-                  इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥ २.५८ ॥
+                  यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः ।<br />
+                  इन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ॥ २.६० ॥
                 </div>
               </section>
 
@@ -33,8 +33,8 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Transliteration</h3>
 
                 <p className="text-gray-700">
-                  yadā saṁharate cāyaṁ kūrmo&apos;ṅgānīva sarvaśaḥ <br />
-                  indriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā
+                  yatato hy api kaunteya puruṣasya vipaścitaḥ <br />
+                  indriyāṇi pramāthīni haranti prasabhaṁ manaḥ
                 </p>
               </section>
 
@@ -43,9 +43,8 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Meaning</h3>
 
                 <p className="text-gray-700">
-                  When a person withdraws the senses from their objects,
-                  just as a tortoise withdraws its limbs,
-                  their understanding becomes steady.
+                  Even for a wise person who is striving,
+                  the turbulent senses can forcefully carry away the mind.
                 </p>
               </section>
 
@@ -54,12 +53,13 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Key Words</h3>
 
                 <ul className="list-disc pl-6 text-gray-700 space-y-1">
-                  <li>saṁharate — withdraws</li>
+                  <li>yatataḥ — striving, making effort</li>
+                  <li>vipaścitaḥ — a thoughtful or wise person</li>
                   <li>indriyāṇi — senses</li>
-                  <li>indriyārthāḥ — sense objects</li>
-                  <li>kūrmaḥ — tortoise</li>
-                  <li>prajñā — understanding</li>
-                  <li>pratiṣṭhitā — steady</li>
+                  <li>pramāthīni — turbulent, agitating</li>
+                  <li>haranti — carry away</li>
+                  <li>prasabham — forcefully</li>
+                  <li>manaḥ — mind</li>
                 </ul>
               </section>
 
@@ -68,25 +68,22 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Teaching</h3>
 
                 <p className="text-gray-700">
-                  Discipline begins with sense management.
+                  Krishna gives an honest warning.
 
-                  The senses naturally move outward —
-                  toward objects, experiences, and stimulation.
+                  Discipline is necessary because the senses are powerful.
 
-                  Left unchecked,
-                  they pull the mind in many directions.
+                  Even a thoughtful person,
+                  even one who has understanding,
+                  can be pulled outward by habit, attraction, and stimulation.
 
-                  Krishna gives a simple image:
+                  The senses do not always ask permission.
 
-                  Like a tortoise withdrawing its limbs,
-                  one must be able to withdraw the senses when needed.
+                  They move quickly,
+                  and the mind follows.
 
-                  This is not suppression.
+                  This is why discipline cannot be casual.
 
-                  It is mastery.
-
-                  The ability to engage or disengage
-                  based on clarity.
+                  It must be steady, alert, and intentional.
                 </p>
               </section>
 
@@ -95,16 +92,17 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Connection to Discipline</h3>
 
                 <p className="text-gray-700">
-                  Discipline starts with control over attention.
+                  Discipline begins with realism.
 
-                  If the senses control me,
-                  I am reactive.
+                  We should not assume that understanding alone
+                  will automatically control the mind.
 
-                  If I can manage the senses,
-                  I become steady.
+                  The senses have momentum.
 
-                  This steadiness is the foundation
-                  for all further growth.
+                  Practice is needed
+                  to prevent the mind from being carried away.
+
+                  This verse explains why sādhana matters.
                 </p>
               </section>
 
@@ -113,19 +111,19 @@ export default function Lesson() {
                 <h3 className="font-medium text-lg">Reflection</h3>
 
                 <p className="text-gray-700">
-                  What pulls my attention most strongly?
+                  In what situations do my senses pull my mind most strongly?
 
-                  Do I have the ability
-                  to step back when needed?
+                  Where do I need more alertness,
+                  not just good intention?
                 </p>
               </section>
 
             </main>
           </div>
-          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-1-2-58" />
+          <GitaLessonNav sectionKey="discipline" lessonSlug="lesson-2-2-60" />
         </div>
         <aside className="lg:sticky lg:top-6 lg:self-start">
-          <GitaSectionToc sectionKey="discipline" currentLessonSlug="lesson-1-2-58" />
+          <GitaSectionToc sectionKey="discipline" currentLessonSlug="lesson-2-2-60" />
         </aside>
       </div>
     </div>
