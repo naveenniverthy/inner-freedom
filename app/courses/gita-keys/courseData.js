@@ -86,7 +86,20 @@ export const sections = [
       { slug: "lesson-5-2-67", title: "Lack of discipline leads to loss of clarity", verse: "2.67" },
       { slug: "lesson-6-3-6-7", title: "The mind can be your friend or enemy", verse: "3.6–7" },
       { slug: "lesson-7-4-27-30", title: "Different forms of disciplined living", verse: "4.27–30" },
-      { slug: "lesson-8-5-11", title: "Discipline through selfless action", verse: "5.11" }
+      { slug: "lesson-8-5-11", title: "Discipline through selfless action", verse: "5.11" },
+      { slug: "lesson-9-6-5", title: "The mind can be your friend or enemy", verse: "6.5" },
+      { slug: "lesson-10-6-10-17", title: "A structured life supports a steady mind", verse: "6.10–17" },
+      { slug: "lesson-11-6-18-19", title: "A steady mind in meditation", verse: "6.18–19" },
+      { slug: "lesson-12-6-24-28", title: "Training the mind step by step", verse: "6.24–28" },
+      { slug: "lesson-13-6-35", title: "The mind can be trained", verse: "6.35" },
+      { slug: "lesson-14-6-46", title: "The disciplined life is the highest", verse: "6.46" },
+      { slug: "lesson-15-8-8-10", title: "Steady focus shapes the mind", verse: "8.8–10" },
+      { slug: "lesson-16-12-8-12", title: "A practical ladder of discipline", verse: "12.8–12" },
+      { slug: "lesson-17-14-6", title: "Discipline begins with clarity", verse: "14.6" },
+      { slug: "lesson-18-17-14-17", title: "Discipline of body, speech, and mind", verse: "17.14–17" },
+      { slug: "lesson-19-17-26-28", title: "Consistency gives value to action", verse: "17.26–28" },
+      { slug: "lesson-20-18-51-53", title: "The culmination of discipline", verse: "18.51–53" },
+      { slug: "lesson-21-summary", title: "Training the mind for clarity", verse: "Summary" }
     ]
   }
 ];
