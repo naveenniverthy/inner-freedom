@@ -68,24 +68,28 @@ export default function GuidedPathPage() {
           </Link>
         </section>
 
-        <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
-          <Link href="/courses/gita-keys/clarity/lesson-1-2-11">
-            <div className="border rounded-2xl p-5 hover:shadow-md transition cursor-pointer bg-white space-y-2">
-              <h3 className="text-lg font-semibold">
+        <Link href="/courses/gita-keys" className="block">
+          <section className="rounded-[2rem] border border-neutral-200 bg-white p-6 md:p-8 transition hover:border-neutral-300">
+            <div className="rounded-[1.75rem] bg-neutral-50 px-6 py-8 md:px-8 md:py-10">
+              <p className="mb-4 text-xs font-medium uppercase tracking-[0.28em] text-neutral-500">
+                Guided study through the five keys
+              </p>
+
+              <h3 className="text-3xl font-semibold tracking-tight text-neutral-900 md:text-4xl">
                 Bhagavad Gita — Five Keys
               </h3>
 
-              <p className="text-sm text-gray-600">
-                Study the Bhagavad Gita through the lens of the Five Keys —
-                Clarity, Responsibility, Discipline, Offering, and Acceptance.
+              <p className="mt-5 max-w-4xl text-lg leading-9 text-neutral-700">
+                Study the Bhagavad Gita through the lens of Clarity, Responsibility,
+                Discipline, Offering, and Acceptance.
               </p>
 
-              <p className="text-sm text-gray-500">
+              <p className="mt-4 max-w-4xl text-lg leading-9 text-neutral-600">
                 Begin with Clarity — understanding the Self.
               </p>
             </div>
-          </Link>
-        </section>
+          </section>
+        </Link>
       </div>
     </main>
   );

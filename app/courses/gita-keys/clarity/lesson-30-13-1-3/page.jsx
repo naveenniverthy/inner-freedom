@@ -1,6 +1,14 @@
+import GitaLessonNav from "../../GitaLessonNav";
+import GitaSectionToc from "../../GitaSectionToc";
+
 export default function Lesson() {
   return (
-    <main className="max-w-3xl mx-auto px-4 py-10 space-y-8">
+    <div className="min-h-screen bg-stone-50 px-4 py-8 text-stone-800 sm:px-6 lg:px-8">
+      <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
+        <div className="min-w-0 space-y-6">
+          <GitaLessonNav sectionKey="clarity" lessonSlug="lesson-30-13-1-3" />
+          <div className="rounded-2xl bg-white shadow-sm ring-1 ring-stone-200">
+            <main className="max-w-3xl mx-auto px-4 py-10 space-y-8">
 
       <h1 className="text-2xl font-semibold">
         Clarity — Lesson 30
@@ -143,6 +151,14 @@ export default function Lesson() {
         </p>
       </section>
 
-    </main>
+            </main>
+          </div>
+          <GitaLessonNav sectionKey="clarity" lessonSlug="lesson-30-13-1-3" />
+        </div>
+        <aside className="lg:sticky lg:top-6 lg:self-start">
+          <GitaSectionToc sectionKey="clarity" currentLessonSlug="lesson-30-13-1-3" />
+        </aside>
+      </div>
+    </div>
   );
 }
