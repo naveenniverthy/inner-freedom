@@ -101,6 +101,51 @@ export const sections = [
       { slug: "lesson-20-18-51-53", title: "The culmination of discipline", verse: "18.51–53" },
       { slug: "lesson-21-summary", title: "Training the mind for clarity", verse: "Summary" }
     ]
+  },
+  {
+    key: "offering",
+    title: "Offering",
+    subtitle: "Īśvara Arpaṇa Buddhi",
+    lessons: [
+      { slug: "lesson-1-3-9", title: "Action as offering", verse: "3.9" },
+      { slug: "lesson-2-3-30", title: "Surrender the burden of doership", verse: "3.30" },
+      { slug: "lesson-3-4-18", title: "Seeing action correctly", verse: "4.18" },
+      { slug: "lesson-4-4-23-24", title: "Total vision of offering", verse: "4.23–24" },
+      { slug: "lesson-5-5-10", title: "Acting without being affected", verse: "5.10" },
+      { slug: "lesson-6-7-19", title: "After many actions, clarity arises", verse: "7.19" },
+      { slug: "lesson-7-9-27-28", title: "Offer everything", verse: "9.27–28" },
+      { slug: "lesson-8-9-34", title: "Keep the mind aligned", verse: "9.34" },
+      { slug: "lesson-9-11-55", title: "Live a life of offering", verse: "11.55" },
+      { slug: "lesson-10-12-6-7", title: "Offering leads to support from the total", verse: "12.6–7" },
+      { slug: "lesson-11-12-10", title: "Start with action if the mind is not steady", verse: "12.10" },
+      { slug: "lesson-12-18-46", title: "Work itself becomes worship", verse: "18.46" },
+      { slug: "lesson-13-18-56", title: "Acting while remaining free", verse: "18.56" },
+      { slug: "lesson-14-18-57", title: "Mentally offering all actions", verse: "18.57" },
+      { slug: "lesson-15-18-65", title: "A life centered in offering", verse: "18.65" },
+      { slug: "lesson-16-18-66", title: "Let go into the total", verse: "18.66" },
+      { slug: "lesson-17-summary", title: "Living with the attitude of offering", verse: "Summary" }
+    ]
+  },
+  {
+    key: "acceptance",
+    title: "Acceptance",
+    subtitle: "Īśvara Prasāda Buddhi",
+    lessons: [
+      { slug: "lesson-1-2-14", title: "Learn to endure life’s changes", verse: "2.14" },
+      { slug: "lesson-2-2-15", title: "Freedom from disturbance", verse: "2.15" },
+      { slug: "lesson-3-2-38", title: "Stay balanced in outcomes", verse: "2.38" },
+      { slug: "lesson-4-2-48", title: "Yoga is balance in action", verse: "2.48" },
+      { slug: "lesson-5-2-57", title: "Not getting attached to outcomes", verse: "2.57" },
+      { slug: "lesson-6-2-64", title: "Moving freely without disturbance", verse: "2.64" },
+      { slug: "lesson-7-2-65", title: "Calmness leads to clarity", verse: "2.65" },
+      { slug: "lesson-8-2-70", title: "Inner fullness and peace", verse: "2.70" },
+      { slug: "lesson-9-4-22", title: "Trust in the order of life", verse: "4.22" },
+      { slug: "lesson-10-12-13-14", title: "A peaceful person accepts all", verse: "12.13–14" },
+      { slug: "lesson-11-12-15", title: "Neither disturbing nor disturbed", verse: "12.15" },
+      { slug: "lesson-12-12-18-19", title: "Equal in all situations", verse: "12.18–19" },
+      { slug: "lesson-13-18-54", title: "Inner peace and clarity", verse: "18.54" },
+      { slug: "lesson-14-summary", title: "Receiving life as prasāda", verse: "Summary" }
+    ]
   }
 ];
 

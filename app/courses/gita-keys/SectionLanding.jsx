@@ -7,7 +7,11 @@ const intros = {
   responsibility:
     "Responsibility gathers the Gita’s teachings on dharma, right action, role, obligation, leadership, and alignment with life’s order.",
   discipline:
-    "Discipline gathers the Gita’s teachings on sense mastery, steadiness, meditation, practice, and training the mind."
+    "Discipline gathers the Gita’s teachings on sense mastery, steadiness, meditation, practice, and training the mind.",
+  offering:
+    "Offering gathers the Gita’s teachings on Īśvara Arpaṇa Buddhi — acting with humility, surrendering doership, and transforming daily life into worship.",
+  acceptance:
+    "Acceptance gathers the Gita’s teachings on Īśvara Prasāda Buddhi — receiving results with balance, trust, and emotional maturity."
 };
 
 export default function SectionLanding({ sectionKey }) {

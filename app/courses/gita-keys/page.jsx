@@ -11,7 +11,11 @@ const descriptions = {
   responsibility:
     "Study dharma, right action, role, obligation, leadership, and alignment with life’s order.",
   discipline:
-    "Begin training the mind through sense mastery, steadiness, meditation, and practice."
+    "Begin training the mind through sense mastery, steadiness, meditation, and practice.",
+  offering:
+    "Learn to act with a sacred attitude, offering work lightly instead of carrying it as a burden.",
+  acceptance:
+    "Learn to receive changing results with steadiness, resilience, and trust in the larger order of life."
 };
 
 export default function GitaKeysPage() {
