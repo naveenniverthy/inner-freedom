@@ -47,6 +47,7 @@ export default function Lesson() {
                   <li>Reduce the sense of doership</li>
                   <li>Let go of attachment to results</li>
                   <li>Align the mind with the highest</li>
+                  <li>Trust the yoga-kṣema of the total order</li>
                   <li>See action as part of a larger order</li>
                   <li>Bring this attitude into all aspects of life</li>
                 </ul>

@@ -3,15 +3,15 @@ import { getSection } from "./courseData";
 
 const intros = {
   clarity:
-    "Clarity gathers the Gita’s teachings on the Self, the nature of reality, non-doership, and the vision of oneness.",
+    "Clarity gathers the Gita’s teachings on the Self, the nature of reality, non-doership, and the steady wisdom that dissolves confusion.",
   responsibility:
-    "Responsibility gathers the Gita’s teachings on dharma, right action, role, obligation, leadership, and alignment with life’s order.",
+    "Responsibility gathers the Gita’s teachings on dharma, right action, role, obligation, leadership, and acting fully without depending on results for inner balance.",
   discipline:
-    "Discipline gathers the Gita’s teachings on sense mastery, steadiness, meditation, practice, and training the mind.",
+    "Discipline gathers the Gita’s teachings on sense mastery, steadiness, meditation, repetition, and practical ways to train the mind.",
   offering:
-    "Offering gathers the Gita’s teachings on Īśvara Arpaṇa Buddhi — acting with humility, surrendering doership, and transforming daily life into worship.",
+    "Offering gathers the Gita’s teachings on Īśvara Arpaṇa Buddhi — offering action before doing it, surrendering doership, and transforming daily life into worship.",
   acceptance:
-    "Acceptance gathers the Gita’s teachings on Īśvara Prasāda Buddhi — receiving results with balance, trust, and emotional maturity."
+    "Acceptance gathers the Gita’s teachings on Īśvara Prasāda Buddhi — receiving results with balance, trust, devotion, and emotional maturity."
 };
 
 export default function SectionLanding({ sectionKey }) {

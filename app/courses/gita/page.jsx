@@ -164,7 +164,7 @@ export default function GitaCoursePage() {
 
         <section className="pt-2">
           <Link
-            href="/courses/gita-keys/discipline/lesson-1-2-58"
+            href="/courses/gita-keys/clarity/lesson-1-2-11"
             className="inline-flex w-full items-center justify-center rounded-[1.25rem] bg-stone-900 px-6 py-4 text-center text-sm font-medium text-stone-50 transition hover:bg-stone-800"
           >
             Start the Course

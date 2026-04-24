@@ -123,6 +123,7 @@ export const sections = [
       { slug: "lesson-14-18-57", title: "Mentally offering all actions", verse: "18.57" },
       { slug: "lesson-15-18-65", title: "A life centered in offering", verse: "18.65" },
       { slug: "lesson-16-18-66", title: "Let go into the total", verse: "18.66" },
+      { slug: "lesson-17-9-22", title: "Trust in yoga-kṣema", verse: "9.22" },
       { slug: "lesson-17-summary", title: "Living with the attitude of offering", verse: "Summary" }
     ]
   },
@@ -144,6 +145,7 @@ export const sections = [
       { slug: "lesson-11-12-15", title: "Neither disturbing nor disturbed", verse: "12.15" },
       { slug: "lesson-12-12-18-19", title: "Equal in all situations", verse: "12.18–19" },
       { slug: "lesson-13-18-54", title: "Inner peace and clarity", verse: "18.54" },
+      { slug: "lesson-14-12-20", title: "Living the dharma of devotion", verse: "12.20" },
       { slug: "lesson-14-summary", title: "Receiving life as prasāda", verse: "Summary" }
     ]
   }

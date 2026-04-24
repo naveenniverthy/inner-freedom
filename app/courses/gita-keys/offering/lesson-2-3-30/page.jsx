@@ -68,11 +68,15 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Teaching</h3>
 
-                <p className="text-gray-700">
-                  Krishna now deepens the spirit of offering.
+        <p className="text-gray-700">
+          Krishna now deepens the spirit of offering.
 
-                  It is not only:
-                  “Let me do this action well.”
+          The offering is not only after the action.
+
+          It begins before the action.
+
+          It is not only:
+          “Let me do this action well.”
 
                   It becomes:
                   “Let me hand over this entire action.”
@@ -95,14 +99,17 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Connection to Offering</h3>
 
-                <p className="text-gray-700">
-                  Offering means I do not carry everything psychologically.
+        <p className="text-gray-700">
+          Offering means I do not carry everything psychologically.
 
-                  I still act fully.
-                  I still do my duty.
+          I still act fully.
+          I still do my duty.
 
-                  But I stop acting with the pressure of:
-                  “This is all on me.”
+          Before acting,
+          I consciously offer the action to Ishvara.
+
+          But I stop acting with the pressure of:
+          “This is all on me.”
 
                   The action is offered.
                   The ego relaxes.

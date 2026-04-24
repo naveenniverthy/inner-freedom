@@ -7,15 +7,15 @@ export const metadata = {
 
 const descriptions = {
   clarity:
-    "Study the Self, reality, non-doership, and the vision of oneness through a complete Clarity sequence.",
+    "Begin with the Self, reality, non-doership, and the steady wisdom that resolves confusion at its root.",
   responsibility:
-    "Study dharma, right action, role, obligation, leadership, and alignment with life’s order.",
+    "Move into dharma: right action, one’s role, obligation, leadership, and doing what is right without leaning on results for inner stability.",
   discipline:
-    "Begin training the mind through sense mastery, steadiness, meditation, and practice.",
+    "Train the mind through sense mastery, repetition, meditation, and the practical steadiness needed for clear living.",
   offering:
-    "Learn to act with a sacred attitude, offering work lightly instead of carrying it as a burden.",
+    "Learn Īśvara Arpaṇa Buddhi: offer action before doing it, lighten doership, and let everyday work become worship.",
   acceptance:
-    "Learn to receive changing results with steadiness, resilience, and trust in the larger order of life."
+    "Learn Īśvara Prasāda Buddhi: receive results with steadiness, trust in the larger order, and growing emotional maturity."
 };
 
 export default function GitaKeysPage() {

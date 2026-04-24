@@ -42,13 +42,13 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Meaning</h3>
 
-                <p className="text-gray-700">
-                  Even while performing all actions,
-                  one who is aligned and takes refuge in the higher—
+        <p className="text-gray-700">
+          Even while performing all actions,
+          one who is aligned and takes refuge in the higher—
 
-                  through this attitude,
-                  gains freedom and inner stability.
-                </p>
+          by the grace of that alignment,
+          reaches the lasting and changeless state.
+        </p>
               </section>
 
               {/* Key Words */}
@@ -67,8 +67,8 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Teaching</h3>
 
-                <p className="text-gray-700">
-                  Krishna gives an important clarity.
+        <p className="text-gray-700">
+          Krishna gives an important clarity.
 
                   Freedom does not require stopping action.
 
@@ -76,14 +76,25 @@ export default function Lesson() {
 
                   The difference is inner alignment.
 
-                  When actions are done with the attitude of offering
-                  and with trust in the order of life,
+          When actions are done with the attitude of offering
+          and with trust in the order of life,
 
-                  the person remains inwardly free.
+          the person remains inwardly free.
 
-                  Life continues,
-                  but the burden drops.
-                </p>
+          Life continues,
+          but the burden drops.
+
+          The verse also adds
+          mat-prasādāt —
+          by grace.
+
+          Freedom is not produced by ego alone.
+
+          It is recognized in a mind made ready
+          through right living,
+          offering,
+          and grace.
+        </p>
               </section>
 
               {/* Connection */}

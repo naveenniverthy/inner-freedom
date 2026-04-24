@@ -44,7 +44,7 @@ export default function Lesson() {
 
         <p className="text-gray-700">
           You have a choice over action alone, never over the results.
-          Do not take yourself to be the cause of the results,
+          Do not take yourself to be the sole cause of the results,
           and do not fall into inaction.
         </p>
       </section>
@@ -82,7 +82,17 @@ export default function Lesson() {
           Krishna says:
           focus on right action.
 
-          Do not tie your identity or happiness to the result.
+          This does not mean
+          “results do not matter.”
+
+          Results matter,
+          because action should be thoughtful and responsible.
+
+          The teaching is:
+          do not depend on the result
+          for your inner stability.
+
+          Do not tie your identity or peace to the outcome.
 
           And do not avoid action out of fear of failure.
         </p>
@@ -99,7 +109,9 @@ export default function Lesson() {
 
           When I understand my role correctly,
           I act with commitment,
-          but without anxiety about results.
+          care,
+          and preparation,
+          but without making the result the basis of my worth.
 
           This is the foundation of karma yoga.
         </p>

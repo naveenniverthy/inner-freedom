@@ -42,11 +42,11 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Meaning</h3>
 
-                <p className="text-gray-700">
-                  Let go of all notions of control and take refuge
-                  in the total order.
+        <p className="text-gray-700">
+          Give up every mistaken dependence and take refuge
+          in Me alone, the total order.
 
-                  You will be freed from inner burden.
+          You will be freed from inner burden.
 
                   Do not worry.
                 </p>
@@ -68,8 +68,8 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Teaching</h3>
 
-                <p className="text-gray-700">
-                  Krishna concludes the teaching of offering.
+        <p className="text-gray-700">
+          Krishna concludes the teaching of offering.
 
                   After understanding,
                   after discipline,
@@ -77,8 +77,17 @@ export default function Lesson() {
 
                   the final step is letting go of the inner burden.
 
-                  Not withdrawal from life,
-                  but release of the sense of control.
+          This is not passivity.
+
+          It is not permission to avoid dharma.
+
+          Arjuna is not told to stop acting.
+
+          He is taught to do his duty,
+          and then give up the egoic burden and fear around it.
+
+          So surrender is not withdrawal from life,
+          but release of the false sense of isolated control.
 
                   The need to manage everything,
                   fix everything,
@@ -96,14 +105,17 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Connection to Offering</h3>
 
-                <p className="text-gray-700">
-                  Offering reaches its peak here.
+        <p className="text-gray-700">
+          Offering reaches its peak here.
 
-                  From:
-                  “I offer my action”
+          From:
+          “I offer my action”
 
-                  To:
-                  “I let go of the burden entirely.”
+          To:
+          “I let go of the burden entirely.”
+
+          After doing what is to be done,
+          the heart rests in trust.
 
                   This is inner freedom in action.
 

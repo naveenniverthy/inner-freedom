@@ -69,8 +69,8 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Teaching</h3>
 
-                <p className="text-gray-700">
-                  Krishna defines yoga in a simple way.
+        <p className="text-gray-700">
+          Krishna defines yoga in a simple way.
 
                   It is not only meditation.
 
@@ -82,22 +82,33 @@ export default function Lesson() {
                   If the mind depends on results,
                   it becomes unstable.
 
-                  If the mind remains balanced,
-                  action becomes free.
+          If the mind remains balanced,
+          action becomes free.
 
-                  This balance is inner strength.
-                </p>
+          This balance is inner strength.
+
+          In karma yoga,
+          this is also the spirit of prasāda buddhi:
+          success and failure are received with steadiness,
+          not because they are the same externally,
+          but because the mind does not collapse or inflate with either one.
+        </p>
               </section>
 
               {/* Connection */}
               <section>
                 <h3 className="font-medium text-lg">Connection to Acceptance</h3>
 
-                <p className="text-gray-700">
-                  Acceptance creates this balance.
+        <p className="text-gray-700">
+          Acceptance creates this balance.
 
-                  It allows us to act fully,
-                  without being shaken by results.
+          It allows us to act fully,
+          and then receive the outcome as prasāda —
+          a result coming through the order of life.
+
+          In that spirit,
+          success does not make me arrogant,
+          and failure does not break me.
 
                   This is the practical meaning of yoga.
                 </p>

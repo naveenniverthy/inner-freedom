@@ -79,22 +79,24 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Teaching</h3>
 
-                <p className="text-gray-700">
-                  Krishna now makes offering complete.
+        <p className="text-gray-700">
+          Krishna now makes offering complete.
 
                   Not just selected actions.
 
                   Everything.
 
-                  Eating,
-                  working,
-                  giving,
-                  practicing,
-                  daily life itself.
+          Eating,
+          working,
+          giving,
+          practicing,
+          daily life itself.
 
-                  When everything becomes an offering,
-                  there is no division between
-                  “spiritual” and “ordinary.”
+          The action is offered before it is done.
+
+          When everything becomes an offering,
+          there is no division between
+          “spiritual” and “ordinary.”
 
                   Life becomes one continuous flow of offering.
                 </p>
@@ -104,14 +106,17 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Connection to Offering</h3>
 
-                <p className="text-gray-700">
-                  Offering becomes a way of living.
+        <p className="text-gray-700">
+          Offering becomes a way of living.
 
-                  Not an occasional practice,
-                  but a continuous attitude.
+          Not an occasional practice,
+          but a continuous attitude.
 
-                  This removes the burden of results
-                  and brings freedom in action.
+          The mind learns to begin action with surrender,
+          instead of beginning action with anxiety.
+
+          This removes the burden of results
+          and brings freedom in action.
 
                   Every moment becomes meaningful.
                 </p>

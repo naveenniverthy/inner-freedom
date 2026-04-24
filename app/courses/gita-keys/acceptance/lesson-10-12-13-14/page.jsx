@@ -78,11 +78,17 @@ export default function Lesson() {
               <section>
                 <h3 className="font-medium text-lg">Teaching</h3>
 
-                <p className="text-gray-700">
-                  Krishna now describes the natural result of acceptance.
+        <p className="text-gray-700">
+          Krishna now describes the natural result of acceptance.
 
-                  When a person accepts life,
-                  negativity reduces.
+          These verses also show bhakti in a mature form.
+
+          Devotion is not only prayer or emotion.
+
+          It is emotional maturity expressed in life.
+
+          When a person accepts life,
+          negativity reduces.
 
                   Comparison reduces.
                   Ego reduces.
@@ -93,25 +99,32 @@ export default function Lesson() {
                   compassion,
                   and calmness.
 
-                  This is not forced behavior.
+          This is not forced behavior.
 
-                  It is the natural outcome
-                  of a settled mind.
-                </p>
+          It is the natural outcome
+          of a settled and devoted mind.
+        </p>
               </section>
 
               {/* Connection */}
               <section>
                 <h3 className="font-medium text-lg">Connection to Acceptance</h3>
 
-                <p className="text-gray-700">
-                  Acceptance transforms relationships.
+        <p className="text-gray-700">
+          Acceptance transforms relationships.
 
-                  When we are not reacting constantly,
-                  we relate more openly and calmly.
+          When we are not reacting constantly,
+          we relate more openly and calmly.
 
-                  This creates harmony in life.
-                </p>
+          Bhakti supports this.
+
+          When the heart is aligned with Ishvara,
+          it becomes easier to live with compassion,
+          forgiveness,
+          and contentment.
+
+          This creates harmony in life.
+        </p>
               </section>
 
               {/* Reflection */}

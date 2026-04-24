@@ -52,6 +52,7 @@ export default function Lesson() {
                   <li>Reduce strong likes and dislikes</li>
                   <li>Accept results as they come</li>
                   <li>Trust the order of life</li>
+                  <li>Let devotion mature into emotional steadiness</li>
                   <li>Let go of regret and craving</li>
                 </ul>
               </section>
