@@ -143,9 +143,9 @@ export default function Page() {
             Go Deeper
           </p>
           <p className="mt-4 max-w-2xl text-base leading-8 text-stone-600">
-            Begin with Inquiry into the Self. Then continue with Foundations
-            of Self-Knowledge for a clearer understanding. The 20 Values for
-            Inner Growth supports this journey as a preparatory study.
+            If the Five Keys give the map, the Bhagavad Gita shows the full
+            teaching in motion - clarity, responsibility, discipline,
+            offering, and acceptance lived together.
           </p>
           <div className="mt-4 space-y-3">
             {courseLinks.map((course) => (
@@ -170,7 +170,7 @@ export default function Page() {
                   </p>
                 </div>
                 <span className="pt-1 text-sm font-medium text-stone-600">
-                  Open
+                  {course.ctaLabel ?? "Open"}
                 </span>
               </Link>
             ))}
