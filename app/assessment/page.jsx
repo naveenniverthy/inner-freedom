@@ -1,25 +1,11 @@
-import AssessmentExperience from "@/components/AssessmentExperience";
-import { createServerSupabaseClient } from "@/lib/supabase/server";
+import AssessmentClient from "./AssessmentClient";
 
 export const metadata = {
-  title: "Find Your Next Step",
+  title: "Inner Direction Assessment | Moksha",
   description:
-    "Answer a few reflective questions to find a useful next step in the Five Keys."
+    "A quiet self-reflection assessment to understand your current inner state, aspiration, and next step through the Five Keys to Inner Freedom."
 };
 
-export default async function AssessmentPage() {
-  const supabase = await createServerSupabaseClient();
-
-  const {
-    data: { user }
-  } = await supabase.auth.getUser();
-
-  const { data: latestInsight } = await supabase
-    .from("daily_insights")
-    .select("*")
-    .order("created_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-
-  return <AssessmentExperience user={user} latestInsight={latestInsight} />;
+export default function AssessmentPage() {
+  return <AssessmentClient />;
 }

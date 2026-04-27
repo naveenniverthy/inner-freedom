@@ -102,6 +102,26 @@ export default function Page() {
           </p>
         </section>
 
+        <section className="rounded-[2rem] border border-stone-200 bg-stone-50/70 px-8 py-8 shadow-sm sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Inner reflection
+          </p>
+          <h2 className="mt-3 text-2xl font-semibold text-stone-900">
+            Not sure where to begin?
+          </h2>
+          <p className="mt-3 max-w-2xl text-base leading-8 text-stone-600">
+            If you feel unsure about your current stage or direction, this
+            quiet reflection can help you understand where you are now and what
+            your next step may be.
+          </p>
+          <Link
+            href="/assessment"
+            className="mt-6 inline-flex items-center justify-center rounded-full border border-stone-300 bg-white/70 px-5 py-3 text-sm font-medium text-stone-700 transition hover:bg-white"
+          >
+            Understand Your Current State
+          </Link>
+        </section>
+
         <section
           id="five-keys"
           className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10"

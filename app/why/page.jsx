@@ -60,6 +60,34 @@ export default function Page() {
           </div>
         </section>
 
+        <section className="rounded-[2rem] border border-amber-200/50 bg-amber-50/40 px-8 py-8 shadow-sm ring-1 ring-stone-200/60 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Optional reflection
+          </p>
+          <h2 className="mt-3 text-2xl font-semibold text-stone-900">
+            If you are unsure where you are
+          </h2>
+          <p className="mt-3 text-base leading-8 text-stone-600 sm:text-lg">
+            You do not need to know your exact path before beginning. The
+            assessment can help you see your current state, your main
+            aspiration, and the Key that may support you next.
+          </p>
+          <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Link
+              href="/assessment"
+              className="inline-flex items-center justify-center rounded-full bg-stone-900 px-5 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
+            >
+              Understand Your Current State
+            </Link>
+            <Link
+              href="/five-keys"
+              className="text-sm font-medium text-stone-700 underline-offset-4 transition hover:text-stone-900 hover:underline"
+            >
+              Or continue exploring the Five Keys
+            </Link>
+          </div>
+        </section>
+
         <section className="rounded-[2rem] bg-white px-8 py-10 shadow-sm ring-1 ring-stone-200 sm:px-10">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
             What Is This Feeling?
