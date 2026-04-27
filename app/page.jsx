@@ -192,6 +192,24 @@ export default function Page() {
             </Link>
           </div>
         </section>
+
+        <section className="rounded-[1.5rem] border border-stone-200 bg-white/70 px-6 py-6 shadow-sm sm:px-8">
+          <p className="text-sm font-medium text-stone-700">
+            Looking for a structured path?
+          </p>
+          <p className="mt-3 text-sm leading-7 text-stone-600">
+            Moksha Keys presents a direct and practical framework for inner
+            freedom. Still, some seekers may also want the support of an
+            institution, ashram, or spiritual community. This optional
+            assessment can help you explore possible starting points.
+          </p>
+          <Link
+            href="/spiritual-fit"
+            className="mt-4 inline-flex items-center justify-center rounded-full border border-stone-300 bg-white px-5 py-2.5 text-sm font-medium text-stone-700 transition hover:bg-stone-50"
+          >
+            Explore Spiritual Fit
+          </Link>
+        </section>
       </div>
     </main>
   );

@@ -9,6 +9,7 @@ const courseLinks = [
 const exploreLinks = [
   { href: "/five-keys", label: "Five Keys" },
   { href: "/guided-path", label: "Guided Path" },
+  { href: "/spiritual-fit", label: "Spiritual Fit Assessment" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
