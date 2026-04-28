@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Responsibility",
+  title: "Responsibility and Dharma | Living with Clarity",
   description:
-    "Explore responsibility as clear action, honest effort, and release of what is not in your hands."
+    "Understand responsibility as dharma: living wisely, doing what is to be done, and preparing the mind for freedom."
 };
 
 export default function Page() {
@@ -35,6 +35,15 @@ export default function Page() {
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
             <span className="font-medium text-stone-900">In one line:</span> Do
             what is yours, release the rest.
+          </p>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            Responsibility is dharma lived in daily life. It helps us act
+            wisely, reduce inner conflict, and prepare the mind for
+            self-knowledge. In this way, responsibility becomes part of the
+            path to freedom.
           </p>
         </section>
 

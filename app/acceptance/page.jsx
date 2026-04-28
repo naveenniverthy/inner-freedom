@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Acceptance",
+  title: "Acceptance and Prasada Buddhi | Freedom in Daily Life",
   description:
-    "Learn Ishvara Prasada Buddhi, the attitude of receiving results as coming through the total order of life."
+    "Learn how acceptance in Vedanta means receiving life's results with maturity, steadiness, and trust in the total order."
 };
 
 export default function Page() {
@@ -34,6 +34,14 @@ export default function Page() {
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
             <span className="font-medium text-stone-900">In one line:</span>{" "}
             Stop arguing with what has already happened.
+          </p>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            Acceptance is not passive resignation. It is the maturity to
+            receive life&apos;s results with steadiness. This is called prasada
+            buddhi in the Bhagavad Gita.
           </p>
         </section>
 
@@ -191,16 +199,16 @@ export default function Page() {
           </div>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/ishvara-arpana-buddhi"
+              href="/discipline"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Back to Offering
+              Back to Discipline
             </Link>
             <Link
-              href="/five-keys"
+              href="/ishvara-arpana-buddhi"
               className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
-              Return to Five Keys
+              Continue to Offering
             </Link>
           </div>
         </section>

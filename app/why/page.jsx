@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Why Do I Feel Something Is Missing?",
+  title: "Start Here | A Simple Path to Inner Freedom",
   description:
-    "Explore why a quiet sense of incompleteness can remain even when life seems fine, and how Vedanta approaches that question."
+    "Begin your journey toward inner freedom through the Five Keys of Moksha: clarity, responsibility, discipline, acceptance, and offering."
 };
 
 export default function Page() {
@@ -39,6 +39,28 @@ export default function Page() {
             <p className="font-medium text-stone-900">
               &ldquo;Something is still not right.&rdquo;
             </p>
+          </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            This is a simple starting point for the path to inner freedom. In
+            Vedanta, the search begins when we notice that outer success does
+            not fully answer the deeper question of who we are.
+          </p>
+          <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <Link
+              href="/five-keys"
+              className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
+            >
+              Explore the Five Keys
+            </Link>
+            <Link
+              href="/what-is-freedom"
+              className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
+            >
+              What is Freedom?
+            </Link>
           </div>
         </section>
 

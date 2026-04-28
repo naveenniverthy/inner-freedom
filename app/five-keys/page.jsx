@@ -2,9 +2,9 @@ import Link from "next/link";
 import { fiveKeys, fiveKeyHrefByTitle } from "@/lib/fiveKeys";
 
 export const metadata = {
-  title: "Five Keys",
+  title: "The Five Keys to Inner Freedom | Path of Moksha",
   description:
-    "Explore the five key themes that shape the path of inner freedom: clarity, responsibility, discipline, acceptance, and offering."
+    "Explore the Five Keys to inner freedom: clarity, responsibility, discipline, acceptance, and offering."
 };
 
 export default function Page() {
@@ -29,6 +29,14 @@ export default function Page() {
             The five keys are not rules to perform perfectly. They are five
             steady reminders for how to understand yourself and meet life more
             wisely.
+          </p>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            The path of Moksha is a path of understanding. These Five Keys
+            bring Vedanta into daily life by helping the mind become clear,
+            steady, and available for self-knowledge.
           </p>
         </section>
 

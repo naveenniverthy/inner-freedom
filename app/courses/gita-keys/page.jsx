@@ -2,7 +2,9 @@ import Link from "next/link";
 import { courseTitle, sections } from "./courseData";
 
 export const metadata = {
-  title: "Bhagavad Gita — Five Keys | Moksha"
+  title: "Bhagavad Gita Course | Five Keys to Inner Freedom",
+  description:
+    "Study selected Bhagavad Gita verses through the Five Keys of Moksha: clarity, responsibility, discipline, acceptance, and offering."
 };
 
 const descriptions = {
@@ -37,12 +39,25 @@ export default function GitaKeysPage() {
             gathers verses around a living theme, so the Gita can be studied as
             a practical map for inner growth.
           </p>
+          <div className="mt-6 max-w-3xl rounded-[1.25rem] bg-stone-50 px-5 py-4 ring-1 ring-stone-200">
+            <p className="text-base leading-8 text-stone-600">
+              The Bhagavad Gita shows how inner freedom is lived in the middle
+              of action. This course uses the Five Keys to connect Vedanta,
+              dharma, karma yoga, and self-knowledge in a clear sequence.
+            </p>
+          </div>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
               href={firstLesson}
               className="rounded-xl bg-stone-900 px-5 py-3 text-sm font-medium text-white transition hover:bg-stone-700"
             >
               Start Course
+            </Link>
+            <Link
+              href="/five-keys"
+              className="rounded-xl bg-stone-100 px-5 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-200"
+            >
+              Back to Five Keys
             </Link>
             <Link
               href="/guided-path"

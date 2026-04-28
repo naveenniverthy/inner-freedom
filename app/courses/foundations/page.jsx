@@ -9,14 +9,14 @@ import {
 } from "./content";
 
 export const metadata = {
-  title: courseTitle,
+  title: "Foundations of Self-Knowledge | Vedanta",
   description: courseDescription,
   openGraph: {
-    title: courseTitle,
+    title: "Foundations of Self-Knowledge | Vedanta",
     description: courseDescription,
   },
   twitter: {
-    title: courseTitle,
+    title: "Foundations of Self-Knowledge | Vedanta",
     description: courseDescription,
   },
 };

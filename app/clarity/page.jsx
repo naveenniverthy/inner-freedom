@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Clarity",
+  title: "What is Clarity? | Self-Knowledge in Vedanta",
   description:
-    "Begin with clarity and inquire into the difference between awareness and what is known."
+    "Learn how clarity in Vedanta means understanding the Self beyond the body, mind, emotions, and changing life situations."
 };
 
 export default function Page() {
@@ -35,6 +35,15 @@ export default function Page() {
           <p className="mt-5 text-base leading-8 text-stone-700 sm:text-lg">
             <span className="font-medium text-stone-900">In one line:</span> You
             are the knower, not what is known.
+          </p>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            Clarity is the first step on the path to inner freedom. In Vedanta,
+            clarity means seeing the difference between the changing mind and
+            the unchanging Self. This understanding is the foundation of
+            Moksha.
           </p>
         </section>
 

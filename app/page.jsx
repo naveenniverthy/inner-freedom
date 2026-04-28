@@ -5,16 +5,16 @@ import { fiveKeys, fiveKeyHrefByTitle } from "@/lib/fiveKeys";
 import { getCourseLinks } from "./course-links";
 
 export const metadata = {
-  title: "Moksha Keys | Five Keys to Inner Freedom",
+  title: "Moksha | Five Keys to Inner Freedom",
   description:
-    "A simple framework for inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+    "A simple and structured path to inner freedom based on Vedanta, the Upanishads, and the Bhagavad Gita.",
   alternates: {
     canonical: "https://mokshakeys.com/"
   },
   openGraph: {
-    title: "Moksha Keys | Five Keys to Inner Freedom",
+    title: "Moksha | Five Keys to Inner Freedom",
     description:
-      "A simple framework for inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+      "A simple and structured path to inner freedom based on Vedanta, the Upanishads, and the Bhagavad Gita.",
     url: "https://mokshakeys.com/",
     images: [
       {
@@ -27,9 +27,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Moksha Keys | Five Keys to Inner Freedom",
+    title: "Moksha | Five Keys to Inner Freedom",
     description:
-      "A simple framework for inner freedom through five simple keys: clarity, responsibility, discipline, acceptance, and offering.",
+      "A simple and structured path to inner freedom based on Vedanta, the Upanishads, and the Bhagavad Gita.",
     images: ["/twitter-image"]
   }
 };
@@ -56,6 +56,13 @@ export default function Page() {
             steadier way to live and a deeper understanding of what freedom
             means.
           </p>
+          <div className="mx-auto mt-6 max-w-2xl rounded-[1.5rem] bg-stone-50 px-5 py-5 text-left ring-1 ring-stone-200">
+            <p className="text-base leading-8 text-stone-600">
+              Moksha means freedom from the basic confusion about who we are.
+              The Five Keys offer a simple path to inner freedom through
+              clarity, responsibility, discipline, acceptance, and offering.
+            </p>
+          </div>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-stone-500 sm:text-base">
             If life feels fine, but something still feels missing,{" "}
             <Link
@@ -78,16 +85,28 @@ export default function Page() {
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/clarity"
+              href="/start-here"
               className="inline-flex items-center justify-center rounded-full bg-stone-900 px-6 py-3 text-center text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Start with Clarity
+              Start Here
             </Link>
             <Link
               href="/five-keys"
               className="inline-flex items-center justify-center rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-center text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
               Explore the Five Keys
+            </Link>
+            <Link
+              href="/courses/gita"
+              className="inline-flex items-center justify-center rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-center text-sm font-medium text-stone-700 transition hover:bg-stone-100"
+            >
+              Bhagavad Gita Course
+            </Link>
+            <Link
+              href="/what-is-freedom"
+              className="inline-flex items-center justify-center rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-center text-sm font-medium text-stone-700 transition hover:bg-stone-100"
+            >
+              What is Freedom?
             </Link>
           </div>
         </section>

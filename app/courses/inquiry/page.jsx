@@ -9,14 +9,14 @@ import {
 } from "./content";
 
 export const metadata = {
-  title: courseTitle,
+  title: "Inquiry into the Self | Vedanta and Inner Freedom",
   description: courseDescription,
   openGraph: {
-    title: courseTitle,
+    title: "Inquiry into the Self | Vedanta and Inner Freedom",
     description: courseDescription,
   },
   twitter: {
-    title: courseTitle,
+    title: "Inquiry into the Self | Vedanta and Inner Freedom",
     description: courseDescription,
   },
 };

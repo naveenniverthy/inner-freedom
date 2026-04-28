@@ -10,14 +10,14 @@ import {
 } from "./content";
 
 export const metadata = {
-  title: courseTitle,
+  title: "Aparokshanubhuti | Advaita Vedanta and Self-Knowledge",
   description: courseDescription,
   openGraph: {
-    title: courseTitle,
+    title: "Aparokshanubhuti | Advaita Vedanta and Self-Knowledge",
     description: courseDescription,
   },
   twitter: {
-    title: courseTitle,
+    title: "Aparokshanubhuti | Advaita Vedanta and Self-Knowledge",
     description: courseDescription,
   },
 };

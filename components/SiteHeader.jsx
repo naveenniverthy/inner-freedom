@@ -9,6 +9,7 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/five-keys", label: "Five Keys" },
   { href: "/guided-path", label: "Guided Path" },
+  { href: "/blog", label: "Blog" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" }
 ];
@@ -48,7 +49,8 @@ export default function SiteHeader({ user }) {
               href={item.href}
               className={cn(
                 "rounded-full px-3 py-2 text-center leading-tight transition",
-                pathname === item.href
+                pathname === item.href ||
+                  (item.href !== "/" && pathname.startsWith(`${item.href}/`))
                   ? "bg-sage-700 text-sand-50"
                   : "bg-white/55 text-ink-900 hover:bg-white/80"
               )}

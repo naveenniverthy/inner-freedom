@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "What is Freedom?",
+  title: "What is Freedom? | Moksha and Inner Freedom",
   description:
-    "Understand freedom in Advaita Vedanta as recognition of the Self's wholeness, not as a future achievement."
+    "Understand freedom not as escape from life, but as inner clarity, peace, and self-knowledge taught in Vedanta."
 };
 
 export default function Page() {
@@ -27,6 +27,14 @@ export default function Page() {
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-600">
             Freedom is not somewhere else. It is what remains when dependence,
             confusion, and false identification begin to fall away.
+          </p>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            Moksha is inner freedom, not escape from ordinary life. Vedanta
+            teaches that freedom is found through self-knowledge: seeing that
+            the Self is not limited by changing experience.
           </p>
         </section>
 

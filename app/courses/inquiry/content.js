@@ -3,7 +3,7 @@ export const courseTitle = "Inquiry into the Self";
 export const courseSubtitle = "Start Here";
 
 export const courseDescription =
-  "Start here. A gentle and direct inquiry into your own experience.";
+  "Start here with a gentle Vedanta inquiry into the Self, awareness, and the search for inner freedom.";
 
 export const courseIntro = [
   "A gentle and direct inquiry into your own experience through ten lessons on desire, incompleteness, the knower, and the meaning of Self-knowledge.",

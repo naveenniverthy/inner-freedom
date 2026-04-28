@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Bhagavad Gita Course | Moksha",
+  title: "Bhagavad Gita Course | Five Keys to Inner Freedom",
   description:
-    "A simple, practical course on the Bhagavad Gita through the Five Keys: Clarity, Responsibility, Discipline, Offering, and Acceptance.",
+    "Study selected Bhagavad Gita verses through the Five Keys of Moksha: clarity, responsibility, discipline, acceptance, and offering.",
 };
 
 const transformationPoints = [
@@ -79,6 +79,20 @@ export default function GitaCoursePage() {
               steadily, and freely.
             </p>
           </div>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            This Bhagavad Gita course studies selected verses through the Five
+            Keys to inner freedom. It connects the teaching of karma yoga,
+            self-knowledge, and steady living with the path of Moksha.
+          </p>
+          <Link
+            href="/five-keys"
+            className="mt-5 inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
+          >
+            Back to the Five Keys
+          </Link>
         </section>
 
         <section className="rounded-[2rem] bg-stone-50 px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">

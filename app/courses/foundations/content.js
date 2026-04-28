@@ -2,7 +2,7 @@ export const course = {
   title: "Foundations of Self-Knowledge",
   subtitle: "A clear introduction to Vedanta",
   description:
-    "A step-by-step understanding of the human problem and the nature of freedom, based on traditional Vedanta.",
+    "A step-by-step introduction to Vedanta, Self-knowledge, and the nature of inner freedom.",
 };
 
 function slugify(title) {

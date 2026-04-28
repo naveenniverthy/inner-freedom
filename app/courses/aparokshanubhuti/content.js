@@ -1,7 +1,7 @@
 export const courseTitle = "Aparokshanubhuti — A 19 Lesson Journey";
 
 export const courseDescription =
-  "A clear unfolding of Self-knowledge in 19 lessons through the teaching of Aparokshanubhuti.";
+  "A clear Advaita Vedanta course on Aparokshanubhuti, Self-knowledge, and the direct recognition of inner freedom.";
 
 export const courseIntro = [
   "Aparokshanubhuti is a traditional Advaita Vedanta text that unfolds the direct knowledge of the Self. This course presents that teaching in a simple, step-by-step way.",

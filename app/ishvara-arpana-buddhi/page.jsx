@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Offering",
+  title: "Offering and Ishvara Arpana Buddhi | Karma Yoga in Practice",
   description:
-    "Learn Ishvara Arpana Buddhi, the attitude of offering action into the total order of life."
+    "Understand offering as acting with dedication, humility, and freedom from ego-centered anxiety."
 };
 
 export default function Page() {
@@ -36,6 +36,14 @@ export default function Page() {
             <span className="font-medium text-stone-900">In one line:</span>
             {" "}Act fully, offer the action, and release the burden of
             controlling the result.
+          </p>
+        </section>
+
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-base leading-8 text-stone-600 sm:text-lg">
+            Offering means doing what is to be done with dedication and
+            humility. In the Bhagavad Gita, this attitude is called Ishvara
+            arpana buddhi. It turns ordinary action into karma yoga.
           </p>
         </section>
 
@@ -163,16 +171,16 @@ export default function Page() {
           </div>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/acceptance"
+              href="/five-keys"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Continue to Acceptance
+              Return to Five Keys
             </Link>
             <Link
-              href="/five-keys"
+              href="/acceptance"
               className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
-              Return to Five Keys
+              Back to Acceptance
             </Link>
           </div>
         </section>
@@ -183,16 +191,16 @@ export default function Page() {
           </p>
           <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <Link
-              href="/acceptance"
+              href="/five-keys"
               className="inline-flex rounded-full bg-stone-900 px-6 py-3 text-sm font-medium text-stone-50 transition hover:bg-stone-800"
             >
-              Continue to Acceptance
+              Return to Five Keys
             </Link>
             <Link
-              href="/five-keys"
+              href="/acceptance"
               className="inline-flex rounded-full border border-stone-300 bg-stone-50 px-6 py-3 text-sm font-medium text-stone-700 transition hover:bg-stone-100"
             >
-              Return to the Five Keys
+              Back to Acceptance
             </Link>
           </div>
         </section>
