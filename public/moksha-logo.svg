@@ -1,0 +1,64 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Moksha logo</title>
+  <desc id="desc">Minimal swan logo for Moksha, Keys to Inner Freedom.</desc>
+
+  <defs>
+    <linearGradient id="gold" x1="340" y1="230" x2="890" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7B58D"/>
+      <stop offset="0.55" stop-color="#A99262"/>
+      <stop offset="1" stop-color="#D3C5A4"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="220" y1="760" x2="980" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3440"/>
+      <stop offset="1" stop-color="#243B47"/>
+    </linearGradient>
+    <style>
+      .gold-stroke{stroke:url(#gold);stroke-width:16;stroke-linecap:round;stroke-linejoin:round}
+      .gold-fill{fill:url(#gold)}
+      .ink{fill:#203844}
+      .ink-stroke{stroke:#203844;stroke-width:6;stroke-linecap:round;opacity:.9}
+      .soft{opacity:.72}
+      .brand{font-family: Georgia, 'Times New Roman', serif;font-size:130px;letter-spacing:34px;fill:#203844}
+      .tag{font-family: Arial, Helvetica, sans-serif;font-size:31px;letter-spacing:18px;fill:#203844}
+    </style>
+  </defs>
+
+  <!-- subtle halo -->
+  <path d="M371 565C333 447 382 311 489 250C621 174 795 211 878 335C930 412 939 511 907 595" stroke="#BFAE86" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- lotus / awakening mark -->
+  <circle cx="600" cy="242" r="5.5" class="gold-fill" opacity="0.8"/>
+  <path d="M600 294C579 272 579 239 600 216C621 239 621 272 600 294Z" class="gold-fill" opacity="0.72"/>
+  <path d="M570 300C548 293 535 273 538 250C563 258 577 277 570 300Z" class="gold-fill" opacity="0.54"/>
+  <path d="M630 300C652 293 665 273 662 250C637 258 623 277 630 300Z" class="gold-fill" opacity="0.54"/>
+  <path d="M549 316C526 315 508 303 499 282C525 279 544 292 549 316Z" class="gold-fill" opacity="0.48"/>
+  <path d="M651 316C674 315 692 303 701 282C675 279 656 292 651 316Z" class="gold-fill" opacity="0.48"/>
+
+  <!-- swan neck and head -->
+  <path d="M515 646C520 575 560 536 603 493C647 449 660 390 616 365C584 347 548 359 529 389C512 416 519 449 539 459" class="gold-stroke"/>
+  <path d="M539 459C519 473 499 465 493 446" stroke="#203844" stroke-width="10" stroke-linecap="round"/>
+  <path d="M498 445C507 430 525 424 541 432C526 437 513 445 505 458C502 454 500 450 498 445Z" fill="#203844"/>
+  <path d="M492 455C472 466 458 481 446 500C469 498 489 487 505 467C502 462 498 458 492 455Z" class="gold-fill"/>
+
+  <!-- swan body and wing -->
+  <path d="M589 643C661 569 758 551 842 482C838 552 792 625 716 662C669 685 625 678 589 643Z" class="gold-fill" opacity="0.88"/>
+  <path d="M675 667C736 642 804 626 875 582C857 636 811 682 748 704C714 716 689 699 675 667Z" class="gold-fill" opacity="0.76"/>
+  <path d="M639 704C706 687 788 676 872 642C846 695 788 729 718 734C681 736 654 725 639 704Z" class="gold-fill" opacity="0.62"/>
+  <path d="M625 739C698 729 775 719 850 690C816 736 757 762 691 761C660 760 638 752 625 739Z" class="gold-fill" opacity="0.48"/>
+
+  <!-- water ripples -->
+  <path d="M357 683C431 656 769 656 843 683" class="ink-stroke"/>
+  <path d="M315 700C423 741 778 738 885 700" class="ink-stroke" opacity="0.78"/>
+  <path d="M402 710C471 729 703 729 772 710" class="ink-stroke" opacity="0.42"/>
+
+  <!-- brand text -->
+  <text x="600" y="865" text-anchor="middle" class="brand">MOKSHA</text>
+
+  <!-- divider -->
+  <line x1="305" y1="914" x2="555" y2="914" stroke="#BFAE86" stroke-width="2" opacity="0.5"/>
+  <circle cx="600" cy="914" r="7" class="gold-fill" opacity="0.75"/>
+  <line x1="645" y1="914" x2="895" y2="914" stroke="#BFAE86" stroke-width="2" opacity="0.5"/>
+
+  <!-- tagline -->
+  <text x="600" y="976" text-anchor="middle" class="tag">KEYS TO INNER FREEDOM</text>
+</svg>
