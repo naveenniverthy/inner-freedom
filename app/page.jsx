@@ -230,6 +230,27 @@ export default function Page() {
             Explore Spiritual Fit
           </Link>
         </section>
+
+        <section className="mx-auto mb-10 mt-20 max-w-4xl px-4">
+          <div className="rounded-2xl border border-neutral-200 bg-white p-6 md:p-8">
+            <h2 className="mb-3 text-xl font-medium text-neutral-900 md:text-2xl">
+              Not sure where you are on the journey?
+            </h2>
+
+            <p className="mb-5 leading-relaxed text-neutral-600">
+              Many seekers feel something is missing, but cannot clearly say
+              what. The stages of inner freedom offer a gentle way to recognize
+              where you may be, and what may help next.
+            </p>
+
+            <Link
+              href="/stages-of-inner-freedom"
+              className="inline-block text-sm font-medium text-neutral-900 underline underline-offset-4 transition hover:opacity-70"
+            >
+              Explore the stages
+            </Link>
+          </div>
+        </section>
       </div>
     </main>
   );
