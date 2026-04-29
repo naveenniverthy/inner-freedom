@@ -1,3 +1,6 @@
+"use client";
+
+import { getAssessmentGuidanceData } from "@/components/AssessmentGuidance";
 import { seekerTypes } from "./assessmentData";
 
 const focusSteps = [
@@ -5,6 +8,27 @@ const focusSteps = [
   "Reduce scattered spiritual input.",
   "Stay with one clear direction long enough for it to work on you."
 ];
+
+const keyScoreNames = {
+  Clarity: "clarity",
+  Responsibility: "responsibility",
+  Discipline: "discipline",
+  Acceptance: "acceptance",
+  Offering: "offering"
+};
+
+function getGuidanceScores(keys = []) {
+  return keys.reduce((scores, key) => {
+    const scoreName = keyScoreNames[key.name];
+
+    if (!scoreName) return scores;
+
+    return {
+      ...scores,
+      [scoreName]: key.percentage
+    };
+  }, {});
+}
 
 function getStartingKey(path = []) {
   return path[0] ?? "Clarity";
@@ -74,6 +98,7 @@ export default function AssessmentPdfReport({ result }) {
   const { seekerType, strongestKey, weakestKey } = result;
   const secondaryType = getSecondaryType(seekerType, result.normalizedTotal);
   const startingKey = getStartingKey(seekerType.suggestedPath);
+  const guidance = getAssessmentGuidanceData(getGuidanceScores(result.keys));
 
   return (
     <article className="print-report" aria-hidden="true">
@@ -207,6 +232,48 @@ export default function AssessmentPdfReport({ result }) {
           </p>
         </ReportCard>
       </ReportSection>
+
+      {guidance.length ? (
+        <ReportSection>
+          <p className="pdf-kicker">Personal Guidance</p>
+          <h2>Your 7-day guided plan</h2>
+          <p className="pdf-lead">
+            These suggestions are based on the Five Keys that need the most
+            support right now.
+          </p>
+
+          {guidance.map((item) => (
+            <ReportCard key={item.key} title={item.name}>
+              <p className="pdf-score-line">
+                {item.score}% · {item.label}
+              </p>
+              <p>{item.insight}</p>
+
+              <h3>What you can do</h3>
+              <ol className="pdf-list">
+                {item.actions.map((action) => (
+                  <li key={action}>{action}</li>
+                ))}
+              </ol>
+
+              <h3>If you do just one thing</h3>
+              <p>{item.one}</p>
+
+              <h3>Seven-day practice</h3>
+              <ol className="pdf-list">
+                {item.sevenDays.map((day) => (
+                  <li key={day}>{day}</li>
+                ))}
+              </ol>
+
+              <p className="pdf-note">{item.direction}</p>
+              <p className="pdf-note">
+                Continue here: {item.linkText} ({item.link})
+              </p>
+            </ReportCard>
+          ))}
+        </ReportSection>
+      ) : null}
 
       <ReportSection>
         <p className="pdf-kicker">Your Next Step</p>

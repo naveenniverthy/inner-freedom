@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import AssessmentGuidance from "@/components/AssessmentGuidance";
+import AssessmentPdfExport from "@/components/AssessmentPdfExport";
 import AssessmentPdfReport from "./AssessmentPdfReport";
 import { assessmentQuestions, assessmentSections } from "./assessmentData";
 import {
@@ -15,6 +17,27 @@ const seekingCopy =
 
 const reminderCopy =
   "You are not behind. You are not lost. You are seeing yourself more honestly. That itself is already a movement toward inner freedom.";
+
+const keyScoreNames = {
+  Clarity: "clarity",
+  Responsibility: "responsibility",
+  Discipline: "discipline",
+  Acceptance: "acceptance",
+  Offering: "offering"
+};
+
+function getGuidanceScores(keys = []) {
+  return keys.reduce((scores, key) => {
+    const scoreName = keyScoreNames[key.name];
+
+    if (!scoreName) return scores;
+
+    return {
+      ...scores,
+      [scoreName]: key.percentage
+    };
+  }, {});
+}
 
 function updateSelection(currentSelections = [], choice) {
   if (currentSelections.includes(choice)) {
@@ -110,6 +133,7 @@ export default function AssessmentClient() {
 
   if (result) {
     const { seekerType, keys, strongestKey, weakestKey } = result;
+    const scores = getGuidanceScores(keys);
 
     return (
       <>
@@ -252,6 +276,8 @@ export default function AssessmentClient() {
           </ResultCard>
         </section>
 
+        <AssessmentGuidance scores={scores} />
+
         <section className="surface flex flex-col gap-3 px-5 py-5 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
           <div className="flex flex-col gap-3 sm:flex-row">
             <button type="button" onClick={handleRetake} className="btn-secondary">
@@ -271,6 +297,13 @@ export default function AssessmentClient() {
           <p className="basis-full text-sm leading-6 text-ink-900/52 sm:text-right">
             Your browser will open the print dialog. Choose “Save as PDF.”
           </p>
+          <div className="basis-full">
+            <AssessmentPdfExport
+              scores={scores}
+              resultTitle={seekerType.title}
+              resultDescription={seekerType.description}
+            />
+          </div>
         </section>
       </div>
       <AssessmentPdfReport result={result} />
