@@ -139,6 +139,12 @@ export default function Page() {
           >
             Understand Your Current State
           </Link>
+          <Link
+            href="/assessments/values"
+            className="mt-3 block w-fit text-sm font-medium text-stone-700 underline decoration-stone-300 underline-offset-4 transition hover:text-stone-900"
+          >
+            Explore your values and alignment
+          </Link>
         </section>
 
         <section
