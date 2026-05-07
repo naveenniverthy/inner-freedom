@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PrakriyaStepNav from "../PrakriyaStepNav";
 
 export const metadata = {
   title: "What Is a Prakriya",
@@ -124,6 +125,8 @@ export default function Page() {
             layer of confusion.
           </p>
         </section>
+
+        <PrakriyaStepNav currentSlug="prakriya" />
       </div>
     </main>
   );

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PrakriyaStepNav from "../PrakriyaStepNav";
 
 export const metadata = {
   title: "Five Sheaths",
@@ -244,6 +245,8 @@ export default function Page() {
             the knower becomes easier to notice.
           </p>
         </section>
+
+        <PrakriyaStepNav currentSlug="five-sheaths" />
       </div>
     </main>
   );

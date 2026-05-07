@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PrakriyaStepNav from "../PrakriyaStepNav";
 
 export const metadata = {
   title: "Three States",
@@ -237,25 +238,7 @@ export default function Page() {
           </p>
         </section>
 
-        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
-          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
-            Continue
-          </p>
-          <div className="mt-4 flex flex-col gap-3 text-sm font-medium sm:flex-row sm:flex-wrap">
-            <Link
-              href="/clarity/snake-rope"
-              className="inline-flex rounded-full bg-stone-200 px-5 py-3 text-stone-800 transition hover:bg-stone-300"
-            >
-              Previous: Snake-Rope
-            </Link>
-            <Link
-              href="/clarity/five-sheaths"
-              className="inline-flex rounded-full bg-stone-900 px-5 py-3 text-stone-50 transition hover:bg-stone-800"
-            >
-              Next: Five Sheaths
-            </Link>
-          </div>
-        </section>
+        <PrakriyaStepNav currentSlug="three-states" />
       </div>
     </main>
   );
