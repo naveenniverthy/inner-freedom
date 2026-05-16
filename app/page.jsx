@@ -238,6 +238,40 @@ export default function Page() {
           </div>
         </section>
 
+        <section className="rounded-[2rem] bg-white px-8 py-8 shadow-sm ring-1 ring-stone-200 sm:px-10">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-stone-500">
+            Contemplative Practice
+          </p>
+          <p className="mt-4 max-w-2xl text-base leading-8 text-stone-600">
+            Explore guided contemplations on awareness, silence, breath,
+            perception, spaciousness, and inner stillness.
+          </p>
+          <div className="mt-6 rounded-[1.5rem] border border-stone-200 bg-stone-50 px-6 py-6 transition hover:-translate-y-0.5 hover:bg-stone-100 hover:shadow-sm">
+            <h2 className="text-xl font-semibold text-stone-900">
+              112 Days of Awareness
+            </h2>
+            <div className="mt-3 space-y-3 text-sm leading-7 text-stone-600">
+              <p>
+                A contemplative journey through classical dhāraṇās from the
+                Vijnana Bhairava tradition.
+              </p>
+              <p>
+                The course explores breath, silence, perception, spaciousness,
+                witnessing, and awareness through simple daily contemplations.
+              </p>
+            </div>
+            <Link
+              href="/courses/vijnana-bhairava"
+              className="mt-5 inline-flex items-center justify-center rounded-full border border-stone-300 bg-white px-5 py-2.5 text-sm font-medium text-stone-700 transition hover:bg-stone-50"
+            >
+              Explore the Course
+            </Link>
+            <p className="mt-4 text-xs leading-6 text-stone-500">
+              Move slowly. One contemplation may stay meaningful for many days.
+            </p>
+          </div>
+        </section>
+
         <section className="rounded-[1.5rem] border border-stone-200 bg-white/70 px-6 py-6 shadow-sm sm:px-8">
           <p className="text-sm font-medium text-stone-700">
             Looking for a structured path?
