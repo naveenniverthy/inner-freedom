@@ -10,6 +10,8 @@ export default function DharanaLayout({
   openingReflection,
   sanskrit,
   transliteration,
+  literalTranslation,
+  plainEnglishRendering,
   rendering,
   meaning,
   practice,
@@ -24,10 +26,22 @@ export default function DharanaLayout({
   verseNumber,
   verseRange,
   sourceStatus,
+  translationComparisons = [],
 }) {
   const practiceSteps = Array.isArray(practice) ? practice : practice?.steps ?? [];
   const practiceNote = Array.isArray(practice) ? "" : practice?.note ?? "";
   const isSourceUnderReview = sourceStatus === "needs-review";
+  const sourceBadge =
+    sourceStatus === "verified" ? "Verified from source text" : "Under review";
+  const accessibleRendering = plainEnglishRendering || rendering;
+  const sanskritLines = asArray(sanskrit);
+  const transliterationLines = asArray(transliteration);
+  const comparisonNotes = Array.isArray(translationComparisons)
+    ? translationComparisons.filter(
+        (comparison) =>
+          comparison?.source || comparison?.translation || comparison?.notes,
+      )
+    : [];
   const sourceLabel =
     sourceStatus === "verified" && sourceText && (verseNumber || verseRange)
       ? `Source: ${sourceText}, Verse ${verseRange || verseNumber}`
@@ -105,7 +119,22 @@ export default function DharanaLayout({
 
           <section className="surface px-8 py-10 sm:px-10">
             <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-              <p className="eyebrow">Original Verse</p>
+              <div>
+                <p className="eyebrow">
+                  {isSourceUnderReview
+                    ? "Verse Text Under Review"
+                    : "Original Verse"}
+                </p>
+                <span
+                  className={`mt-3 inline-flex rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] ${
+                    sourceStatus === "verified"
+                      ? "border-sage-700/15 bg-sage-100/45 text-sage-700"
+                      : "border-[#d7c49a]/55 bg-[#f8efd9]/55 text-gray-600"
+                  }`}
+                >
+                  {sourceBadge}
+                </span>
+              </div>
               <p className="text-xs font-semibold uppercase tracking-[0.14em] text-sage-500/75">
                 {sourceLabel}
               </p>
@@ -116,30 +145,52 @@ export default function DharanaLayout({
                 publication.
               </p>
             ) : null}
-            <div className="mt-7 rounded-[1.75rem] border border-sage-700/10 bg-sand-50 px-5 py-7 text-center sm:px-8">
+            <div className="mt-7 rounded-[1.75rem] border border-sage-700/10 bg-sand-50 px-5 py-8 text-center sm:px-8">
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-sage-500">
                 Sanskrit
               </p>
-              <p className="mx-auto mt-4 max-w-2xl text-2xl leading-relaxed text-ink-900 sm:text-3xl">
-                {asArray(sanskrit).map((line) => (
-                  <span key={line} className="block">
-                    {line}
+              <p
+                lang="sa"
+                className="mx-auto mt-5 max-w-2xl whitespace-normal break-words font-serif text-3xl leading-[2.05] text-ink-900 sm:text-4xl sm:leading-[2.1]"
+              >
+                {sanskritLines.length ? (
+                  sanskritLines.map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))
+                ) : (
+                  <span className="block text-base leading-8 text-gray-600">
+                    Sanskrit under review.
                   </span>
-                ))}
+                )}
+              </p>
+            </div>
+
+            <div className="mt-6 rounded-3xl border border-sage-700/10 bg-white/60 px-5 py-5 sm:px-6">
+              <p className="text-sm font-semibold uppercase tracking-[0.16em] text-sage-500">
+                Transliteration
+              </p>
+              <p className="mt-4 text-base leading-8 text-gray-700">
+                {transliterationLines.length ? (
+                  transliterationLines.map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))
+                ) : (
+                  <span className="block">Transliteration under review.</span>
+                )}
               </p>
             </div>
 
             <div className="mt-6 grid gap-4 md:grid-cols-2">
               <div className="rounded-3xl border border-sage-700/10 bg-white/60 px-5 py-5">
                 <p className="text-sm font-semibold uppercase tracking-[0.16em] text-sage-500">
-                  Transliteration
+                  Literal Translation
                 </p>
                 <p className="mt-4 text-base leading-8 text-gray-700">
-                  {asArray(transliteration).map((line) => (
-                    <span key={line} className="block">
-                      {line}
-                    </span>
-                  ))}
+                  {literalTranslation || "Literal translation under review."}
                 </p>
               </div>
               <div className="rounded-3xl border border-sage-700/10 bg-white/60 px-5 py-5">
@@ -147,10 +198,46 @@ export default function DharanaLayout({
                   Plain English Rendering
                 </p>
                 <p className="mt-4 text-base leading-8 text-gray-700">
-                  “{rendering}”
+                  “{accessibleRendering}”
                 </p>
               </div>
             </div>
+
+            <p className="mt-6 border-t border-sage-700/10 pt-5 text-xs leading-6 text-gray-500">
+              Literal translations remain close to the source text. Plain
+              English renderings are interpretive contemplative renderings for
+              accessibility and reflection.
+            </p>
+
+            {comparisonNotes.length ? (
+              <details className="mt-6 rounded-3xl border border-sage-700/10 bg-white/45 px-5 py-4">
+                <summary className="cursor-pointer text-sm font-semibold uppercase tracking-[0.14em] text-sage-500">
+                  Translation Notes
+                </summary>
+                <div className="mt-5 space-y-4">
+                  {comparisonNotes.map((comparison) => (
+                    <div
+                      key={`${comparison.source}-${comparison.translation}`}
+                      className="rounded-2xl border border-sage-700/10 bg-sand-50 px-4 py-4 text-sm leading-7 text-gray-700"
+                    >
+                      {comparison.source ? (
+                        <p className="font-semibold text-ink-900">
+                          {comparison.source}
+                        </p>
+                      ) : null}
+                      {comparison.translation ? (
+                        <p className="mt-2">{comparison.translation}</p>
+                      ) : null}
+                      {comparison.notes ? (
+                        <p className="mt-2 text-gray-600">
+                          {comparison.notes}
+                        </p>
+                      ) : null}
+                    </div>
+                  ))}
+                </div>
+              </details>
+            ) : null}
           </section>
 
           <section className="surface px-8 py-10 sm:px-10">

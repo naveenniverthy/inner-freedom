@@ -25,7 +25,6 @@ export const metadata = {
 
 export default async function VijnanaBhairavaCoursePage({ searchParams }) {
   const resolvedSearchParams = await searchParams;
-  const verifiedOnly = resolvedSearchParams?.source === "verified";
   const firstPublished = dharanas.find(
     (dharana) => dharana.status === "published",
   );
@@ -57,6 +56,11 @@ export default async function VijnanaBhairavaCoursePage({ searchParams }) {
             {courseIntro.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
+            <p>
+              This course is being expanded slowly from the source text itself.
+              Practices are published gradually after verse extraction and
+              review.
+            </p>
           </div>
           <div className="mt-9">
             <Link
@@ -68,6 +72,34 @@ export default async function VijnanaBhairavaCoursePage({ searchParams }) {
               className="btn-primary"
             >
               Begin Day 1
+            </Link>
+          </div>
+        </section>
+
+        <VijnanaPracticeBrowser
+          dharanas={dharanas}
+          initialSourceFilter={resolvedSearchParams?.source || "all"}
+        />
+
+        <section className="rounded-shell border border-sage-700/10 bg-sage-100/45 px-8 py-8 shadow-soft sm:px-10">
+          <p className="eyebrow">Continue Last Practice</p>
+          <h2 className="mt-3 font-serif text-3xl font-semibold leading-tight text-ink-900">
+            Return to the next available contemplation.
+          </h2>
+          <p className="mt-4 max-w-reading text-base leading-8 text-gray-700">
+            Move at your own pace. Some contemplations may stay with you longer
+            than a single day.
+          </p>
+          <div className="mt-6">
+            <Link
+              href={
+                firstPublished
+                  ? `/courses/vijnana-bhairava/${firstPublished.slug}`
+                  : "/courses/vijnana-bhairava"
+              }
+              className="btn-primary"
+            >
+              Continue Practice
             </Link>
           </div>
         </section>
@@ -87,6 +119,24 @@ export default async function VijnanaBhairavaCoursePage({ searchParams }) {
               className="btn-secondary"
             >
               How to Practice
+            </Link>
+          </div>
+        </section>
+
+        <section className="surface px-8 py-8 sm:px-10">
+          <div className="rounded-3xl border border-sage-700/10 bg-sand-50 px-5 py-5">
+            <p className="font-serif text-2xl font-semibold text-ink-900">
+              Sources and Acknowledgements
+            </p>
+            <p className="mt-3 max-w-reading text-sm leading-7 text-gray-600">
+              How this course handles source texts, translations, and original
+              commentary.
+            </p>
+            <Link
+              href="/courses/vijnana-bhairava/sources"
+              className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full border border-sage-700/15 bg-white/70 px-5 py-2 text-sm font-semibold text-ink-900 transition hover:-translate-y-0.5 hover:bg-white"
+            >
+              View Sources
             </Link>
           </div>
         </section>
@@ -148,34 +198,10 @@ export default async function VijnanaBhairavaCoursePage({ searchParams }) {
           </div>
         </section>
 
-        <VijnanaPracticeBrowser
-          dharanas={dharanas}
-          verifiedOnly={verifiedOnly}
-        />
-
         <section className="surface px-8 py-8 sm:px-10">
-          <p className="max-w-reading text-base leading-8 text-gray-700">
-            Move at your own pace. Some contemplations may stay with you longer
-            than a single day.
-          </p>
-          <div className="mt-7 rounded-3xl border border-sage-700/10 bg-sand-50 px-5 py-5">
-            <p className="font-serif text-2xl font-semibold text-ink-900">
-              Sources and Acknowledgements
-            </p>
-            <p className="mt-3 max-w-reading text-sm leading-7 text-gray-600">
-              How this course handles source texts, translations, and original
-              commentary.
-            </p>
-            <Link
-              href="/courses/vijnana-bhairava/sources"
-              className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full border border-sage-700/15 bg-white/70 px-5 py-2 text-sm font-semibold text-ink-900 transition hover:-translate-y-0.5 hover:bg-white"
-            >
-              View Sources
-            </Link>
-          </div>
           <Link
             href="/courses/vijnana-bhairava/review"
-            className="mt-5 inline-flex text-xs font-semibold uppercase tracking-[0.14em] text-sage-500/70 transition hover:text-sage-700"
+            className="inline-flex text-xs font-semibold uppercase tracking-[0.14em] text-sage-500/70 transition hover:text-sage-700"
           >
             Source review
           </Link>

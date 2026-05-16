@@ -74,15 +74,15 @@ export default async function VijnanaBhairavaDharanaPage({ params }) {
     );
   }
 
-  const publishedDharanas = dharanas.filter((item) => item.status === "published");
-  const currentIndex = publishedDharanas.findIndex(
+  const orderedDharanas = [...dharanas].sort((a, b) => a.day - b.day);
+  const currentIndex = orderedDharanas.findIndex(
     (item) => item.slug === dharana.slug,
   );
   const previousDharana =
-    currentIndex > 0 ? publishedDharanas[currentIndex - 1] : null;
+    currentIndex > 0 ? orderedDharanas[currentIndex - 1] : null;
   const nextDharana =
-    currentIndex >= 0 && currentIndex < publishedDharanas.length - 1
-      ? publishedDharanas[currentIndex + 1]
+    currentIndex >= 0 && currentIndex < orderedDharanas.length - 1
+      ? orderedDharanas[currentIndex + 1]
       : null;
 
   return (
@@ -92,6 +92,8 @@ export default async function VijnanaBhairavaDharanaPage({ params }) {
       openingReflection={dharana.openingReflection}
       sanskrit={dharana.sanskrit}
       transliteration={dharana.transliteration}
+      literalTranslation={dharana.literalTranslation}
+      plainEnglishRendering={dharana.plainEnglishRendering}
       rendering={dharana.rendering}
       meaning={dharana.meaning}
       practice={dharana.practice}
@@ -112,6 +114,7 @@ export default async function VijnanaBhairavaDharanaPage({ params }) {
       verseNumber={dharana.verseNumber}
       verseRange={dharana.verseRange}
       sourceStatus={dharana.sourceStatus}
+      translationComparisons={dharana.translationComparisons}
     />
   );
 }

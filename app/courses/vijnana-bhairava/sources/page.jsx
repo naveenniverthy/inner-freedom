@@ -73,6 +73,12 @@ export default function VijnanaBhairavaSourcesPage() {
               References are used for orientation and review. The practice
               guidance and plain English renderings are original to MokshaKeys.
             </p>
+            <Link
+              href="/courses/vijnana-bhairava/verification"
+              className="inline-flex min-h-11 items-center justify-center rounded-full border border-sage-700/15 bg-white/70 px-5 py-2 text-sm font-semibold text-ink-900 transition hover:-translate-y-0.5 hover:bg-white"
+            >
+              Learn more about how verses are reviewed and verified.
+            </Link>
           </div>
         </section>
 
