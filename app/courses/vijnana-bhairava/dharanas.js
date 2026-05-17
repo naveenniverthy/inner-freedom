@@ -16,7 +16,7 @@ export const dharanas = [
       "ūrdhve prāṇo hyadho jīvo visargātmā paroccaret",
       "utpatti-dvitaya-sthāne bharaṇād bharitā sthitiḥ"
     ],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
+    "literalTranslation": "The exhaling breath moves upward, and the inhaling breath moves downward. By resting awareness at the two places where they arise, the state becomes filled with fullness.",
     "plainEnglishRendering": "When attention rests in the silent movement and turning of breath, awareness becomes naturally full and steady.",
     "rendering": "When attention rests in the silent movement and turning of breath, awareness becomes naturally full and steady.",
     "meaning": [
@@ -50,11 +50,11 @@ export const dharanas = [
     "freedom": "Stillness is not something newly created. It is something gradually noticed beneath constant mental movement.",
     "status": "published",
     "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "verseNumber": "24",
+    "verseRange": "24",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Sanskrit, verse number, transliteration, and literal translation must be checked before verification.",
+    "sourceNote": "Verified against Jaideva Singh source text.",
     "reviewedBy": "",
     "reviewDate": "",
     "referenceNotes": "",
@@ -75,7 +75,7 @@ export const dharanas = [
       "maruto'ntar bahir vāpi viyad-yugmānivartanāt",
       "bhairavyā bhairavasyetthaṃ bhairavi vyajyate vapuḥ"
     ],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
+    "literalTranslation": "When the breath is still, whether inside or outside, and turns back from the two voids, then, O Bhairavi, the form of Bhairava is revealed through Bhairavi.",
     "plainEnglishRendering": "When attention rests in the two silent turning points of the breath, the presence of awareness begins to reveal itself.",
     "rendering": "When attention rests in the two silent turning points of the breath, the presence of awareness begins to reveal itself.",
     "meaning": [
@@ -108,11 +108,11 @@ export const dharanas = [
     "freedom": "Inner freedom begins when we discover that awareness is not disturbed by the changing movement of experience.",
     "status": "published",
     "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "verseNumber": "25",
+    "verseRange": "25",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Sanskrit, verse number, transliteration, and literal translation must be checked before verification.",
+    "sourceNote": "Verified against Jaideva Singh source text.",
     "reviewedBy": "",
     "reviewDate": "",
     "referenceNotes": "",
@@ -133,7 +133,7 @@ export const dharanas = [
       "na vrajen na viśec chaktir marud-rūpā vikāsite",
       "nirvikalpatayā madhye tayā bhairava-rūpatā"
     ],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
+    "literalTranslation": "When the energy in the form of breath neither goes out nor enters, and is opened in the middle, then, through that middle state free from thought-constructs, the form of Bhairava is realized.",
     "plainEnglishRendering": "When the movement of breath becomes quiet and attention rests in the middle, the mind becomes free from division and awareness is revealed.",
     "rendering": "When the movement of breath becomes quiet and attention rests in the middle, the mind becomes free from division and awareness is revealed.",
     "meaning": [
@@ -166,11 +166,11 @@ export const dharanas = [
     "freedom": "The middle reveals that freedom is not found by choosing one side of experience against another, but by recognizing the awareness in which both appear.",
     "status": "published",
     "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "verseNumber": "26",
+    "verseRange": "26",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Sanskrit, verse number, transliteration, and literal translation must be checked before verification.",
+    "sourceNote": "Verified against Jaideva Singh source text.",
     "reviewedBy": "",
     "reviewDate": "",
     "referenceNotes": "",
@@ -191,7 +191,7 @@ export const dharanas = [
       "kumbhitā recitā vāpi pūritā vā yadā bhavet",
       "tadante śānta-nāmāsau śaktiḥ śāntā prakāśate"
     ],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
+    "literalTranslation": "When the breath has become retained, exhaled, or inhaled, then at the end of that movement the tranquil power, known as the peaceful one, shines forth.",
     "plainEnglishRendering": "When the breath naturally comes to rest after inhalation or exhalation, a quiet power of tranquility becomes clear.",
     "rendering": "When the breath naturally comes to rest after inhalation or exhalation, a quiet power of tranquility becomes clear.",
     "meaning": [
@@ -224,11 +224,11 @@ export const dharanas = [
     "freedom": "Freedom is not created by force. It is discovered when effort becomes intelligent and gentle.",
     "status": "published",
     "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "verseNumber": "27",
+    "verseRange": "27",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Sanskrit, verse number, transliteration, and literal translation must be checked before verification.",
+    "sourceNote": "Verified against Jaideva Singh source text.",
     "reviewedBy": "",
     "reviewDate": "",
     "referenceNotes": "",
@@ -249,7 +249,7 @@ export const dharanas = [
       "mūlāt kiraṇa-rūpāyāḥ sūkṣmāt sūkṣmatarātmikām",
       "cintayet tāṃ dviṣaṭkānte śāmyantīṃ bhairavodayaḥ"
     ],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
+    "literalTranslation": "One should contemplate that energy, ray-like from the root, becoming subtler than the subtle and coming to rest at the end of the twelve; then the arising of Bhairava occurs.",
     "plainEnglishRendering": "Contemplate the subtle current of inner energy rising from the base and becoming finer, until it dissolves into still awareness.",
     "rendering": "Contemplate the subtle current of inner energy rising from the base and becoming finer, until it dissolves into still awareness.",
     "meaning": [
@@ -282,11 +282,11 @@ export const dharanas = [
     "freedom": "The body can become a doorway into awareness when it is approached with steadiness rather than identification.",
     "status": "published",
     "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "verseNumber": "28",
+    "verseRange": "28",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Sanskrit, verse number, transliteration, and literal translation must be checked before verification.",
+    "sourceNote": "Verified against Jaideva Singh source text.",
     "reviewedBy": "",
     "reviewDate": "",
     "referenceNotes": "",
@@ -296,358 +296,438 @@ export const dharanas = [
   {
     "day": 6,
     "slug": "day-6",
-    "title": "A Flash of Inner Clarity",
-    "theme": "Inner Clarity",
-    "openingReflection": "Sometimes awareness is recognized not through gradual effort, but through a sudden flash of clarity.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "Contemplate a subtle flash of awareness rising through the inner centers until it opens into a greater clarity.",
-    "rendering": "Contemplate a subtle flash of awareness rising through the inner centers until it opens into a greater clarity.",
+    "title": "The Lightning-Like Ascent of Awareness",
+    "theme": "Subtle Ascent",
+    "openingReflection": "Awareness can be gathered inward and invited to rise gently through the central field of the body. The verse uses the image of lightning to suggest a subtle, luminous movement of attention toward stillness.",
+    "sanskrit": [
+      "उद्गच्छन्तीं तडिद्रूपां प्रतिचक्रं क्रमात्क्रमम् ।",
+      "ऊर्ध्वं मुष्टित्रयं यावत् तावदन्ते महोदयः ॥"
+    ],
+    "transliteration": [
+      "udgacchantīṃ taḍid-rūpāṃ praticakraṃ kramāt kramam",
+      "ūrdhvaṃ muṣṭi-trayaṃ yāvat tāvad ante mahodayaḥ"
+    ],
+    "literalTranslation": "Meditate on the energy rising upward, lightning-like, from center to center in sequence, up to the space above; at the end there is the great awakening.",
+    "plainEnglishRendering": "Let awareness rise inwardly like a subtle streak of light through the inner centers, then rest in the expansive stillness that opens above.",
+    "rendering": "Let awareness rise inwardly like a subtle streak of light through the inner centers, then rest in the expansive stillness that opens above.",
     "meaning": [
-      "The verse uses the image of lightning. This should not be taken as a demand to produce a special visual experience.",
-      "The practical meaning is that attention can become bright, direct, and concentrated. When attention becomes subtle and steady, there can be a sudden recognition of openness."
+      "The verse describes a lightning-like ascent through the inner centers. This image points to a quick, luminous movement of attention or pranic sensitivity, not to a dramatic external event.",
+      "The practice is a contemplative inward ascent. Awareness begins near the base of the body, rises gradually through the central line, and continues toward the crown and the space above.",
+      "The important point is not forceful energy manipulation. It is subtle attention becoming steady, refined, and open enough to rest in the stillness that follows."
     ],
     "practice": {
       "steps": [
         "Sit quietly.",
-        "Bring attention inward.",
-        "Sense the vertical axis of the body.",
-        "Imagine or feel a gentle brightness rising upward.",
-        "Keep the practice soft and steady.",
-        "Let the brightness dissolve into open awareness.",
-        "Rest without grasping the experience."
+        "Let the breath remain natural.",
+        "Bring awareness to the lower body or base.",
+        "Sense the central line of the body from within.",
+        "Slowly move awareness upward through the inner centers.",
+        "Feel the ascent as a subtle current or streak of light.",
+        "Continue toward the crown and the space just above.",
+        "Rest in the expansive stillness that follows."
       ],
       "note": "Practice for 5–10 minutes."
     },
     "noticing": [
-      "attention can feel bright and clear",
-      "subtle visualization can collect the mind",
-      "the important part is the openness after the image dissolves"
+      "attention becomes more gathered as it moves inward",
+      "the ascent may feel subtle, quiet, or mostly imaginal",
+      "the image of light can help attention become clear without strain",
+      "stillness is more important than any unusual sensation"
     ],
     "misunderstandings": [
-      "Do not try to see literal lightning.",
-      "Do not seek visions.",
-      "Do not measure progress by unusual experiences."
+      "Do not force energy upward.",
+      "Do not add breath retention or pressure.",
+      "Do not seek visions, powers, or dramatic experiences.",
+      "Do not measure the practice by sensation intensity."
     ],
-    "reflection": "What remains after the image, sensation, or visualization dissolves?",
-    "freedom": "All supports are temporary. The real value of a support is that it helps attention return to awareness itself.",
+    "reflection": "What remains when the sense of upward movement dissolves into open stillness?",
+    "freedom": "Inner freedom deepens when even subtle practices become supports for resting in awareness rather than new identities or achievements.",
     "status": "published",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "29",
+    "verseRange": "29",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Prior Sanskrit, transliteration, verse mapping, and literal meaning must be checked before verification.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 6, Verse 29.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Lightning-like ascent through the inner centers"
   },
   {
     "day": 7,
     "slug": "day-7",
-    "title": "Moving from Gross to Subtle",
-    "theme": "Subtle Attention",
-    "openingReflection": "Attention can move from what is obvious to what is subtle. This practice trains the mind to become refined and inward.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "Move attention step by step from the gross to the subtle, and from the subtle to the highest; by releasing each level, awareness stands free.",
-    "rendering": "Move attention step by step from the gross to the subtle, and from the subtle to the highest; by releasing each level, awareness stands free.",
+    "title": "Twelve Centers, Gross to Subtle",
+    "theme": "Progressive Release",
+    "openingReflection": "This dharana uses a sequence of inner supports. Each support is entered, refined, and then gently released until attention rests in simple awareness.",
+    "sanskrit": [
+      "क्रमद्वादशकं सम्यग्द्वादशाक्षरभेदितम् ।",
+      "स्थूलसूक्ष्मपरस्थित्या मुक्त्वा मुक्त्वान्ततः शिवः ॥"
+    ],
+    "transliteration": [
+      "kramadvādaśakaṃ samyag dvādaśākṣara-bheditam",
+      "sthūla-sūkṣma-para-sthityā muktvā muktvāntataḥ śivaḥ"
+    ],
+    "literalTranslation": "The twelve successive centers, properly divided by the twelve letters, are contemplated in the gross, subtle, and supreme states. Releasing each one successively, in the end there is Shiva.",
+    "plainEnglishRendering": "Move through the inner sequence step by step, using each center and its sound as a temporary support; release the gross, release the subtle, release even the refined support, and rest in Shiva-like awareness.",
+    "rendering": "Move through the inner sequence step by step, using each center and its sound as a temporary support; release the gross, release the subtle, release even the refined support, and rest in Shiva-like awareness.",
     "meaning": [
-      "This verse describes a progressive contemplation. The practitioner moves from the obvious layer of experience to subtler layers, and then releases even those.",
-      "The key is not accumulation. The key is letting go."
+      "The verse points to twelve successive centers associated with twelve letters. It does not require adding extra imagery or symbolic systems beyond that simple sequence.",
+      "The gross level means the more tangible support: body, location, sensation, or the felt point of attention.",
+      "The subtle level means the quieter support: breath, inner feeling, vibration, or the refined sense of presence.",
+      "The supreme level is the final quieting of dependence on any support. Each stage is used, then gently left behind."
     ],
     "practice": {
       "steps": [
-        "Sit comfortably.",
-        "Begin with awareness of the physical body.",
-        "Move to the breath.",
-        "Move to subtle sensation.",
-        "Move to the feeling of presence.",
-        "Release each support gently.",
-        "Rest in simple awareness."
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Sense the body's inner axis without strain.",
+        "Move attention step by step through the inner sequence.",
+        "At each point, first notice the gross level: body, location, or sensation.",
+        "Then notice the subtle level: breath, inner feeling, or quiet vibration.",
+        "Then let even that refined support become transparent.",
+        "Release each support gently and continue.",
+        "At the end, rest in simple awareness."
       ],
       "note": "Practice for 10 minutes."
     },
     "noticing": [
-      "attention can become more refined",
-      "each support is useful but temporary",
-      "freedom comes by releasing, not possessing"
+      "attention becomes steadier when it moves in sequence",
+      "a support can be useful without becoming final",
+      "gross sensation can soften into subtle feeling",
+      "subtle feeling can open into quiet awareness"
     ],
     "misunderstandings": [
-      "Do not turn the stages into a rigid ladder.",
-      "Do not worry about doing it perfectly.",
-      "Do not cling to subtle experiences."
+      "Do not turn the twelve centers into a rigid anatomy lesson.",
+      "Do not add color systems or unrelated symbolism.",
+      "Do not force concentration at any point.",
+      "Do not cling to subtle experiences as achievements."
     ],
-    "reflection": "What am I still holding as ‘my experience’?",
-    "freedom": "Inner freedom deepens as identification becomes subtler and finally loosens. Even refined experiences are witnessed by awareness.",
+    "reflection": "Can I use each support fully, then release it without loss?",
+    "freedom": "Inner freedom deepens when awareness no longer depends on any single support, gross or subtle. The practice trains a gentle release from identification into simple presence.",
     "status": "published",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "30",
+    "verseRange": "30",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Prior Sanskrit, transliteration, verse mapping, and literal meaning must be checked before verification.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 7, Verse 30.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Twelve centers and letters; gross, subtle, and supreme release"
   },
   {
     "day": 8,
     "slug": "day-8",
-    "title": "Listening into Silence",
-    "theme": "Sound and Silence",
-    "openingReflection": "Sound comes and goes, but silence quietly remains in the background of every sound.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "When sound fades away and the mind becomes quiet in the remaining silence, awareness reveals itself.",
-    "rendering": "When sound fades away and the mind becomes quiet in the remaining silence, awareness reveals itself.",
+    "title": "Filling the Body with Radiance",
+    "theme": "Pranic Radiance",
+    "openingReflection": "This dharana invites attention to sense the body from within as subtle aliveness, gathered upward and released into spacious awareness.",
+    "sanskrit": [
+      "तयापूर्याशु मूर्धान्तं भङ्क्त्वा भ्रूक्षेपसेतुना ।",
+      "निर्विकल्पं मनः कृत्वा सर्वोर्ध्वे सर्वगोद्गमः ॥"
+    ],
+    "transliteration": [
+      "tayāpūryāśu mūrdhāntaṃ bhaṅktvā bhrūkṣepa-setunā",
+      "nirvikalpaṃ manaḥ kṛtvā sarvordhve sarvagodgamaḥ"
+    ],
+    "literalTranslation": "Having quickly filled the body with that power up to the crown of the head, and having gathered attention at the bridge of the eyebrows, making the mind free of conceptual thought, the All-Pervading One comes forth in the highest state.",
+    "plainEnglishRendering": "Feel subtle aliveness filling the body upward toward the crown. Let attention gather gently at the eyebrow center, allow thought to soften, and rest in expansive, non-contracted awareness.",
+    "rendering": "Feel subtle aliveness filling the body upward toward the crown. Let attention gather gently at the eyebrow center, allow thought to soften, and rest in expansive, non-contracted awareness.",
     "meaning": [
-      "This practice uses sound as a doorway into silence. Instead of focusing only on sound itself, attention notices the silence before, during, and after sound."
+      "The verse speaks of filling the body up to the crown with the subtle force already introduced in the preceding dharana. Here prana is approached as living presence or subtle aliveness, not as a dramatic physical event.",
+      "The eyebrow center functions as a point where attention becomes gathered and steady. The instruction is contemplative: attention collects, thought quiets, and awareness is no longer contracted around ordinary concepts.",
+      "All-pervading awareness means spacious presence that is not limited to one sensation, image, or mental object. The practice points toward openness after attention has become subtle and collected."
     ],
     "practice": {
       "steps": [
-        "Sit quietly.",
-        "Listen carefully to surrounding sounds.",
-        "Notice how every sound appears within silence.",
-        "When sound fades, rest in the remaining quiet.",
-        "Do not resist sound.",
-        "Let listening become relaxed and open."
+        "Sit comfortably.",
+        "Let the breath remain natural and unforced.",
+        "Feel the body from within.",
+        "Sense subtle aliveness gradually filling the body upward.",
+        "Let awareness rise gently toward the crown of the head.",
+        "Bring quiet attention toward the eyebrow center.",
+        "Allow conceptual thinking to soften.",
+        "Rest in open, spacious awareness."
       ],
-      "note": "Practice for 5–10 minutes."
+      "note": "Practice for 10 minutes."
     },
     "noticing": [
-      "silence is present even during sound",
-      "sounds arise and dissolve naturally",
-      "awareness is not disturbed by sound"
+      "subtle energetic sensitivity",
+      "widening awareness",
+      "decreasing mental contraction",
+      "spacious presence"
     ],
     "misunderstandings": [
-      "Do not search for perfect external silence.",
-      "Do not fight noise.",
-      "The practice is openness, not withdrawal."
+      "This is not imagination or visualization performance.",
+      "Do not strain attention.",
+      "Do not force energetic sensations.",
+      "The practice is about subtle awareness, not dramatic experience."
     ],
-    "reflection": "What remains after sound disappears?",
-    "freedom": "Freedom grows when we stop resisting experience and begin noticing the stillness already present within it.",
+    "reflection": "What happens when attention becomes gathered without becoming tight?",
+    "freedom": "Inner freedom appears as awareness becomes less contracted around thought and sensation. The body is felt as living presence, the mind softens, and attention rests in a wider field.",
     "status": "published",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "31",
+    "verseRange": "31",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Prior Sanskrit, transliteration, verse mapping, and literal meaning must be checked before verification.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 8, Verse 31.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Filling the body with pranic radiance and dissolving thought into all-pervading awareness"
   },
   {
     "day": 9,
     "slug": "day-9",
-    "title": "Vast Space",
-    "theme": "Space and Emptiness",
-    "openingReflection": "The open sky has no edges. This contemplation uses vast space as a mirror for awareness itself.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "By steadily contemplating clear open space, the mind becomes still and awareness opens into vastness.",
-    "rendering": "By steadily contemplating clear open space, the mind becomes still and awareness opens into vastness.",
+    "title": "The Five Emptinesses",
+    "theme": "Sense Fields and Emptiness",
+    "openingReflection": "This dharana turns attention toward the sense fields themselves. What first appears vivid and colorful can become a doorway into spaciousness.",
+    "sanskrit": [
+      "शिखिपक्षैश्चित्ररूपैर्मण्डलैः शून्यपञ्चकम् ।",
+      "ध्यायतोऽनुत्तरे शून्ये प्रवेशो हृदये भवेत् ॥"
+    ],
+    "transliteration": [
+      "śikhipakṣaiś citrarūpair maṇḍalaiḥ śūnyapañcakam",
+      "dhyāyato'nuttare śūnye praveśo hṛdaye bhavet"
+    ],
+    "literalTranslation": "By meditating on the five emptinesses, like the vividly colored circles in the tail feathers of a peacock, entry into the heart of the unsurpassed emptiness takes place.",
+    "plainEnglishRendering": "Let the five fields of sensing be known as vivid yet open. As attention rests with their spacious nature, awareness enters the heart of a deeper, unsurpassed emptiness.",
+    "rendering": "Let the five fields of sensing be known as vivid yet open. As attention rests with their spacious nature, awareness enters the heart of a deeper, unsurpassed emptiness.",
     "meaning": [
-      "The sky is used here not as an object to worship, but as a contemplative support. Open space has no fixed boundary, center, or ownership.",
-      "Attention gradually takes on the same openness."
+      "The verse names five emptinesses, glossed in the source as the five objects of the physical senses. Sight, sound, smell, taste, and touch are not treated as obstacles, but as fields through which spaciousness can be recognized.",
+      "The peacock-feather image points to vividness rather than dull absence. Experience may be colorful, textured, and immediate, yet still empty of fixed possession or solid selfhood.",
+      "Unsurpassed emptiness is not blankness. It is the open heart of awareness in which the sense fields appear and dissolve."
     ],
     "practice": {
       "steps": [
-        "Sit outdoors or visualize open sky.",
-        "Rest the gaze softly into spaciousness.",
-        "Do not focus on particular objects.",
-        "Let the mind widen naturally.",
-        "Relax the tendency to grasp.",
-        "Rest in openness."
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Notice one field of sensing, such as sound or sight.",
+        "Sense its vividness without grasping at it.",
+        "Recognize the openness in which that sense field appears.",
+        "Move gently through the five fields of sensing.",
+        "Let each field be vivid, present, and spacious.",
+        "Rest in the deeper openness that includes them all."
       ],
-      "note": "Practice for 5–10 minutes."
+      "note": "Practice for 10 minutes."
     },
     "noticing": [
-      "openness reduces mental contraction",
-      "awareness feels naturally spacious",
-      "thoughts lose intensity in vastness"
+      "sensory experience can be vivid without becoming heavy",
+      "each sense field appears within openness",
+      "grasping softens when experience is seen as spacious",
+      "emptiness can feel intimate rather than distant"
     ],
     "misunderstandings": [
-      "Do not strain the eyes.",
-      "Do not force “emptiness.”",
-      "This is not dissociation."
+      "Do not make emptiness into numbness or blankness.",
+      "Do not reject sensory experience.",
+      "Do not force a visual image of peacock feathers.",
+      "The practice is recognition of spaciousness, not withdrawal from the senses."
     ],
-    "reflection": "What happens when attention stops shrinking experience into personal ownership?",
-    "freedom": "The mind becomes lighter when it no longer feels enclosed by its own narratives.",
+    "reflection": "Can vivid experience be fully present without becoming something I need to hold?",
+    "freedom": "Inner freedom grows when sensory life is no longer taken as a solid trap. The senses continue to function, but awareness recognizes the spacious heart in which they arise.",
     "status": "published",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "32",
+    "verseRange": "32",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Prior Sanskrit, transliteration, verse mapping, and literal meaning must be checked before verification.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 9, Verse 32. Source theme differs from the breath-pause theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Meditation on the five emptinesses of the sensory fields"
   },
   {
     "day": 10,
     "slug": "day-10",
-    "title": "Awareness Between Thoughts",
-    "theme": "Thought and Awareness",
-    "openingReflection": "Thoughts appear one after another, but there are tiny moments between them that usually go unnoticed.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "In the quiet interval between two thoughts, continuous awareness becomes evident.",
-    "rendering": "In the quiet interval between two thoughts, continuous awareness becomes evident.",
+    "title": "Awareness Absorbed in Emptiness",
+    "theme": "Emptiness as Support",
+    "openingReflection": "This dharana continues the inquiry into emptiness. Wherever attention rests, it can discover the open space within experience.",
+    "sanskrit": [
+      "ईदृशेन क्रमेणैव यत्र कुत्रापि चिन्तना ।",
+      "शून्ये कुड्ये परे पात्रे स्वयं लीना वरप्रदा ॥"
+    ],
+    "transliteration": [
+      "īdṛśena krameṇaiva yatra kutrāpi cintanā",
+      "śūnye kuḍye pare pātre svayaṃ līnā varapradā"
+    ],
+    "literalTranslation": "In this very systematic manner, wherever awareness is placed on emptiness, whether in an empty wall or in a higher vessel or personage, it becomes absorbed in itself and bestows a great gift.",
+    "plainEnglishRendering": "Place awareness gently on emptiness wherever it is noticed. Whether the support is ordinary or refined, attention can settle into itself and reveal a quiet spaciousness.",
+    "rendering": "Place awareness gently on emptiness wherever it is noticed. Whether the support is ordinary or refined, attention can settle into itself and reveal a quiet spaciousness.",
     "meaning": [
-      "We usually pay attention to the content of thought. This practice shifts attention toward the silent interval between thoughts.",
-      "The purpose is not to stop thinking, but to recognize awareness beneath mental activity."
+      "The verse extends the previous method: emptiness can be contemplated in many places, not only in a special setting or object.",
+      "The examples move from ordinary to refined. A wall, a vessel, or a revered person can all become supports when attention notices the open quality present there.",
+      "Absorption here means attention settling into its own spacious nature. The gift is not a dramatic event, but the quiet recognition that awareness is already open."
     ],
     "practice": {
       "steps": [
-        "Sit quietly.",
-        "Observe thoughts without interference.",
-        "Notice the end of one thought.",
-        "Notice the beginning of the next.",
-        "Rest attention in the interval.",
-        "Stay relaxed and alert."
+        "Sit comfortably.",
+        "Let the breath settle naturally.",
+        "Choose a simple support, such as a blank wall, open space, or quiet object.",
+        "Place awareness on the emptiness or openness present there.",
+        "Do not search for anything unusual.",
+        "Let attention become simple and steady.",
+        "Notice awareness settling back into itself.",
+        "Rest without strain in that spacious quiet."
       ],
-      "note": "Practice for 5–10 minutes."
+      "note": "Practice for 10 minutes."
     },
     "noticing": [
-      "thoughts arise spontaneously",
-      "awareness remains before and after thought",
-      "the interval is naturally peaceful"
+      "silence beneath ordinary perception",
+      "reduction of mental agitation",
+      "subtle clarity",
+      "effortless presence"
     ],
     "misunderstandings": [
-      "Do not force the mind blank.",
-      "Do not become frustrated by thinking.",
-      "The practice is observation, not suppression."
+      "This is not a breath-control exercise.",
+      "Do not suppress breathing.",
+      "Do not force emptiness into blankness.",
+      "The practice is about awareness, not endurance."
     ],
-    "reflection": "Am I only aware of thoughts, or also aware between them?",
-    "freedom": "Freedom deepens when awareness is no longer confused with the movement of thought.",
+    "reflection": "Can I notice openness in ordinary experience without trying to make it special?",
+    "freedom": "Inner freedom becomes more available when awareness does not depend on rare conditions. Even ordinary experience can reveal spaciousness when attention rests gently in emptiness.",
     "status": "published",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "33",
+    "verseRange": "33",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Prior Sanskrit, transliteration, verse mapping, and literal meaning must be checked before verification.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 10, Verse 33. Source theme differs from the breath-stillness theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Meditation on emptiness wherever awareness is placed"
   },
   {
     "day": 11,
     "slug": "day-11",
-    "title": "Seeing Without Naming",
-    "theme": "Perception and Witnessing",
-    "openingReflection": "Most of the time we do not simply see. We immediately label, compare, and interpret. This practice softens that habit.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "When perception becomes free from mental narrowing, the world is experienced with openness and clarity.",
-    "rendering": "When perception becomes free from mental narrowing, the world is experienced with openness and clarity.",
+    "title": "Steadiness Inside the Skull",
+    "theme": "Inner Stability",
+    "openingReflection": "This dharana gathers the mind inward and upward. With the eyes closed and attention steady, awareness becomes capable of noticing a subtler aim.",
+    "sanskrit": [
+      "कपालान्तर्मनो न्यस्य तिष्ठन्मीलितलोचनः ।",
+      "क्रमेण मनसो दार्ढ्यात् लक्षयेल्लक्ष्यमुत्तमम् ॥"
+    ],
+    "transliteration": [
+      "kapālāntarmano nyasya tiṣṭhan mīlitalocanaḥ",
+      "krameṇa manaso dārḍhyāt lakṣayel lakṣyam uttamam"
+    ],
+    "literalTranslation": "Placing the mind within the skull, remaining with the eyes closed, through the gradual firmness of the mind one observes the highest object of attention.",
+    "plainEnglishRendering": "Close the eyes and let attention settle inwardly within the upper space of the head. As the mind grows steady, a subtler clarity becomes available.",
+    "rendering": "Close the eyes and let attention settle inwardly within the upper space of the head. As the mind grows steady, a subtler clarity becomes available.",
     "meaning": [
-      "This practice invites simple seeing before conceptual labeling takes over. The goal is not to become thoughtless, but to notice direct perception before habitual interpretation."
+      "The source places attention inside the skull, with the eyes closed. This is an inward collection of attention, not a physical strain or an attempt to produce unusual sensations.",
+      "The key movement is steadiness. As the mind becomes firm and less scattered, attention can recognize a subtler object or aim than ordinary mental activity.",
+      "The highest object of attention is approached contemplatively as the quiet clarity toward which the practice points."
     ],
     "practice": {
       "steps": [
         "Sit quietly.",
-        "Look at an object softly.",
-        "Notice color, shape, and texture directly.",
-        "Delay immediate naming and analysis.",
-        "Rest in simple perception.",
-        "Let seeing become open and relaxed."
+        "Let the breath remain natural.",
+        "Close the eyes gently.",
+        "Allow attention to settle within the inner space of the head.",
+        "Do not press, visualize forcefully, or tense the face.",
+        "Let the mind become steady little by little.",
+        "Notice the quiet clarity that appears as distraction softens.",
+        "Rest in that inward steadiness."
       ],
-      "note": "Practice for 5 minutes."
+      "note": "Practice for 10 minutes."
     },
     "noticing": [
-      "perception becomes fresher",
-      "mental commentary slows down",
-      "awareness feels immediate and alive"
+      "increasing inwardness",
+      "greater steadiness of attention",
+      "softening mental narration",
+      "quiet clarity behind ordinary thought"
     ],
     "misunderstandings": [
-      "Do not force yourself not to think.",
-      "This is not anti-intellectual.",
-      "The practice is temporary observation, not permanent suppression of concepts."
+      "Do not strain the eyes or forehead.",
+      "Do not treat the instruction as a demand for a special vision.",
+      "Steadiness develops gradually.",
+      "The aim is inward clarity, not collecting unusual experiences."
     ],
-    "reflection": "What is experience like before I immediately call it something?",
-    "freedom": "Much suffering comes from unconscious mental interpretation. Clarity grows when perception becomes more direct.",
+    "reflection": "What becomes visible when attention is steady enough not to chase every movement?",
+    "freedom": "Inner freedom deepens as attention no longer feels compelled to scatter outward. A steady mind can recognize a quiet clarity that is usually hidden by restlessness.",
     "status": "published",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "34",
+    "verseRange": "34",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Prior Sanskrit, transliteration, verse mapping, theme, and literal meaning must be checked before verification.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 11, Verse 34. Source theme differs from the inner-sound theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Placing the mind inside the skull with closed eyes until the highest object is observed"
   },
   {
     "day": 12,
     "slug": "day-12",
-    "title": "Awareness Aware of Itself",
-    "theme": "Awareness and Recognition",
-    "openingReflection": "Usually attention moves toward objects: thoughts, sensations, memories, sounds. This contemplation gently turns attention toward awareness itself.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "When attention no longer chases objects and rests in awareness itself, a quiet undivided presence becomes clear.",
-    "rendering": "When attention no longer chases objects and rests in awareness itself, a quiet undivided presence becomes clear.",
+    "title": "The Subtle Space of the Central Channel",
+    "theme": "Inner Space",
+    "openingReflection": "This dharana turns attention toward a very subtle inner space, imagined as fine and delicate like the fiber within a lotus stem.",
+    "sanskrit": [
+      "मध्यनाडी मध्यसंस्था बिससूत्राभरूपया ।",
+      "ध्यातान्तर्व्योमया देव्या तया देवः प्रकाशते ॥"
+    ],
+    "transliteration": [
+      "madhyanāḍī madhyasaṃsthā bisasūtrābharūpayā",
+      "dhyātāntarvyomayā devyā tayā devaḥ prakāśate"
+    ],
+    "literalTranslation": "One should meditate on the inner space of the central channel, situated in the middle, with a form like the fiber inside the stem of a lotus. Through that Goddess, the deity shines forth.",
+    "plainEnglishRendering": "Rest attention in the subtle inner space along the body's central line, fine and delicate like a lotus fiber. As attention becomes quiet there, luminous awareness reveals itself.",
+    "rendering": "Rest attention in the subtle inner space along the body's central line, fine and delicate like a lotus fiber. As attention becomes quiet there, luminous awareness reveals itself.",
     "meaning": [
-      "This contemplation points toward awareness recognizing itself directly. Instead of focusing on experiences, attention gently notices the presence that knows all experience."
+      "The verse uses the central channel as a contemplative support. The instruction is not anatomical analysis, but a subtle inward placement of attention along the body's middle.",
+      "The lotus-fiber image suggests delicacy, refinement, and quiet precision. Attention is invited to become fine rather than forceful.",
+      "The Goddess here can be understood as the living power of awareness in that subtle inner space. Through this inward attentiveness, the deity or luminous awareness becomes apparent."
     ],
     "practice": {
       "steps": [
         "Sit quietly.",
-        "Notice thoughts, sensations, and sounds.",
-        "Ask silently: “What is aware of this?”",
-        "Do not answer intellectually.",
-        "Let attention turn toward the knowing itself.",
-        "Rest there gently."
+        "Let the breath remain natural.",
+        "Sense the body's central line from within.",
+        "Imagine or feel a very subtle inner space in the middle of the body.",
+        "Let the image be fine and delicate, like a thread inside a lotus stem.",
+        "Rest attention there without pressure.",
+        "Allow the mind to become quiet and inward.",
+        "Notice any sense of simple luminosity or clarity that appears."
       ],
-      "note": "Practice for 5–10 minutes."
+      "note": "Practice for 10 minutes."
     },
     "noticing": [
-      "awareness is already present",
-      "awareness itself is not an object",
-      "experience appears within awareness"
+      "attention becoming more refined",
+      "a subtle sense of inner space",
+      "less need to chase outer objects",
+      "quiet clarity emerging through stillness"
     ],
     "misunderstandings": [
-      "Do not try to “see” awareness as an object.",
-      "Do not search for mystical experiences.",
-      "The practice is subtle noticing."
+      "Do not force a physical sensation in the spine.",
+      "Do not turn the central channel into rigid anatomy.",
+      "Do not strain to visualize perfectly.",
+      "The practice is delicate inward attention, not dramatic experience."
     ],
-    "reflection": "What is it that knows every experience?",
-    "freedom": "Inner freedom deepens when identity gradually shifts from changing experience to the awareness in which experience appears.",
+    "reflection": "Can attention become fine enough to rest in subtle inner space without grasping?",
+    "freedom": "Inner freedom deepens as attention learns to rest in subtle inward clarity. The practice loosens dependence on outer objects and reveals awareness as quietly self-luminous.",
     "status": "published",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "35",
+    "verseRange": "35",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Prior Sanskrit, transliteration, verse mapping, theme, and literal meaning must be checked before verification.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 12, Verse 35. Source theme differs from the sound-continuity theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Meditation on the inner space of the central channel"
   },
   {
     "day": 13,
