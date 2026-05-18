@@ -732,370 +732,746 @@ export const dharanas = [
   {
     "day": 13,
     "slug": "day-13",
-    "title": "The Stillness Behind Emotion",
-    "theme": "Emotion and Awareness",
-    "openingReflection": "Strong emotion briefly interrupts ordinary mental patterns. Instead of being swept away by emotion or suppressing it, this contemplation invites careful observation of the raw energy beneath emotional narration.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "In moments when mental grasping briefly falls away, reality may be seen with unusual clarity.",
-    "rendering": "In moments when mental grasping briefly falls away, reality may be seen with unusual clarity.",
+    "title": "The Subtle Point of Attention",
+    "theme": "Bindu and Absorption",
+    "openingReflection": "This dharana gathers the senses inward and lets attention become concentrated at a subtle point, until the mind begins to settle into stillness.",
+    "sanskrit": [
+      "कररुद्धदृगस्त्रेण भ्रूमेदाद्द्वाररोधनात् ।",
+      "दृष्टे बिन्दौ क्रमाल्लीने तन्मध्ये परमा स्थितिः ॥"
+    ],
+    "transliteration": [
+      "kararuddhadṛgastreṇa bhrūmedād dvārarodhanāt",
+      "dṛṣṭe bindau kramāl līne tanmadhye paramā sthitiḥ"
+    ],
+    "literalTranslation": "Using the hands as instruments to cover the eyes and close the openings, and through the piercing at the eyebrow center, the bindu is perceived. As one is gradually absorbed into it, the supreme state is found there.",
+    "plainEnglishRendering": "Let the senses turn inward and allow attention to gather at a subtle point. As the mind becomes absorbed there little by little, a deeper stillness is revealed.",
+    "rendering": "Let the senses turn inward and allow attention to gather at a subtle point. As the mind becomes absorbed there little by little, a deeper stillness is revealed.",
     "meaning": [
-      "Strong emotions often interrupt the ordinary momentum of thinking. Usually the mind quickly builds stories, resistance, or identification around emotion.",
-      "This contemplation invites a different approach: to notice the raw energetic presence of emotion before mental narration fully forms.",
-      "The practice is not emotional suppression. It is careful observation.",
-      "Sometimes beneath emotional movement there is a surprising stillness and openness."
+      "The source describes a practice of closing the sensory openings with the hands and allowing attention to become gathered at the eyebrow center.",
+      "The bindu is the subtle point that becomes perceptible when attention is concentrated and inwardly absorbed. It should be approached as a contemplative support, not as something to force or dramatize.",
+      "The supreme state is indicated through gradual absorption into that subtle point. The emphasis is inward quieting and steadiness."
     ],
     "practice": {
       "steps": [
-        "Sit quietly and relax the body.",
-        "Recall a mild emotional experience or observe a present emotion gently.",
-        "Notice the physical energy of the emotion in the body.",
-        "Avoid immediately creating stories about it.",
-        "Observe sensation directly.",
-        "Let attention remain open and steady.",
-        "Notice moments where emotion changes, dissolves, or becomes spacious."
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Allow the senses to relax inward.",
+        "If comfortable, lightly close or cover the eyes without pressure.",
+        "Bring gentle attention toward the eyebrow center.",
+        "Notice any subtle point of gathered attention.",
+        "Rest with that point without straining.",
+        "Let attention become absorbed little by little in the stillness around it."
       ],
-      "note": "Practice gently for 5–10 minutes."
+      "note": "Practice for 10 minutes, keeping the face, eyes, and breath relaxed."
     },
     "noticing": [
-      "emotions are partly physical sensation",
-      "stories intensify emotional suffering",
-      "awareness itself remains steady beneath changing emotion",
-      "emotions naturally shift when not resisted or dramatized"
+      "the senses becoming quieter",
+      "attention gathering into a subtle point",
+      "reduced mental agitation",
+      "stillness around concentrated awareness"
     ],
     "misunderstandings": [
-      "This is not emotional suppression.",
-      "Do not force intense emotions.",
-      "Do not use traumatic memories for this practice.",
-      "The goal is observation, not emotional control."
+      "Do not press on the eyes or strain the face.",
+      "Do not chase visual effects.",
+      "The bindu is a contemplative support, not an achievement.",
+      "The practice is gradual inward absorption, not forceful concentration."
     ],
-    "reflection": "What remains when emotion is observed without immediately becoming a personal story?",
-    "freedom": "Inner freedom grows when awareness is no longer completely entangled in emotional narration. Emotions continue to arise, but they are experienced within a larger field of presence.",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "reflection": "What is revealed when the senses quiet and attention gathers into one subtle point?",
+    "freedom": "Inner freedom grows as awareness is no longer pulled outward by every sensory movement. Attention becomes steady, inward, and capable of resting in a deeper stillness.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "36",
+    "verseRange": "36",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. Earlier Day 13 verse number and Sanskrit have been removed until the source mapping can be checked.",
+    "sourceNote": "Verified against The Mystery Within source text.",
     "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 13, Verse 36. Source theme differs from the sound-resonance theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": "Emotion as doorway"
+    "traditionalTheme": "Closing the openings, perceiving the bindu, and gradual absorption"
   },
   {
     "day": 14,
     "slug": "day-14",
-    "title": "Day 14 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "title": "The Subtle Flame of Bindu",
+    "theme": "Dissolution into the Heart",
+    "openingReflection": "This dharana contemplates a subtle point of light at the upper center and lets that attention dissolve inwardly into the heart.",
+    "sanskrit": [
+      "धामान्तः क्षोभसंभूतसूक्ष्माग्नितिलकाकृतिम् ।",
+      "बिन्दुं शिखान्ते हृदये लयान्ते ध्यायतो लयः ॥"
+    ],
+    "transliteration": [
+      "dhāmāntaḥ kṣobhasaṃbhūta-sūkṣmāgni-tilakākṛtim",
+      "binduṃ śikhānte hṛdaye layānte dhyāyato layaḥ"
+    ],
+    "literalTranslation": "One should meditate on the bindu at the end of the tuft of hair, appearing as a subtle flame like the forehead mark and produced by inner stirring; at the end of dissolution, everything dissolves into the heart.",
+    "plainEnglishRendering": "Let attention rest on a subtle point of flame-like clarity at the upper center. As the meditation deepens, allow that point and all experience to dissolve gently into the heart.",
+    "rendering": "Let attention rest on a subtle point of flame-like clarity at the upper center. As the meditation deepens, allow that point and all experience to dissolve gently into the heart.",
+    "meaning": [
+      "The verse continues the bindu contemplations. The bindu is described as a subtle flame-like point near the upper center, not as an object to force into view.",
+      "The source compares its form to a tilaka, the small mark on the forehead, emphasizing a precise and delicate point of attention.",
+      "The culmination is laya, dissolution into the heart. This points to attention softening from a focused point into a more inward, unified stillness."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Allow the eyes and forehead to relax.",
+        "Bring attention gently toward the upper center.",
+        "If a subtle point of clarity or light appears, rest with it softly.",
+        "Do not force an image or visual effect.",
+        "Let the point become quiet and inward.",
+        "Allow attention to dissolve gently into the heart."
+      ],
+      "note": "Practice for 10 minutes, without straining the eyes, face, or breath."
+    },
+    "noticing": [
+      "attention becoming more precise",
+      "a subtle flame-like clarity, if it naturally appears",
+      "the movement from focused point to inward stillness",
+      "quiet dissolution into the heart"
+    ],
+    "misunderstandings": [
+      "Do not rub or strain the eyes to create effects.",
+      "Do not chase visions or lights.",
+      "The bindu is a contemplative support, not a performance.",
+      "Dissolution is gentle inward settling, not loss of ordinary functioning."
+    ],
+    "reflection": "Can a focused point of attention soften into the spaciousness of the heart?",
+    "freedom": "Inner freedom deepens when attention no longer clings even to subtle points of clarity. The practice moves from concentration into dissolution, from grasping toward inward rest.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "37",
+    "verseRange": "37",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. This placeholder remains pending source extraction and review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 14, Verse 37. Source theme differs from the sound-gap theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Meditation on the subtle flame-like bindu and dissolution into the heart"
   },
   {
     "day": 15,
     "slug": "day-15",
-    "title": "Day 15 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": [],
-    "transliteration": [],
-    "literalTranslation": "Literal translation pending source verification against Jaideva Singh.",
-    "plainEnglishRendering": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": null,
-    "verseRange": null,
-    "sourceStatus": "needs-review",
+    "title": "The Uninterrupted Sound",
+    "theme": "Continuity Beneath Sound",
+    "openingReflection": "This dharana listens beneath changing sounds for an unbroken continuity, like the steady movement of a river.",
+    "sanskrit": [
+      "अनाहते पात्रकर्णेऽभग्नशब्दे सरिद्द्रुते ।",
+      "शब्दब्रह्मणि निष्णातः परं ब्रह्माधिगच्छति ॥"
+    ],
+    "transliteration": [
+      "anāhate pātrakarṇe'bhagnaśabde sariddrute",
+      "śabdabrahmaṇi niṣṇātaḥ paraṃ brahmādhigacchati"
+    ],
+    "literalTranslation": "When one steeped in the knowledge of the sound of Brahman listens with a trained ear to the unstruck, uninterrupted sound, like that of a rushing river, one reaches the highest Brahman.",
+    "plainEnglishRendering": "Listen openly to the continuous field beneath changing sounds. As attention settles into that unbroken resonance, the mind becomes quiet and awareness rests in a deeper stillness.",
+    "rendering": "Listen openly to the continuous field beneath changing sounds. As attention settles into that unbroken resonance, the mind becomes quiet and awareness rests in a deeper stillness.",
+    "meaning": [
+      "The verse points to anahata, the unstruck sound, and describes it as unbroken, like the sound of a rushing river. The emphasis is continuity rather than a dramatic auditory event.",
+      "A trained ear means refined attention: listening that is relaxed, steady, and not grasping at individual sounds.",
+      "Sound-Brahman is approached here as a contemplative doorway. By resting in the continuity beneath sound, awareness becomes less fragmented and more spacious."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Listen openly to the field of sound around you.",
+        "Do not grasp at individual sounds.",
+        "Notice the continuity in which sounds appear and fade.",
+        "If there is a steady background sound, such as wind, rain, or a distant hum, let it support relaxed listening.",
+        "Rest attention in the underlying continuity.",
+        "Allow the mind to settle naturally into stillness."
+      ],
+      "note": "Practice for 10 minutes, with relaxed and sustained attention."
+    },
+    "noticing": [
+      "continuity beneath changing experiences",
+      "spacious listening",
+      "reduced mental fragmentation",
+      "quiet stable awareness"
+    ],
+    "misunderstandings": [
+      "The practice is not about blocking sounds.",
+      "Do not strain to maintain attention.",
+      "Do not chase special inner sounds.",
+      "The goal is simplicity and openness, not trance states."
+    ],
+    "reflection": "Can I hear changing sounds without losing the quiet continuity beneath them?",
+    "freedom": "Inner freedom deepens as awareness is recognized beneath the changing stream of experience. Sounds continue to arise, but attention rests in the continuity that is not broken by them.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "38",
+    "verseRange": "38",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Uploaded Jaideva Singh PDF was not available in the project during this pass. This placeholder remains pending source extraction and review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "Pending extraction from Vijnana Bhairava Or Divine Consciousness — Jaideva Singh.",
+    "referenceNotes": "Validated mapping: Dharana 15, Verse 38.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Listening to the unstruck, uninterrupted sound of Brahman"
   },
   {
     "day": 16,
     "slug": "day-16",
-    "title": "Day 16 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "Emptiness at the End of Om",
+    "theme": "Sound Dissolving into Emptiness",
+    "openingReflection": "This dharana uses a drawn-out sacred sound as a support, then rests in the emptiness that opens when the sound fades.",
+    "sanskrit": [
+      "प्रणवादिसमुच्चारात् प्लुतान्ते शून्यभावनात् ।",
+      "शून्यया परया शक्त्या शून्यतामेति भैरवि ॥"
+    ],
+    "transliteration": [
+      "praṇavādi-samuccārāt plutānte śūnyabhāvanāt",
+      "śūnyayā parayā śaktyā śūnyatām eti bhairavi"
+    ],
+    "literalTranslation": "O Bhairavi, through the recitation of Om and other such seed sounds, and through meditation on emptiness at the end of the prolonged utterance, one arrives at emptiness by means of emptiness, the highest Shakti.",
+    "plainEnglishRendering": "Sound Om or another simple sacred syllable gently. As the sound lengthens and fades, rest in the open emptiness at its end, letting awareness become quiet and spacious.",
+    "rendering": "Sound Om or another simple sacred syllable gently. As the sound lengthens and fades, rest in the open emptiness at its end, letting awareness become quiet and spacious.",
+    "meaning": [
+      "The source points to recitation of Om or similar seed sounds, followed by contemplation of emptiness at the end of the prolonged sound.",
+      "The subtle vibration matters as a doorway, but the verse emphasizes what opens when the sound dissolves: spacious emptiness.",
+      "Arriving at emptiness through emptiness means allowing the fading sound to reveal open awareness without grasping for a special experience."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the body and breath settle.",
+        "Sound Om softly and naturally, without forcing the voice or breath.",
+        "Allow the sound to lengthen only as much as feels easy.",
+        "Listen to the subtle resonance as it fades.",
+        "At the end of the sound, rest in the open silence.",
+        "Let attention remain inward, quiet, and spacious.",
+        "Repeat gently, giving more attention to the silence than to performance."
+      ],
+      "note": "Practice for 10 minutes, keeping the sound comfortable and unforced."
+    },
+    "noticing": [
+      "subtle resonance as sound fades",
+      "increased inward quietness",
+      "continuity of awareness through sound and silence",
+      "less identification with mental activity"
+    ],
+    "misunderstandings": [
+      "This is not about creating intense sensations.",
+      "Do not force the voice, breath, or concentration.",
+      "The subtle vibration may be extremely quiet or simple.",
+      "Stillness is more important than intensity."
+    ],
+    "reflection": "What remains when the sound has faded and attention does not rush to the next thing?",
+    "freedom": "Inner freedom deepens as awareness learns to rest at the end of sound, where grasping briefly relaxes and open silence becomes clear.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "39",
+    "verseRange": "39",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 16, Verse 39.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Recitation of Om or seed sounds and meditation on emptiness at the end of the prolonged sound"
   },
   {
     "day": 17,
     "slug": "day-17",
-    "title": "Day 17 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "Before and After Sound",
+    "theme": "Emptiness Around Sound",
+    "openingReflection": "This dharana turns attention toward the quiet openness before a sound appears and after it fades.",
+    "sanskrit": [
+      "यस्य कस्यापि वर्णस्य पूर्वान्तावनुभावयेत् ।",
+      "शून्यया शून्यभूतोऽसौ शून्याकारः पुमान्भवेत् ॥"
+    ],
+    "transliteration": [
+      "yasya kasyāpi varṇasya pūrvāntāv anubhāvayet",
+      "śūnyayā śūnyabhūto'sau śūnyākāraḥ pumān bhavet"
+    ],
+    "literalTranslation": "Whoever contemplates what is before and after any sound becomes joined with emptiness through emptiness and assumes the form of emptiness.",
+    "plainEnglishRendering": "Listen to any sound, but place attention on the openness before it begins and after it ends. In that quiet continuity, awareness becomes simple, spacious, and less caught in mental movement.",
+    "rendering": "Listen to any sound, but place attention on the openness before it begins and after it ends. In that quiet continuity, awareness becomes simple, spacious, and less caught in mental movement.",
+    "meaning": [
+      "The verse does not ask for unusual sounds. It says any sound can become the support when attention notices what is before and after it.",
+      "Before the sound there is openness; after the sound there is openness. The practice lets awareness recognize that silence is not separate from experience.",
+      "Becoming the form of emptiness means resting in spacious awareness rather than being contracted around the sound itself."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let attention gather inward naturally.",
+        "Listen for an ordinary sound.",
+        "Notice the quiet before the sound appears.",
+        "Hear the sound without grasping it.",
+        "Notice the quiet after the sound fades.",
+        "Rest steadily in the openness before and after sound.",
+        "Let awareness become simple, spacious, and unforced."
+      ],
+      "note": "Practice for 10 minutes with ordinary sounds and relaxed attention."
+    },
+    "noticing": [
+      "reduced distraction",
+      "inward stability",
+      "subtle continuity of awareness",
+      "increasing simplicity and silence"
+    ],
+    "misunderstandings": [
+      "The practice is not about achieving dramatic experiences.",
+      "Do not strain to maintain focus.",
+      "Quietness may appear gradually and subtly.",
+      "Awareness itself is the central discovery."
+    ],
+    "reflection": "What is present before a sound begins and after it disappears?",
+    "freedom": "Inner freedom deepens as awareness is no longer captured only by what appears. Sound comes and goes, but the openness around it remains available.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "40",
+    "verseRange": "40",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 17, Verse 40.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Contemplating what is before and after sound as emptiness"
   },
   {
     "day": 18,
     "slug": "day-18",
-    "title": "Day 18 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "Long Tones and Supreme Space",
+    "theme": "Sustained Listening",
+    "openingReflection": "This dharana uses long musical tones as a support for gathered attention, letting listening become spacious and inwardly steady.",
+    "sanskrit": [
+      "तन्त्र्यादिवाद्यशब्देषु दीर्घेषु क्रमसंस्थितेः ।",
+      "अनन्यचेताः प्रत्यन्ते परव्योमवपुर्भवेत् ॥"
+    ],
+    "transliteration": [
+      "tantryādivādyaśabdeṣu dīrgheṣu kramasaṃsthiteḥ",
+      "ananyacetāḥ pratyante paravyomavapur bhavet"
+    ],
+    "literalTranslation": "One who, with single-minded attention, remains steadily established for a long time in the sounds of stringed instruments such as the lute, at the end becomes embodied in the space of the Supreme One.",
+    "plainEnglishRendering": "Listen steadily to a long, continuous tone. As attention becomes undistracted and relaxed, the sound opens into spacious awareness.",
+    "rendering": "Listen steadily to a long, continuous tone. As attention becomes undistracted and relaxed, the sound opens into spacious awareness.",
+    "meaning": [
+      "The verse names long tones from stringed instruments as the contemplative support. The practice is sustained listening, not analysis of music.",
+      "Single-minded attention means attention becomes gathered and uncomplicated. It rests with the continuity of sound without chasing thoughts or separate impressions.",
+      "The space of the Supreme is approached here as spacious awareness revealed through refined listening."
+    ],
+    "practice": {
+      "steps": [
+        "Sit comfortably.",
+        "Choose a simple, sustained sound, such as a long musical tone or gentle drone.",
+        "Let the breath remain natural.",
+        "Listen without trying to name, analyze, or evaluate the sound.",
+        "Allow attention to rest in the continuity of the tone.",
+        "When thoughts or sensations arise, let them come and go naturally.",
+        "Stay relaxed and undistracted.",
+        "Notice the spacious awareness in which the sound appears."
+      ],
+      "note": "Practice for 10 minutes with a soft volume and relaxed attention."
+    },
+    "noticing": [
+      "centered stillness through listening",
+      "less mental scattering",
+      "quiet continuity of awareness",
+      "subtle spaciousness around sound"
+    ],
+    "misunderstandings": [
+      "The sound is a support, not an object to obsess over.",
+      "Do not strain to maintain focus.",
+      "Stillness may feel ordinary and subtle.",
+      "The practice is relaxed awareness, not concentration performance."
+    ],
+    "reflection": "Can sustained listening become spacious without becoming tense?",
+    "freedom": "Inner freedom deepens when attention can remain steady without tightening. Sound becomes a doorway into spacious awareness rather than another object to grasp.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "41",
+    "verseRange": "41",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 18, Verse 41. Source theme differs from the quiet-center theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Single-minded listening to long musical tones and embodiment in supreme space"
   },
   {
     "day": 19,
     "slug": "day-19",
-    "title": "Day 19 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "From Mantra Sound into Emptiness",
+    "theme": "Subtle Mantra Dissolution",
+    "openingReflection": "This dharana follows a mantra from its gross sound into subtler phases, until attention rests at the end of sound in emptiness.",
+    "sanskrit": [
+      "पिण्डमन्त्रस्य सर्वस्य स्थूलवर्णक्रमेण तु ।",
+      "अर्धेन्दुबिन्दुनादान्तः शून्योच्चाराद्भवेच्छिवः ॥"
+    ],
+    "transliteration": [
+      "piṇḍamantrasya sarvasya sthūlavarṇakrameṇa tu",
+      "ardhendubindunādāntaḥ śūnyoccārād bhavec chivaḥ"
+    ],
+    "literalTranslation": "One who proceeds step by step from the gross letters of any seed mantra through the crescent and bindu to the end of sound in emptiness becomes Shiva.",
+    "plainEnglishRendering": "Let a simple mantra be heard first as sound, then more subtly as fading resonance, until attention rests in the emptiness at the end of sound.",
+    "rendering": "Let a simple mantra be heard first as sound, then more subtly as fading resonance, until attention rests in the emptiness at the end of sound.",
+    "meaning": [
+      "The verse describes a gradual refinement of mantra. Attention begins with the gross, audible form and follows it into subtler phases.",
+      "Crescent, bindu, and nada name progressively subtler supports in the sound sequence. The practice does not need elaborate visualization; it asks for careful, stepwise refinement.",
+      "The culmination is the end of sound in emptiness. Becoming Shiva points to awareness resting in that open, uncontracted stillness."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the body and breath settle.",
+        "Choose a simple mantra or sacred syllable.",
+        "Sound it gently, noticing its clear audible form.",
+        "Follow the sound as it becomes subtler.",
+        "Notice the fading resonance without trying to hold it.",
+        "Rest at the end of sound in open emptiness.",
+        "Allow awareness to remain spacious and unforced."
+      ],
+      "note": "Practice for 10 minutes, keeping the sound soft and the attention relaxed."
+    },
+    "noticing": [
+      "gross sound becoming subtle",
+      "reduction of mental tightness",
+      "spacious awareness at the end of sound",
+      "less identification with sound as a fixed object"
+    ],
+    "misunderstandings": [
+      "Do not turn the practice into metaphysical speculation.",
+      "Do not force symbolic imagery.",
+      "The subtle phases may be felt simply as fading sound.",
+      "The practice is about openness of awareness, not performance."
+    ],
+    "reflection": "Can I follow sound into subtlety without grasping at any stage?",
+    "freedom": "Inner freedom deepens when awareness can move from form into subtlety and finally rest in emptiness. The mantra becomes a doorway into openness rather than something to possess.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "42",
+    "verseRange": "42",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 19, Verse 42. Source theme differs from the vast-space theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Proceeding from gross mantra sound through subtle phases to emptiness"
   },
   {
     "day": 20,
     "slug": "day-20",
-    "title": "Day 20 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "Empty Space in All Directions",
+    "theme": "Sky-Like Awareness",
+    "openingReflection": "This dharana invites awareness to sense empty space within the body and in every direction at once, allowing contraction to soften into openness.",
+    "sanskrit": [
+      "निजदेहे सर्वदिक्कं युगपद्भावयेद्वियत् ।",
+      "निर्विकल्पमनास्तस्य वियत्सर्वं प्रवर्तते ॥"
+    ],
+    "transliteration": [
+      "nijadehe sarvadikkaṃ yugapad bhāvayed viyat",
+      "nirvikalpamanās tasya viyat sarvaṃ pravartate"
+    ],
+    "literalTranslation": "One should, with a mind free from conceptual thought, meditate on empty space in one's own body in all directions simultaneously; for that one, everything becomes empty space.",
+    "plainEnglishRendering": "Sense the body as open space in every direction at once. Let awareness become spacious and uncontracted, while thoughts and sensations arise within that openness.",
+    "rendering": "Sense the body as open space in every direction at once. Let awareness become spacious and uncontracted, while thoughts and sensations arise within that openness.",
+    "meaning": [
+      "The verse places the meditation in one's own body, not in an abstract elsewhere. The body is contemplated as empty space in all directions simultaneously.",
+      "A mind free from conceptual thought means attention is not busy defining, measuring, or explaining the space. It rests in direct openness.",
+      "Everything becoming empty space points to a loosening of fixed boundaries. Experience continues, but awareness is no longer contracted around solid edges."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the body settle and the breath remain natural.",
+        "Sense the space within the body.",
+        "Include the space in front, behind, above, below, and to both sides.",
+        "Let all directions be held in awareness at once.",
+        "Allow thoughts and sensations to arise within spacious awareness.",
+        "Do not grasp at boundaries or try to erase experience.",
+        "Rest in open, sky-like presence."
+      ],
+      "note": "Practice for 10 minutes with relaxed, unforced attention."
+    },
+    "noticing": [
+      "spaciousness without effort",
+      "reduced psychological contraction",
+      "openness around thoughts and emotions",
+      "simple presence"
+    ],
+    "misunderstandings": [
+      "Spacious awareness is not emotional numbness.",
+      "The practice is not about escaping the world.",
+      "Thoughts do not need to disappear.",
+      "Openness can coexist with ordinary activity."
+    ],
+    "reflection": "What changes when the body is felt within space rather than as a hard boundary?",
+    "freedom": "Inner freedom deepens as awareness becomes less contracted around fixed boundaries. The body, thoughts, and emotions can appear within openness without enclosing it.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "43",
+    "verseRange": "43",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 20, Verse 43.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Meditating on empty space in one's own body in all directions simultaneously"
   },
   {
     "day": 21,
     "slug": "day-21",
-    "title": "Day 21 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "Emptiness Above and at the Root",
+    "theme": "Simultaneous Emptiness",
+    "openingReflection": "This dharana holds two directions at once: the emptiness above and the emptiness at the root, allowing awareness to become less dependent on the body as a fixed boundary.",
+    "sanskrit": [
+      "पृष्ठशून्यं मूलशून्यं युगपद्भावयेच्च यः ।",
+      "शरीरनिरपेक्षिण्या शक्त्या शून्यमना भवेत् ॥"
+    ],
+    "transliteration": [
+      "pṛṣṭhaśūnyaṃ mūlaśūnyaṃ yugapad bhāvayec ca yaḥ",
+      "śarīranirapekṣiṇyā śaktyā śūnyamanā bhavet"
+    ],
+    "literalTranslation": "One who meditates simultaneously on the emptiness above and the emptiness at the root becomes of empty mind through the Shakti that is independent of the body.",
+    "plainEnglishRendering": "Sense openness above and openness below at the same time. Let awareness rest between them until the mind becomes spacious and less confined by the body-sense.",
+    "rendering": "Sense openness above and openness below at the same time. Let awareness rest between them until the mind becomes spacious and less confined by the body-sense.",
+    "meaning": [
+      "The source asks for simultaneous contemplation of two emptinesses: above and at the root. The practice is simple, directional, and spacious.",
+      "The Shakti independent of the body points to awareness no longer being tightly confined to the body as a fixed center.",
+      "An empty mind here means a mind released from heavy conceptual contraction, not a blank or absent state."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Sense the openness above the body.",
+        "Sense the openness at the root or below the body.",
+        "Hold both directions in awareness at the same time.",
+        "Do not force a visual image.",
+        "Allow thoughts and sensations to come and go naturally.",
+        "Rest in the spaciousness that is not confined to one point."
+      ],
+      "note": "Practice for 10 minutes with relaxed, steady attention."
+    },
+    "noticing": [
+      "openness above and below",
+      "reduced sense of being confined to one fixed center",
+      "quiet spaciousness",
+      "less psychological contraction around the body"
+    ],
+    "misunderstandings": [
+      "This is not denial of the body.",
+      "Do not force philosophical conclusions.",
+      "Do not strain to feel something special.",
+      "The practice is experiential, not conceptual."
+    ],
+    "reflection": "What changes when awareness includes openness above and below at the same time?",
+    "freedom": "Inner freedom deepens when awareness is not contracted around the body as a hard boundary. The body remains present, while awareness opens beyond a single fixed location.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "44",
+    "verseRange": "44",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 21, Verse 44. Source theme differs from the indivisible-world-field theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Simultaneous meditation on emptiness above and at the root"
   },
   {
     "day": 22,
     "slug": "day-22",
-    "title": "Day 22 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "Emptiness Above, Root, and Heart",
+    "theme": "Threefold Emptiness",
+    "openingReflection": "This dharana expands the previous practice by holding emptiness above, at the root, and in the heart at the same time.",
+    "sanskrit": [
+      "पृष्ठशून्यं मूलशून्यं हृच्छून्यं भावयेत्स्थिरम् ।",
+      "युगपन्निर्विकल्पत्वान्निर्विकल्पोदयस्ततः ॥"
+    ],
+    "transliteration": [
+      "pṛṣṭhaśūnyaṃ mūlaśūnyaṃ hṛcchūnyaṃ bhāvayet sthiram",
+      "yugapan nirvikalpatvān nirvikalpodayaḥ tataḥ"
+    ],
+    "literalTranslation": "One should meditate steadily and simultaneously on the emptiness above, the emptiness of the root, and the emptiness of the heart. Because of that simultaneous nonconceptuality, the nonconceptual state then arises.",
+    "plainEnglishRendering": "Sense openness above, below, and in the heart at once. As attention rests steadily in this threefold openness, the mind becomes quiet and less caught in concepts.",
+    "rendering": "Sense openness above, below, and in the heart at once. As attention rests steadily in this threefold openness, the mind becomes quiet and less caught in concepts.",
+    "meaning": [
+      "The verse gives three supports: emptiness above, emptiness at the root, and emptiness of the heart. The practice is to hold them together, not to move through them one by one.",
+      "Steadiness matters. The mind becomes less centered on a narrow personal reference point and more open to a wider field of awareness.",
+      "The nonconceptual state is presented as arising from this simultaneous openness. It is a quieting of conceptual contraction, not a forced blankness."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Sense openness above the body.",
+        "Sense openness at the root or below the body.",
+        "Sense openness in the heart.",
+        "Hold all three gently in awareness at the same time.",
+        "Let sounds, sensations, and thoughts appear within this wider field.",
+        "Rest in the continuity of open awareness without strain."
+      ],
+      "note": "Practice for 10 minutes with relaxed, steady attention."
+    },
+    "noticing": [
+      "less fixation on a central me",
+      "panoramic awareness through threefold openness",
+      "spacious perception",
+      "reduced mental contraction"
+    ],
+    "misunderstandings": [
+      "This is not dissociation from the body.",
+      "Panoramic awareness does not require visual effort.",
+      "The practice is about openness, not trance.",
+      "Awareness naturally includes experience without struggle."
+    ],
+    "reflection": "What happens when the heart, the root, and the space above are held in one quiet awareness?",
+    "freedom": "Inner freedom deepens as attention is no longer organized around a single tight center. Experience remains ordinary, yet awareness becomes more open, inclusive, and steady.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "45",
+    "verseRange": "45",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 22, Verse 45. Source theme is threefold emptiness above, root, and heart rather than all directions generally.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Simultaneous meditation on emptiness above, at the root, and in the heart"
   },
   {
     "day": 23,
     "slug": "day-23",
-    "title": "Day 23 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "The Emptiness of the Body",
+    "theme": "Body as Openness",
+    "openingReflection": "This dharana is brief and direct: even for a moment, contemplate the body as emptiness rather than as a fixed solid thing.",
+    "sanskrit": [
+      "तनूदेशे शून्यतैव क्षणमात्रं विभावयेत् ।",
+      "निर्विकल्पं निर्विकल्पो निर्विकल्पस्वरूपभाक् ॥"
+    ],
+    "transliteration": [
+      "tanūdeśe śūnyataiva kṣaṇamātraṃ vibhāvayet",
+      "nirvikalpaṃ nirvikalpo nirvikalpasvarūpabhāk"
+    ],
+    "literalTranslation": "One who meditates nonconceptually on the emptiness of the body, even for just a moment, becomes without conceptions and comes to possess the self-nature of what is beyond conceptual thought.",
+    "plainEnglishRendering": "For a brief moment, sense the body as open and empty rather than solid and fixed. Rest there simply, without turning the experience into ideas.",
+    "rendering": "For a brief moment, sense the body as open and empty rather than solid and fixed. Rest there simply, without turning the experience into ideas.",
+    "meaning": [
+      "The verse focuses on the body itself as the field of contemplation. It does not ask for elaborate symbolism; it asks for a direct glimpse of bodily emptiness.",
+      "Even a moment matters because the practice is qualitative, not a matter of duration or intensity.",
+      "Nonconceptuality means the mind does not need to explain the body as this or that. The body is felt within open awareness."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Bring gentle awareness to the whole body.",
+        "Sense the body as spacious rather than solid.",
+        "Rest with that openness even for a brief moment.",
+        "Allow thoughts and sensations to arise and dissolve naturally.",
+        "Do not try to erase the body.",
+        "Return to simple open awareness."
+      ],
+      "note": "Practice for 5-10 minutes, emphasizing simplicity over intensity."
+    },
+    "noticing": [
+      "inward quietness",
+      "a subtle openness in the body",
+      "reduced mental fragmentation",
+      "still awareness"
+    ],
+    "misunderstandings": [
+      "This is not denial of the body.",
+      "No special sensation is required.",
+      "The emptiness of the body is contemplative, not anatomical.",
+      "Simplicity is more important than intensity."
+    ],
+    "reflection": "What is the body like before the mind turns it into a fixed idea?",
+    "freedom": "Inner freedom deepens when the body is no longer experienced only as a hard boundary or identity. Sensation remains, but awareness is less contracted around it.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "46",
+    "verseRange": "46",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Dharana 23, Verse 46. Source theme differs from the heart-space theme supplied in the request; this entry follows the PDF verse text.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Nonconceptual meditation on the emptiness of the body"
   },
   {
     "day": 24,
     "slug": "day-24",
-    "title": "Day 24 — Coming Soon",
-    "theme": "Under Review",
-    "openingReflection": "This contemplation is being reviewed before publication.",
-    "sanskrit": "",
-    "transliteration": "",
-    "rendering": "",
-    "meaning": "This practice will be added after the source verse and contemplative guidance are reviewed.",
-    "practice": [],
-    "noticing": [],
-    "misunderstandings": [],
-    "reflection": "",
-    "freedom": "",
-    "sourceText": "Vijnana Bhairava",
-    "verseNumber": "",
-    "verseRange": "",
-    "sourceStatus": "needs-review",
+    "title": "The Body Elements as Space",
+    "theme": "Embodied Spaciousness",
+    "openingReflection": "This dharana contemplates the body and its elements as pervaded by empty space, allowing meditation to become steady and uncontracted.",
+    "sanskrit": [
+      "सर्वं देहगतं द्रव्यं वियद्व्याप्तं मृगेक्षणे ।",
+      "विभावयेत्ततस्तस्य भावना सा स्थिरा भवेत् ॥"
+    ],
+    "transliteration": [
+      "sarvaṃ dehagataṃ dravyaṃ viyadvyāptaṃ mṛgekṣaṇe",
+      "vibhāvayet tatas tasya bhāvanā sā sthirā bhavet"
+    ],
+    "literalTranslation": "O doe-eyed one, one should meditate on all the physical elements that constitute the body as pervaded by empty space; then that meditation becomes steady.",
+    "plainEnglishRendering": "Sense every part of the body as open and space-pervaded. Let sensations, thoughts, and perceptions arise within this spacious field without grasping.",
+    "rendering": "Sense every part of the body as open and space-pervaded. Let sensations, thoughts, and perceptions arise within this spacious field without grasping.",
+    "meaning": [
+      "The source focuses on all the physical elements within the body. The body is not rejected; it is contemplated as pervaded by space.",
+      "This practice loosens the habit of experiencing the body as a dense, fixed object. Sensation remains, but awareness becomes less contracted around solidity.",
+      "Steadiness arises because attention no longer has to fight the body or cling to it. It can rest in the spaciousness already present within experience."
+    ],
+    "practice": {
+      "steps": [
+        "Sit quietly.",
+        "Let the breath remain natural.",
+        "Observe sensations, thoughts, emotions, and perceptions as they arise.",
+        "Bring awareness to the whole body.",
+        "Sense the body as made of elements pervaded by space.",
+        "Let awareness remain open and inclusive.",
+        "Do not divide experience into rigid compartments.",
+        "Rest in the spacious continuity beneath changing experiences."
+      ],
+      "note": "Practice for 10 minutes with simple, steady attention."
+    },
+    "noticing": [
+      "continuity beneath changing experiences",
+      "less identification with passing thoughts",
+      "spacious inclusion",
+      "quiet stability of awareness"
+    ],
+    "misunderstandings": [
+      "This is not denial of individuality.",
+      "Awareness does not reject experience.",
+      "Non-fragmentation is experiential, not merely conceptual.",
+      "The practice is about openness, not philosophical belief."
+    ],
+    "reflection": "What changes when the body is known as space-pervaded rather than solidly separate?",
+    "freedom": "Inner freedom deepens as the body, mind, and world are no longer held as tightly divided compartments. Experience continues, but awareness rests in a wider, steadier openness.",
+    "sourceText": "Vijnana Bhairava Tantra — The Mystery Within",
+    "verseNumber": "47",
+    "verseRange": "47",
+    "sourceStatus": "verified",
     "translationComparisons": [],
-    "sourceNote": "Placeholder pending source review.",
-    "status": "coming-soon",
+    "sourceNote": "Verified against The Mystery Within source text.",
+    "status": "published",
     "reviewedBy": "",
     "reviewDate": "",
-    "referenceNotes": "",
+    "referenceNotes": "Validated mapping: Day 24, Verse 47. Source theme is meditating on the body's physical elements as pervaded by empty space.",
     "alternateVerseNumber": "",
-    "traditionalTheme": ""
+    "traditionalTheme": "Meditating on all physical elements in the body as empty space"
   },
   {
     "day": 25,
